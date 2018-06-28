@@ -1,6 +1,15 @@
 # galaxy
 
-So, right now the Galaxy setup is a bit of a hack.  Basically, we build "democoin," which is a part of the cosmos-SDK.  We've taken care of the compile for you and put binaries in our "releases" page.  After that, you'd want to put democoind and democli (for your platform of choice) in your PATH somewhere.  I usually use /usr/bin, but you can choose anywhere you'd like!
+Galaxy is a project to build a tiny cryptocurrency that runs across as many tiny computers as there are stars in a galaxy.  We think that focusing on the tiniest of computers (even though the code can run anywhere) gives us a unique perspective on building out a *very* decentralized currency system, and on user-empowerment.  
+
+Please consider:  If computers can be had for $10-$50, and those computers can pay for themselves after a year or two of operation, what else is possible with these tiny devices?  
+
+Essentially, we've chosen to explore distributed systems based on small, cheap computers, and we're starting with a currency.  
+
+
+
+## Join our test network!
+So, right now the Galaxy setup is a bit of a hack.  Basically, we build "democoin," which is a part of the cosmos-SDK (that's why there's no source code in this repo yet.) .  We've taken care of the compile for you and put binaries in our "releases" page.  After that, you'd want to put democoind and democli (for your platform of choice) in your PATH somewhere.  I usually use /usr/bin, but you can choose anywhere you'd like!
 
 After that, you're going to want to run a "modified" 
 
