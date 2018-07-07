@@ -27,13 +27,13 @@ So, right now the Galaxy setup is a bit of a hack.  Basically, we build "democoi
 After that, you're going to want to run a "modified"
 
 ```
-democoind init
+basecoind init
 ```
 
 Which will actually start you a fresh, shiny new blockchain!  But that's not what we want here, so after that you're going to
 
 ```
-cd ~/.democoind
+cd ~/.basecoind
 rm genesis.json
 ```
 
@@ -46,7 +46,7 @@ nano config.toml
 and you'd find where it says "comma separated list of seeds to connect to" and make sure it looks like:
 
 ```
-seeds = "afec4c28597a9c578baff1c5c8742b08529a969c@212.47.239.48:26656"
+seeds = "c4fc01b8bffd197a0badcc2370641d665c2df6c3@2163.172.161.82:26656"
 ```
 
 ...and then you can join the Galaxy testnet!  Hop on Slack and ask us to send you some coins to play with!
