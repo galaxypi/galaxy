@@ -1,4 +1,5 @@
 #!/bin/bash
+# DO NOT USE THIS.  IT IS NOT YET DONE.
 # Creates the "galaxy" folder, where our binaries live
 mkdir ~/galaxy
 # adds the galaxy binaries to the PATH
