@@ -35,6 +35,7 @@ Which will actually start you a fresh, shiny new blockchain!  But that's not wha
 ```
 cd ~/.basecoind
 rm genesis.json
+wget https://github.com/galaxypi/galaxy/raw/master/genesis.json
 ```
 
 Then you're going to take genesis.json from this repository, and put it in that folder as genesis.json.  This will let the chain on your computer start with the same state as our chain, meaning they're nearly one!  All you need now is a seed node.  Next you would open config.toml something like:
