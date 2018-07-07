@@ -33,7 +33,7 @@ basecoind init
 Which will actually start you a fresh, shiny new blockchain!  But that's not what we want here, so after that you're going to
 
 ```
-cd ~/.basecoind
+cd ~/.basecoind/config
 rm genesis.json
 wget https://github.com/galaxypi/galaxy/raw/master/genesis.json
 ```
