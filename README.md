@@ -20,6 +20,7 @@ Galaxy is a network of tiny computers running various decentralized and crypto s
 ## Table of contents
 
 - [Join the testnet](#join-the-testnet)
+- [Single-line install for Mac](#single-line-install-for-mac)
 
 ## Join the testnet
 So, right now the Galaxy setup is a bit of a hack.  Basically, we build "basecoin," which is a part of the [cosmos-SDK](https://github.com/cosmos/cosmos-sdk) (that's why there's no source code in this repo yet.)  We've taken care of the compile for you and put binaries on our "releases" page.  After that, you'd want to put basecoind and basecli (for your platform of choice) in your PATH somewhere.  I usually use /usr/bin, but you can choose anywhere you'd like!
@@ -51,3 +52,9 @@ seeds = "c4fc01b8bffd197a0badcc2370641d665c2df6c3@163.172.161.82:26656"
 ```
 
 ...and then you can join the Galaxy testnet!  Hop on Slack and ask us to send you some coins to play with!  If you have trouble at any step, please don't hesitate to file an issue!  Our goal is to make running a galaxy node as easy as possible, and your issues help us get there!
+
+## Single line install for mac
+
+Don't use this yet!  Really!
+
+curl https://raw.githubusercontent.com/galaxypi/galaxy/master/install-mac.sh | bash
