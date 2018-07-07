@@ -47,7 +47,7 @@ nano config.toml
 and you'd find where it says "comma separated list of seeds to connect to" and make sure it looks like:
 
 ```
-seeds = "c4fc01b8bffd197a0badcc2370641d665c2df6c3@2163.172.161.82:26656"
+seeds = "c4fc01b8bffd197a0badcc2370641d665c2df6c3@163.172.161.82:26656"
 ```
 
 ...and then you can join the Galaxy testnet!  Hop on Slack and ask us to send you some coins to play with!
