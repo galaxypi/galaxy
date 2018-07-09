@@ -3,6 +3,10 @@
 # * homebrew | to install:  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" )
 # * wget     | You can "brew install wget"
 
+# REMOVES EXISTING INSTALL
+rm -rf ~/.basecoind
+rm -rf ~/.basecli
+
 # puts the daemon and CLI into ~/galaxy, which is on the PATH
 echo "DOWNLOADING DAEMON AND CLI"
 wget -O /usr/local/bin/basecoind https://github.com/galaxypi/galaxy/releases/download/second/basecoind_mac 
