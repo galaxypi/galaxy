@@ -4,6 +4,8 @@
 # * wget     | You can "brew install wget"
 
 # REMOVES EXISTING INSTALL
+rm /usr/local/bin/basecoind
+rm /usr/local/bin/basecli
 rm -rf ~/.basecoind
 rm -rf ~/.basecli
 
