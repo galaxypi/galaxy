@@ -6,8 +6,8 @@
 # puts the daemon and CLI into ~/galaxy, which is on the PATH
 echo "DOWNLOADING DAEMON AND CLI"
 wget -O /usr/local/bin/basecoind https://github.com/galaxypi/galaxy/releases/download/second/basecoind_mac 
-wget -O /usr/local/bin/basecli https://github.com/galaxypi/galaxy/releases/download/second/basecli_mac 
-
+wget -O /usr/local/bin/basecli https://github.com/galaxypi/galaxy/releases/download/second/basecli_mac
+chmod +x /usr/local/bin/base*
 
 echo "INITALIZING BLOCKCHAIN"
 sleep 10
