@@ -7,7 +7,8 @@
 echo "DOWNLOADING DAEMON AND CLI"
 wget -O /usr/local/bin/basecoind https://github.com/galaxypi/galaxy/releases/download/second/basecoind_mac 
 wget -O /usr/local/bin/basecli https://github.com/galaxypi/galaxy/releases/download/second/basecli_mac
-chmod +x /usr/local/bin/base*
+chmod +x /usr/local/bin/basecoind
+chmod +x /usr/local/bin/basecli
 
 echo "INITALIZING BLOCKCHAIN"
 sleep 10
