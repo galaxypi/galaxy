@@ -33,8 +33,9 @@ sleep 10
 
 echo "SETTING SEED NODE"
 # find-and-replace on config.toml to set seed node
+original_string='seeds = ""'
 replace_string='seeds = "fa2dfb4969ac84726b8969781cf06fdacb979678@98.118.185.162:26656"'
-sed -i -e "s/seeds =/$replace_string/g" ~/.basecoind/config/config.toml
+sed -i -e "s/$original_string/$replace_string/g" ~/.basecoind/config/config.toml
 
 sleep 10
 
