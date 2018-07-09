@@ -17,27 +17,19 @@ chmod +x /usr/local/bin/basecoind
 chmod +x /usr/local/bin/basecli
 
 echo "INITALIZING BLOCKCHAIN"
-sleep 10
 
 # initalizes the blockchain
 basecoind init
 
-sleep 10
-
 echo "FETCHING GENESIS BLOCK"
 # fetches genesis.json
 wget -O ~/.basecoind/config/genesis.json https://github.com/galaxypi/galaxy/raw/master/genesis.json
-
-sleep 10
-
 
 echo "SETTING SEED NODE"
 # find-and-replace on config.toml to set seed node
 original_string='seeds = ""'
 replace_string='seeds = "fa2dfb4969ac84726b8969781cf06fdacb979678@98.118.185.162:26656"'
 sed -i -e "s/$original_string/$replace_string/g" ~/.basecoind/config/config.toml
-
-sleep 10
 
 echo "LAUNCHING THE BLOCKCHAIN"
 
