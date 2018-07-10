@@ -56,7 +56,10 @@ seeds = "fa2dfb4969ac84726b8969781cf06fdacb979678@98.118.185.162:26656"
 ## Single line install for mac
 
 ### Dependencies:
-* Homebrew (for installing wget)
-* wget (for downloading binaries)
+* Homebrew (for installing wget)  `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+* wget (for downloading binaries)  `brew install wget`
 
+Then, paste this into your terminal:
+```
 curl https://raw.githubusercontent.com/galaxypi/galaxy/master/install-mac.sh | bash
+```
