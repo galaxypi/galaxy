@@ -37,4 +37,4 @@ echo "LAUNCHING THE BLOCKCHAIN"
 basecoind start
 
 # Thanks the user
-echo "Thank you for testing our blockchain!
+echo "Thank you for testing our blockchain!"
