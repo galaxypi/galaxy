@@ -1,6 +1,6 @@
 #!/bin/bash
 # DEPENDENCIES:
-# * homebrew | to install:  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" )
+# * homebrew | to install:  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 # * wget     | You can "brew install wget"
 
 # REMOVES EXISTING INSTALL
