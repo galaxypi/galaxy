@@ -55,6 +55,8 @@ seeds = "fa2dfb4969ac84726b8969781cf06fdacb979678@98.118.185.162:26656"
 
 ## Single line install for mac
 
-Don't use this yet!  Really!
+### Dependencies:
+* Homebrew (for installing wget)
+* wget (for downloading binaries)
 
 curl https://raw.githubusercontent.com/galaxypi/galaxy/master/install-mac.sh | bash
