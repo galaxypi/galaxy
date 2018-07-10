@@ -28,7 +28,7 @@ wget -O ~/.basecoind/config/genesis.json https://github.com/galaxypi/galaxy/raw/
 echo "SETTING SEED NODE"
 # find-and-replace on config.toml to set seed node
 original_string='seeds = ""'
-replace_string='seeds = "fa2dfb4969ac84726b8969781cf06fdacb979678@98.118.185.162:26656"'
+replace_string='seeds = "541a67ab076e45b8767945d39343d0c885feb708@149.28.45.92:26656"'
 sed -i -e "s/$original_string/$replace_string/g" ~/.basecoind/config/config.toml
 
 echo "LAUNCHING THE BLOCKCHAIN"
