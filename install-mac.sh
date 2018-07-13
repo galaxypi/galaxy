@@ -1,25 +1,40 @@
 #!/bin/bash
-# Creates the "galaxy" folder, where our binaries live
-mkdir ~/galaxy
-# adds the galaxy binaries to the PATH
-echo 'export PATH=$PATH:~/galaxy' >> ~/.bash_profile
-# allow us to issue commands against ~/galaxy without resetting the terminal session
-export PATH=$PATH:~/galaxy
+# DEPENDENCIES:
+# * homebrew | to install:  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# * wget     | You can "brew install wget"
+
+# REMOVES EXISTING INSTALL
+rm /usr/local/bin/basecoind
+rm /usr/local/bin/basecli
+rm -rf ~/.basecoind
+rm -rf ~/.basecli
+
 # puts the daemon and CLI into ~/galaxy, which is on the PATH
-curl https://github.com/galaxypi/galaxy/releases/download/second/basecoind_mac -O ~/galaxy/basecoind
-curl https://github.com/galaxypi/galaxy/releases/download/second/basecli_mac -O ~/galaxy/basecli
+echo "DOWNLOADING DAEMON AND CLI"
+wget -O /usr/local/bin/basecoind https://github.com/galaxypi/galaxy/releases/download/second/basecoind_mac 
+wget -O /usr/local/bin/basecli https://github.com/galaxypi/galaxy/releases/download/second/basecli_mac
+chmod +x /usr/local/bin/basecoind
+chmod +x /usr/local/bin/basecli
+
+echo "INITALIZING BLOCKCHAIN"
+
 # initalizes the blockchain
 basecoind init
+
+echo "FETCHING GENESIS BLOCK"
 # fetches genesis.json
-curl https://github.com/galaxypi/galaxy/raw/master/genesis.json -O ~/.basecoind/config/genesis.json
+wget -O ~/.basecoind/config/genesis.json https://github.com/galaxypi/galaxy/raw/master/genesis.json
+
+echo "SETTING SEED NODE"
 # find-and-replace on config.toml to set seed node
-replace_string='seeds = "c4fc01b8bffd197a0badcc2370641d665c2df6c3@163.172.161.82:26656"'
-sed -i -e "s/seeds =/$replace_string/g" ~/.basecoind/config/config.toml
+original_string='seeds = ""'
+replace_string='seeds = "541a67ab076e45b8767945d39343d0c885feb708@149.28.45.92:26656"'
+sed -i -e "s/$original_string/$replace_string/g" ~/.basecoind/config/config.toml
+
+echo "LAUNCHING THE BLOCKCHAIN"
+
 # sync the blockchain
 basecoind start
-# Provides Uninstall instructions
-echo "to permanently remove all traces of this software, type * rm -rf ~/galaxy ~/basecoind"
-echo "and then it will all be gone.  This install script did not run as root, and did not install anything outside of the folders ~/galaxy, ~/basecoind, and ~/basecli (if you have chosen to interact with the chain using the CLI)"
-echo "it did, however, take the liberty of adding ~/galaxy as a PATH in your ~/.bash_profile, which you can remove by editing your ~/.bash_profile"
-echo "EVERYONE AT GALAXY THINKS YOU'RE AWESOME, BECAUSE YOU'VE RUN OUR CHAIN!"
-echo "please don't be afraid to file issues if our software isn't working for you."
+
+# Thanks the user
+echo "Thank you for testing our blockchain!"

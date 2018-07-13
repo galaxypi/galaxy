@@ -20,6 +20,7 @@ Galaxy is a network of tiny computers running various decentralized and crypto s
 ## Table of contents
 
 - [Join the testnet](#join-the-testnet)
+- [Single-line install for Mac](#single-line-install-for-mac)
 
 ## Join the testnet
 So, right now the Galaxy setup is a bit of a hack.  Basically, we build "basecoin," which is a part of the [cosmos-SDK](https://github.com/cosmos/cosmos-sdk) (that's why there's no source code in this repo yet.)  We've taken care of the compile for you and put binaries on our "releases" page.  After that, you'd want to put basecoind and basecli (for your platform of choice) in your PATH somewhere.  I usually use /usr/bin, but you can choose anywhere you'd like!
@@ -47,7 +48,18 @@ nano config.toml
 and you'd find where it says "comma separated list of seeds to connect to" and make sure it looks like:
 
 ```
-seeds = "c4fc01b8bffd197a0badcc2370641d665c2df6c3@163.172.161.82:26656"
+seeds = "541a67ab076e45b8767945d39343d0c885feb708@149.28.45.92:26656"
 ```
 
 ...and then you can join the Galaxy testnet!  Hop on Slack and ask us to send you some coins to play with!  If you have trouble at any step, please don't hesitate to file an issue!  Our goal is to make running a galaxy node as easy as possible, and your issues help us get there!
+
+## Single line install for mac
+
+### Dependencies:
+* Homebrew (for installing wget)  `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+* wget (for downloading binaries)  `brew install wget`
+
+Then, paste this into your terminal:
+```
+curl https://raw.githubusercontent.com/galaxypi/galaxy/master/install-mac.sh | bash
+```
