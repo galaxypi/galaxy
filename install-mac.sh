@@ -11,8 +11,8 @@ rm -rf ~/.basecli
 
 # puts the daemon and CLI into ~/galaxy, which is on the PATH
 echo "DOWNLOADING DAEMON AND CLI"
-wget -O /usr/local/bin/basecoind https://github.com/galaxypi/galaxy/releases/download/second/basecoind_mac 
-wget -O /usr/local/bin/basecli https://github.com/galaxypi/galaxy/releases/download/second/basecli_mac
+wget -O /usr/local/bin/basecoind https://github.com/galaxypi/galaxy/releases/download/third/basecoind_mac 
+wget -O /usr/local/bin/basecli https://github.com/galaxypi/galaxy/releases/download/third/basecli_mac
 chmod +x /usr/local/bin/basecoind
 chmod +x /usr/local/bin/basecli
 
@@ -28,7 +28,7 @@ wget -O ~/.basecoind/config/genesis.json https://github.com/galaxypi/galaxy/raw/
 echo "SETTING SEED NODE"
 # find-and-replace on config.toml to set seed node
 original_string='seeds = ""'
-replace_string='seeds = "541a67ab076e45b8767945d39343d0c885feb708@149.28.45.92:26656"'
+replace_string='seeds = "bf300feed21441b5c91bc0d39569e1f01521173c@149.28.45.92:26656"'
 sed -i -e "s/$original_string/$replace_string/g" ~/.basecoind/config/config.toml
 
 echo "LAUNCHING THE BLOCKCHAIN"
