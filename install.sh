@@ -61,8 +61,8 @@ cd "$INSTALL_DIR"
 
 # clear old files
 echo "Clearing leftovers from basecli and basecoind."
-[[ ! -f "./basecli" ]] && rm "./basecli"
-[[ ! -f "./basecoind" ]] && rm "./basecoind"
+[[ -f "./basecli" ]] && rm "./basecli"
+[[ -f "./basecoind" ]] && rm "./basecoind"
 [[ -d "$HOME/.basecli" ]] && rm -r "$HOME/.basecli"
 [[ -d "$HOME/.basecoind" ]] && rm -r "$HOME/.basecoind"
 
