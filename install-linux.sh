@@ -36,11 +36,11 @@ fi
 
 # check for needed dependencies
 for dependency in $DEPENDENCIES; do
-  if ! command -v "$dependency" &>/dev/null; then
-      echo "It seems that $dependency isn't installed but I really need it :/"
-      echo "Please install it and re-run this script."
-      exit 1
-  fi
+    if ! command -v "$dependency" &>/dev/null; then
+        echo "It seems that $dependency isn't installed but I really need it :/"
+        echo "Please install it and re-run this script."
+        exit 1
+    fi
 done
 
 
@@ -49,8 +49,8 @@ echo "This script will remove previously installed directories of basecli and ba
 read -p "Are you ok with that? (y/N): " choice
 
 case "$choice" in
-  y|Y) echo -e "Continuing with install. Just bear with me for a moment.\n";;
-  *) echo "Aborting."; exit 1;;
+    y|Y) echo -e "Continuing with install. Just bear with me for a moment.\n";;
+    *) echo "Aborting."; exit 1;;
 esac
 
 
@@ -74,8 +74,8 @@ while read -r release; do
 
     # download if the release asset is what we searched
     if [ "$name" == "basecli_$ARCH" ] || [ "$name" == "basecoind_$ARCH" ]; then
-      url=$(echo "$release" | jq --raw-output '.browser_download_url')
-      curl -LO# "$url"
+        url=$(echo "$release" | jq --raw-output '.browser_download_url')
+        curl -LO# "$url"
     fi
 done <<< "$releases"
 
