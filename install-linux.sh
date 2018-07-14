@@ -2,10 +2,36 @@
 
 DEPENDENCIES="curl jq"
 
-ARCH="linux_amd64"
+KERNEL="$(uname -s)"
+MACHINE="$(uname -m)"
+ARCH="${KERNEL,,}_${MACHINE,,}" # lowercase(`uname -s`) + _ + lowercase(`uname -m`)
 REPO="galaxypi/galaxy"
 INSTALL_DIR="$HOME/galaxy"
 SEEDS=$(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/master/seeds)
+
+
+
+# download latest release information from GitHub
+json=$(curl -s "https://api.github.com/repos/$REPO/releases/latest")
+releases=$(echo "$json" | jq --raw-output '.assets' | jq --compact-output '.[]')
+
+
+# go through all release assets and search for a matching release
+release_found=false
+while read -r release; do
+    name=$(echo "$release" | jq --raw-output '.name')
+
+    # set release_found to true if we found a matching release
+    if [ "$name" == "basecli_$ARCH" ] || [ "$name" == "basecoind_$ARCH" ]; then
+      release_found=true
+    fi
+done <<< "$releases"
+
+if [ "$release_found" = false ]; then
+    echo "Could not find a matching release of basecli and/or basecoind for your architecture ($ARCH)."
+    echo "If you know what you're doing and think it should work on your architecture, you can set your architecture manually at the beginning of this script."
+    exit 1
+fi
 
 
 # check for needed dependencies
@@ -41,12 +67,8 @@ echo "Clearing leftovers from basecli and basecoind."
 [[ -d "$HOME/.basecoind" ]] && rm -r "$HOME/.basecoind"
 
 
-json=$(curl -s "https://api.github.com/repos/$REPO/releases/latest")
-releases=$(echo "$json" | jq --raw-output '.assets' | jq --compact-output '.[]')
-
-
-# go through all release assets
-echo "Downloading and installing basecli and basecoind."
+# go through all release assets and download the matching ones
+echo "Downloading and installing basecli and/or basecoind."
 while read -r release; do
     name=$(echo "$release" | jq --raw-output '.name')
 
