@@ -5,7 +5,7 @@ DEPENDENCIES="curl jq"
 ARCH="linux_amd64"
 REPO="galaxypi/galaxy"
 INSTALL_DIR="$HOME/galaxy"
-SEEDS="541a67ab076e45b8767945d39343d0c885feb708@149.28.45.92:26656"
+SEEDS="bf300feed21441b5c91bc0d39569e1f01521173c@149.28.45.92:26656"
 
 
 # check for needed dependencies
