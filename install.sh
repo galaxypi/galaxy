@@ -2,19 +2,45 @@
 
 DEPENDENCIES="curl jq"
 
-ARCH="linux_amd64"
+KERNEL="$(uname -s)"
+MACHINE="$(uname -m)"
+ARCH="${KERNEL,,}_${MACHINE,,}" # lowercase(`uname -s`) + _ + lowercase(`uname -m`)
 REPO="galaxypi/galaxy"
 INSTALL_DIR="$HOME/galaxy"
-SEEDS="bf300feed21441b5c91bc0d39569e1f01521173c@149.28.45.92:26656"
+SEEDS=$(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/master/seeds)
+
+
+
+# download latest release information from GitHub
+json=$(curl -s "https://api.github.com/repos/$REPO/releases/latest")
+releases=$(echo "$json" | jq --raw-output '.assets' | jq --compact-output '.[]')
+
+
+# go through all release assets and search for a matching release
+release_found=false
+while read -r release; do
+    name=$(echo "$release" | jq --raw-output '.name')
+
+    # set release_found to true if we found a matching release
+    if [ "$name" == "basecli_$ARCH" ] || [ "$name" == "basecoind_$ARCH" ]; then
+      release_found=true
+    fi
+done <<< "$releases"
+
+if [ "$release_found" = false ]; then
+    echo "Could not find a matching release of basecli and/or basecoind for your architecture ($ARCH)."
+    echo "If you know what you're doing and think it should work on your architecture, you can set your architecture manually at the beginning of this script."
+    exit 1
+fi
 
 
 # check for needed dependencies
 for dependency in $DEPENDENCIES; do
-  if ! command -v "$dependency" &>/dev/null; then
-      echo "It seems that $dependency isn't installed but I really need it :/"
-      echo "Please install it and re-run this script."
-      exit 1
-  fi
+    if ! command -v "$dependency" &>/dev/null; then
+        echo "It seems that $dependency isn't installed but I really need it :/"
+        echo "Please install it and re-run this script."
+        exit 1
+    fi
 done
 
 
@@ -23,8 +49,8 @@ echo "This script will remove previously installed directories of basecli and ba
 read -p "Are you ok with that? (y/N): " choice
 
 case "$choice" in
-  y|Y) echo -e "Continuing with install. Just bear with me for a moment.\n";;
-  *) echo "Aborting."; exit 1;;
+    y|Y) echo -e "Continuing with install. Just bear with me for a moment.\n";;
+    *) echo "Aborting."; exit 1;;
 esac
 
 
@@ -41,19 +67,15 @@ echo "Clearing leftovers from basecli and basecoind."
 [[ -d "$HOME/.basecoind" ]] && rm -r "$HOME/.basecoind"
 
 
-json=$(curl -s "https://api.github.com/repos/$REPO/releases/latest")
-releases=$(echo "$json" | jq --raw-output '.assets' | jq --compact-output '.[]')
-
-
-# go through all release assets
-echo "Downloading and installing basecli and basecoind."
+# go through all release assets and download the matching ones
+echo "Downloading and installing basecli and/or basecoind."
 while read -r release; do
     name=$(echo "$release" | jq --raw-output '.name')
 
     # download if the release asset is what we searched
     if [ "$name" == "basecli_$ARCH" ] || [ "$name" == "basecoind_$ARCH" ]; then
-      url=$(echo "$release" | jq --raw-output '.browser_download_url')
-      curl -LO# "$url"
+        url=$(echo "$release" | jq --raw-output '.browser_download_url')
+        curl -LO# "$url"
     fi
 done <<< "$releases"
 
