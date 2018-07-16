@@ -101,7 +101,7 @@ sed -i -e "s/$original_string/$replace_string/g" "$HOME/.basecoind/config/config
 
 # fetch the genesis block
 echo "Fetching genesis block."
-curl -LOs "https://github.com/$REPO/raw/master/genesis.json"
+curl -Os "https://raw.githubusercontent.com/galaxypi/galaxy/master/genesis.json"
 mv "genesis.json" "$HOME/.basecoind/config/genesis.json"
 
 
