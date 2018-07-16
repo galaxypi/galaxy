@@ -29,7 +29,7 @@ done <<< "$releases"
 
 if [ "$release_found" = false ]; then
     echo "Could not find a matching release of basecli and/or basecoind for your architecture ($ARCH)."
-    echo "If you know what you're doing and think it should work on your architecture, you can set your architecture manually at the beginning of this script."
+    echo "If you know what you're doing and think it should work on your architecture, you can set your architecture manually at the beginning of this script and then run it again."
     exit 1
 fi
 
