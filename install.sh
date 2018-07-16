@@ -80,7 +80,7 @@ while read -r release; do
 done <<< "$releases"
 
 
-# move the binaries to not include the arch and make it executable
+# move the binaries to not include the arch and make them executable
 mv "basecli_$ARCH" "basecli"
 mv "basecoind_$ARCH" "basecoind"
 chmod +x "basecli"
