@@ -37,7 +37,7 @@ fi
 # check for needed dependencies
 for dependency in $DEPENDENCIES; do
     if ! command -v "$dependency" &>/dev/null; then
-        echo "It seems that $dependency isn't installed but I really need it :/"
+        echo "It seems that \"$dependency\" isn't installed but I really need it :/"
         echo "Please install it and re-run this script."
         exit 1
     fi
