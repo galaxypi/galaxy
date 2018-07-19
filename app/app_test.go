@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/faddat/galaxy/types"
+	"github.com/galaxypi/galaxy/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/wire"
 	"github.com/cosmos/cosmos-sdk/x/auth"
