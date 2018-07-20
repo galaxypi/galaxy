@@ -31,6 +31,24 @@ Open a terminal and run:
 curl https://raw.githubusercontent.com/galaxypi/galaxy/develop/install.sh | bash
 ```
 
+The installer should prompt you to type `./galaxyd start` when it is finished.  This will
+start the blockchain, and your computer will become a part of the world's biggest network of nodes.
+
+After the blockchain syncs, you can make a wallet!  In a second terminal window, you would type
+`./galaxycli keys add chicken` -- but you don't need to name your key chicken, you can call it anything you want.
+
+After entering a passphrase, you should see output approximately like:
+
+```
+NAME:	TYPE:	ADDRESS:						PUBKEY:
+chicken	local	cosmosaccaddr1ppuzqz2p4hg2fafa6d3ypnr0qhduzpah3e725p	cosmosaccpub1addwnpepqdsg4e6z0ghcqdeq8a5nmj4mvvwas0az39slu7398dvjcak6wc9fqh5n7yf
+**Important** write this seed phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+pioneer parrot blind token have bottom lonely ginger payment lonely erase bargain produce random season polar real clerk render tip cable badge trend sign
+```
+
+
 Then, come and join us on [Slack](https://join.slack.com/t/galaxypi/shared_invite/enQtNDAxNTc2ODY3NTU2LWFjOTY4MzQ2YjFlODQ4MjhmMjE4YzA0YjA0MzU4NjUzZmM2YTg2YWRiN2QzYjJiZGQ0OGM4MjI4OTVkNjY4NzQ)
 
 and we'll send you some tokens!

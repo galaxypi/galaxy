@@ -9,7 +9,6 @@ INSTALL_DIR="$HOME/galaxy"
 SEEDS=$(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/master/seeds)
 
 
-
 function getMatchingAssets {
     json=$(curl -s "https://api.github.com/repos/galaxypi/galaxy/releases/latest")
     releaseAssets=$(echo "$json" | jq --raw-output '.assets' | jq --compact-output '.[]')
@@ -29,14 +28,13 @@ function getMatchingAssets {
     echo "$urls"
 }
 
+
 function downloadAssets {
     urls="$@"
     for url in $urls; do
         curl -LO#f "$url"
     done
 }
-
-
 
 # download and parse latest release information from GitHub
 urls="$(getMatchingAssets)"
