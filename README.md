@@ -21,45 +21,36 @@ Galaxy is a network of tiny computers running various decentralized and crypto s
 
 - [Join the testnet](#join-the-testnet)
 - [Single-line install for Mac](#single-line-install-for-mac)
+- [Build Instructions](#build-instructions)
 
-## Join the testnet
-So, right now the Galaxy setup is a bit of a hack.  Basically, we build "basecoin," which is a part of the [cosmos-SDK](https://github.com/cosmos/cosmos-sdk) (that's why there's no source code in this repo yet.)  We've taken care of the compile for you and put binaries on our "releases" page.  After that, you'd want to put basecoind and basecli (for your platform of choice) in your PATH somewhere.  I usually use /usr/bin, but you can choose anywhere you'd like!
+## Linux and Mac Install
 
-After that, you're going to want to run a "modified"
-
-```
-basecoind init
-```
-
-Which will actually start you a fresh, shiny new blockchain!  But that's not what we want here, so after that you're going to
+Open a terminal and run:
 
 ```
-cd ~/.basecoind/config
-rm genesis.json
-wget https://github.com/galaxypi/galaxy/raw/master/genesis.json
+curl https://raw.githubusercontent.com/galaxypi/galaxy/develop/install.sh | bash
 ```
 
-Then you're going to take genesis.json from this repository, and put it in that folder as genesis.json.  This will let the chain on your computer start with the same state as our chain, meaning they're nearly one!  All you need now is a seed node.  Next you would open config.toml something like:
+The installer should prompt you to type `./galaxyd start` when it is finished.  This will
+start the blockchain, and your computer will become a part of the world's biggest network of nodes.
+
+After the blockchain syncs, you can make a wallet!  In a second terminal window, you would type
+`./galaxycli keys add chicken` -- but you don't need to name your key chicken, you can call it anything you want.
+
+After entering a passphrase, you should see output approximately like:
 
 ```
-nano config.toml
+NAME:	TYPE:	ADDRESS:						PUBKEY:
+chicken	local	cosmosaccaddr1ppuzqz2p4hg2fafa6d3ypnr0qhduzpah3e725p	cosmosaccpub1addwnpepqdsg4e6z0ghcqdeq8a5nmj4mvvwas0az39slu7398dvjcak6wc9fqh5n7yf
+**Important** write this seed phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+pioneer parrot blind token have bottom lonely ginger payment lonely erase bargain produce random season polar real clerk render tip cable badge trend sign
 ```
 
-and you'd find where it says "comma separated list of seeds to connect to" and make sure it looks like:
 
-```
-seeds = "bf300feed21441b5c91bc0d39569e1f01521173c@149.28.45.92:26656"
-```
+Then, come and join us on [Slack](https://join.slack.com/t/galaxypi/shared_invite/enQtNDAxNTc2ODY3NTU2LWFjOTY4MzQ2YjFlODQ4MjhmMjE4YzA0YjA0MzU4NjUzZmM2YTg2YWRiN2QzYjJiZGQ0OGM4MjI4OTVkNjY4NzQ)
 
-...and then you can join the Galaxy testnet!  Hop on Slack and ask us to send you some coins to play with!  If you have trouble at any step, please don't hesitate to file an issue!  Our goal is to make running a galaxy node as easy as possible, and your issues help us get there!
+and we'll send you some tokens!
 
-## Single line install for mac
-
-### Dependencies:
-* Homebrew (for installing wget)  `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-* wget (for downloading binaries)  `brew install wget`
-
-Then, paste this into your terminal:
-```
-curl https://raw.githubusercontent.com/galaxypi/galaxy/master/install-mac.sh | bash
-```
+## Build Instructions
