@@ -28,7 +28,7 @@ Galaxy is a network of tiny computers running various decentralized and crypto s
 Open a terminal and run:
 
 ```
-curl https://raw.githubusercontent.com/galaxypi/galaxy/develop/install.sh | bash
+curl https://raw.githubusercontent.com/galaxypi/galaxy/master/install.sh | bash
 ```
 
 The installer should prompt you to type `./galaxyd start` when it is finished.  This will
@@ -53,4 +53,3 @@ Then, come and join us on [Slack](https://join.slack.com/t/galaxypi/shared_invit
 
 and we'll send you some tokens!
 
-## Build Instructions
