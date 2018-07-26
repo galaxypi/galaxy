@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2018-07-13T03:10:05.771403386Z",
-  "chain_id": "test-chain-odqepW",
+  "genesis_time": "2018-07-26T01:16:33.808737742Z",
+  "chain_id": "test-chain-4leziZ",
   "consensus_params": {
     "block_size_params": {
       "max_bytes": "22020096",
@@ -22,7 +22,7 @@
     {
       "pub_key": {
         "type": "tendermint/PubKeyEd25519",
-        "value": "jrnqhcvwvthSVn4lAk6y7WBEE4olTMvECfXbQPwrw+s="
+        "value": "IPdXDVlKjzD+QbemVRo8xp4BQAG2st+m5Lnjr7VPbXg="
       },
       "power": "10",
       "name": ""
@@ -32,7 +32,7 @@
   "app_state": {
     "accounts": [
       {
-        "address": "cosmosaccaddr12mjk54pu352z6fpj7q7vs397ynp5hc520erswt",
+        "address": "cosmosaccaddr16vr58j4hjggkjevtu7pt3sugw25krv8c3t7vfy",
         "coins": [
           {
             "denom": "mycoin",
