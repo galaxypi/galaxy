@@ -10,12 +10,12 @@ Then, put the binary somewhere on your PATH.  (I use /usr/bin)
 
 You may need to chmod +x the binaries that you copy to some place on your path.  
 
-Then, just run "galaxyd init"
+Then, just run `galaxyd init`
 
 but don't start that blockchain yet!  If you do, you'll start your own new chain.  Instead, do something like:
 
 ```
-wget -O ~/.galaxyd/config https://github.com/galaxypi/galaxy/blob/master/genesis.json
+wget -O ~/.galaxyd/config/genesis.json https://github.com/galaxypi/galaxy/raw/master/genesis.json
 ```
 
 to put the genesis block in the right place.  
