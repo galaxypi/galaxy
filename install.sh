@@ -103,7 +103,7 @@ replace_string="seeds = \"$SEEDS\""
 sed -i -e "s/$original_string/$replace_string/g" "$HOME/.galaxyd/config/config.toml"
 
 # get moniker
-echo "Please enter a name that you like for your node (eg: giantchicken or mygalaxynode) and then press enter.
+echo "Please enter a name that you like for your node (eg: giantchicken or mygalaxynode) and then press enter."
 read name
 moniker_original="moniker = \"\""
 moniker_actual="moniker = \"\$name\""
