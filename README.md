@@ -1,7 +1,7 @@
 <p align="center">
   <br/>
 
-  <h3 align="center">Galaxy</h3>
+  <h1 align="center">Galaxy</h1>
 
   <p align="center">
     Galaxy Pi Project
