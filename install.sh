@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DEPENDENCIES="curl jq"
+DEPENDENCIES="curl"
 
 KERNEL="$(uname -s)"
 MACHINE="$(uname -m)"
