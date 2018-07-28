@@ -25,7 +25,7 @@ Open a terminal and run:
 bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install.sh)
 ```
 
-Then you can do a cd ~/galaxy and you're ready to run the program!
+Then you can do a `cd ~/galaxy` and you're ready to run the program!
 
 The installer should prompt you to type `./galaxyd start` when it is finished.  This will
 start syncing the blockchain, and your computer will become a part of the world's biggest network of nodes.
