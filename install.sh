@@ -106,7 +106,7 @@ sed -i -e "s/$original_string/$replace_string/g" "$HOME/.galaxyd/config/config.t
 echo "Please enter a name that you like for your node (eg: giantchicken or mygalaxynode) and then press enter."
 read name
 moniker_original="moniker = \"\""
-moniker_actual="moniker = \"\$name\""
+moniker_actual="moniker = \"$name\""
 sed -i -e "s/$moniker_original/$moniker_actual/g" "$HOME/.galaxyd/config/config.toml"
 
 # fetch the genesis block
