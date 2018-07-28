@@ -22,7 +22,7 @@ Galaxy is a network of tiny computers running various decentralized and crypto s
 Open a terminal and run:
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/master/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install.sh)
 ```
 
 Then you can do a cd ~/galaxy and you're ready to run the program!
