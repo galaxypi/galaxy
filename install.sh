@@ -2,9 +2,7 @@
 
 DEPENDENCIES="curl jq"
 
-KERNEL="$(uname -s)"
-MACHINE="$(uname -m)"
-ARCH="${KERNEL,,}_${MACHINE,,}" # lowercase(`uname -s`) + _ + lowercase(`uname -m`)
+ARCH="$(uname -s)_$(uname -m)"
 INSTALL_DIR="$HOME/galaxy"
 SEEDS=$(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/seeds)
 
