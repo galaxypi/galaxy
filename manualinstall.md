@@ -4,6 +4,10 @@ You can find our binaries here:
 
 https://github.com/galaxypi/galaxy/releases
 
+Or you can follow the build directions here:
+
+https://github.com/galaxypi/galaxy/blob/develop/build.md
+
 Download the one that is appropriate for your Operating system and processor type.
 
 Then, put the binary somewhere on your PATH.  (I use /usr/bin)
