@@ -1,21 +1,33 @@
 <p align="center">
   <br/>
 
-  <h1 align="center">Galaxy</h1>
+  <h3 align="center">Galaxy</h3>
 
   <p align="center">
-    Galaxy Pi Project
+    Galaxy Pi core software repository
     <br/>
     <a href="http://galaxy.ooo"><strong>galaxy.ooo</strong></a>
     <br/>
     <br/>
     <a href="https://github.com/galaxypi/">Explore</a>
+    <br/>
+    <br/>
+    <a href="https://twitter.com/intent/follow?screen_name=galaxypilab">
+      <img src="https://img.shields.io/twitter/follow/galaxypilab.svg?style=social&label=Follow&maxAge=2592000" alt="Follow on Twitter">
+    </a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://github.com/galaxypi/galaxy/stargazers">
+      <img src="https://img.shields.io/github/stars/galaxypi/galaxy.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo">
+    </a>
   </p>
 </p>
 
 <br/>
 
 Galaxy is a network of tiny computers running various decentralized and crypto services, cryptocurrencies and networks around the world. These tiny computers provide networks to quickly bootstrap to a galaxy of nodes.
+
+![Galaxy Version](https://img.shields.io/badge/Galaxy_Testnet-v0.0.4--alpha-red.svg)
+![Build Status](https://img.shields.io/badge/Build_Status-passing-brightgreen.svg)
 
 ## Install Instructions for Mac and Linux (Pi and x86 varieties)
 
@@ -26,7 +38,7 @@ apt install jq
 brew install jq
 pacman -S jq
 ```
-or similar.  
+or similar.
 
 Then, open a terminal and run:
 
