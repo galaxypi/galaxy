@@ -134,8 +134,7 @@ sed -i -e "s/$original_string/$replace_string/g" "$HOME/.galaxyd/config/config.t
 
 # get moniker
 echo "Now I need a name to distinguish your node from others (e.g. giantchicken or mygalaxynode)."
-echo "Please tell me a name and press enter: "
-read name
+read -p "Please tell me a name and press enter: " name
 moniker_original="moniker = \"\""
 moniker_actual="moniker = \"$name\""
 sed -i -e "s/$moniker_original/$moniker_actual/g" "$HOME/.galaxyd/config/config.toml"
