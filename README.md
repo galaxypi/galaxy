@@ -31,16 +31,7 @@ Galaxy is a network of tiny computers running various decentralized and crypto s
 
 ## Install Instructions for Mac and Linux (Pi and x86 varieties)
 
-First: Install `jq` in a manner appropriate to your platform, like:
-
-```
-apt install jq
-brew install jq
-pacman -S jq
-```
-or similar.
-
-Then, open a terminal and run:
+#### Open a Terminal and run:
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install.sh)
