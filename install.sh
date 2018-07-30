@@ -15,7 +15,7 @@ function getMatchingAssets {
     # all separated by newlines; this got make `jq` obsolete as dependency
     assets=$(curl -s https://api.github.com/repos/galaxypi/galaxy/releases/latest | \
       sed -n '/"assets": \[/,/\]/p' | \
-      grep -Poa '^\s*"(?:name|browser_download_url)": ".+",?$' | \
+      sed -n '/"\(name\|browser_download_url\)": "/p' | \
       sed 's/\s*"name": "//g' | \
       sed 's/^\s*"browser_download_url": "//g' | \
       sed 's/",$//g' | \
