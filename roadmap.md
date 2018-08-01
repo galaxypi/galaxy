@@ -37,7 +37,6 @@ Galaxy is...
 
 ## Future Milestones (Unordered list)
 * Launch the currency
-* Connect our blockchain to the Cosmos Hub
 * Arbitrary (sandboxed) code execution on nodes, with node owners getting paid for compute time by developers who built that code.  Arbitrary-- no solidity or what have you needed.  Piped to the live internet via a method similar to ngrok OR piped elsewhere via the ZeroTier VPN.
 * Decentralized Chat across nodes
 * VPN across nodes for egress
