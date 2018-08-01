@@ -1,6 +1,6 @@
-# Galaxy Software Roadmap
+# Galaxy Project Roadmap
 
-The following is the Galaxy Software Roadmap defining the project, tech stack, goals and past, current and future milestones.
+The following is the Galaxy Project Roadmap defining the project, technology, goals, and future milestones.
 
 ## Table of contents
 
