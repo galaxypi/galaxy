@@ -10,10 +10,6 @@ The following is the Galaxy Project Roadmap defining the project, technology, go
 - [Milestones](#milestones)
 - [Tech Stack](#tech-stack)
 
-<div align="right">
-    <b><a href="#galaxy-software-roadmap">^ back to top</a></b>
-</div>
-
 ## Overview
 
 Galaxy is...
@@ -46,3 +42,7 @@ Galaxy is...
 * Decentralized Chat across nodes
 * VPN across nodes for egress
 * Airdrops to node-operators (the sybill-prevention mechanism here is the cost of operating a node)
+
+<div align="right">
+    <b><a href="#galaxy-software-roadmap">^ back to top</a></b>
+</div>
