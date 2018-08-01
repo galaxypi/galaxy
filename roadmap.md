@@ -10,11 +10,11 @@ The following is the Galaxy Project Roadmap defining the project, technology, go
 - [Milestones](#milestones)
 - [Tech Stack](#tech-stack)
 
-## Galacy Overview
+## Overview
 
 Galaxy is looking to become the world's largest network of decentralized nodes offering services for decentralized networks.
 
-## Project Goals
+## Goals
 
 - [ ] To become the world's largest network of decentralized nodes offering services for decentralized networks.
 - [ ] Build a large community of open source developers
@@ -48,5 +48,5 @@ Galaxy is looking to become the world's largest network of decentralized nodes o
 * Airdrops to node-operators (the sybill-prevention mechanism here is the cost of operating a node)
 
 <div align="right">
-    <b><a href="#galaxy-software-roadmap">^ back to top</a></b>
+    <b><a href="#galaxy-project-roadmap">^ back to top</a></b>
 </div>
