@@ -35,17 +35,16 @@ Galaxy is looking to become the world's largest network of decentralized nodes o
 
 ## Milestones
 
-- [ ] *Galaxy Core: Galaxy Testnet v0.0.5-alpha-demo (Improving the design of the network for performance at the edges)
-- [ ] *Pi Image Builder
-- [ ] Growth: Increasing the number of validators and full nodes
+- [ ] **Galaxy Core**: Galaxy Testnet v0.0.5-alpha-demo (Improving the design of the network for performance at the edges)
+- [ ] **Galaxy Core**: Pi Image Builder
+- [ ] **Growth**: Increasing the number of validators and full nodes
+- [ ] **Galaxy Token**: Launch the currency
+- [ ] **Galaxy Core** & **Galaxy.ooo**: VPN across nodes for egress
+- [ ] **Galaxy Core**: Airdrops to node-operators
+- [ ] **Galaxy Community**: Global Galaxy hackathons bootstrapped on the Raspberry Pi network
 
-
-## Future Milestones (Unordered list)
-* Launch the currency
 * Arbitrary (sandboxed) code execution on nodes, with node owners getting paid for compute time by developers who built that code.  Arbitrary-- no solidity or what have you needed.  Piped to the live internet via a method similar to ngrok OR piped elsewhere via the ZeroTier VPN.
-* Decentralized Chat across nodes
-* VPN across nodes for egress
-* Airdrops to node-operators (the sybill-prevention mechanism here is the cost of operating a node)
+
 
 <div align="right">
     <b><a href="#galaxy-project-roadmap">^ back to top</a></b>
