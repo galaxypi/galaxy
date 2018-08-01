@@ -56,6 +56,6 @@ It is the only way to recover your account if you ever forget your password.
 pioneer parrot blind token have bottom lonely ginger payment lonely erase bargain produce random season polar real clerk render tip cable badge trend sign
 ```
 
-Then, come and join us on [Slack](https://join.slack.com/t/galaxypi/shared_invite/enQtNDAxNTc2ODY3NTU2LWFjOTY4MzQ2YjFlODQ4MjhmMjE4YzA0YjA0MzU4NjUzZmM2YTg2YWRiN2QzYjJiZGQ0OGM4MjI4OTVkNjY4NzQ)
+Then, come and join us on [Discord](https://discord.gg/9RnYvAS)
 
 and we'll send you some tokens!
