@@ -12,7 +12,7 @@ The following is the Galaxy Project Roadmap defining the project, technology, go
 
 ## Overview
 
-Galaxy is looking to become the world's largest network of decentralized nodes offering services for decentralized networks.
+Galaxy's mission is to become the world's largest network of decentralized nodes offering services for decentralized networks.  Galaxy is comprised of a currency which can be mined across the network and developer tools like a command line interface and a software development kit are in the pipeline which will allow developers to create third party apps and extend the capabilitities of the network.
 
 ## Goals
 
