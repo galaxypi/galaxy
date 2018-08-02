@@ -16,9 +16,9 @@ Galaxy's mission is to become the world's largest network of decentralized nodes
 
 Galaxy is comprised of a currency which can be mined across the network and developer tools like a command line interface and a software development kit are in the pipeline which will allow developers to create third party apps and extend the capabilitities of the network.
 
-Relatively speaking very few people actually run nodes for a number of reasons.  First of all most users own a laptop and a smartphone, both of which make for poor nodes as they are not designed to be always working, always connected and dedicated to a specific task.  Nodes are not easy to setup even for experienced developers.  Configuring a node can be very time intensive and often is unsupported with little to no documentation.  Our goal is to provide a platform for developers to easily create new nodes and a marketplace where end users can easily run nodes and participate in those networks. 
+Relatively speaking very few people actually run nodes for a number of reasons.  First of all most users own a laptop and a smartphone, both of which make for poor nodes as they are not designed to be always working, always connected and dedicated to a specific task.  Nodes are not easy to setup even for experienced developers.  Configuring a node can be very time intensive and often is unsupported with little to no documentation.  Our goal is to provide a platform for developers to easily create new nodes and a marketplace where end users can easily run nodes and participate in those networks.
 
-Many blockchains and protocols have a very hard time achieving critical mass of third party developers building on top of their protocol.  We believe there is enormous potential in focusing on the existing Raspberry Pi community and all of the fun projects associated with that open source community.  
+Many blockchains and protocols have a very hard time achieving critical mass of third party developers building on top of their protocol.  We believe there is enormous potential in focusing on the existing Raspberry Pi community and all of the fun projects associated with that open source community.
 
 ## Goals
 
@@ -27,7 +27,7 @@ Many blockchains and protocols have a very hard time achieving critical mass of 
 - [ ] Work with the Galaxy developer community to provide developer tools offering the highest value
 - [ ] Provide the best experience for developers to quickly deploy apps and services to decentralized networks
 
-## Execution to date
+## Execution to date (3 weeks)
 
 #### Galaxy Core (Blockchain)
 - [x] Galaxy Testnet v0.0.1-alpha-demo
