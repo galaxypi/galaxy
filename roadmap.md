@@ -4,13 +4,13 @@ The following is the Galaxy Project Roadmap defining the project, technology, go
 
 ## Table of contents
 
-- [Overview](#overview)
+- [Project Overview](#overview)
 - [Goals](#goals)
 - [Execution to date](#execution-to-date)
 - [Milestones](#milestones)
 - [Tech Stack](#tech-stack)
 
-## Overview
+## Project Overview
 
 Galaxy's mission is to become the world's largest network of decentralized nodes offering services for decentralized networks.
 
