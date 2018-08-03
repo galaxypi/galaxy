@@ -41,11 +41,22 @@ The following is the Galaxy Project Roadmap defining the project, technology, go
 - [ ] **Galaxy Marketplace**: A web interface where developers can quickly deploy apps and services to decentralized networks
 
 ## Our Stack
-* A novel distributed ledger that enables millions of small nodes to participate meaningfully
+* Cosmos-SDK
 * ZeroTier
 * Gvisor Containers
 * Raspian Linux
 * Raspberry Pi Hardware
+
+## Our Problems
+Galaxy aims to make meaningful participation in a distributed ledger possible from even the smallest computers.  Here are a few of the problems that come up when targeting small computers that live at the edge of the network:
+
+* Cross-compilation / comptability
+* Daemon resource usage
+* Network connectivity
+* Limited Storage Capacity
+* Consensus Latency
+
+The only advantage that we truly have in this case is that there can be many, cheap, small computers.  We will  devise a decentralized system that can use these machines as a cohesive whole.  This will involve limiting the state storage needed on any given device, as well as new ways of thinking about the network.  
 
 <div align="right">
     <b><a href="#galaxy-project-roadmap">^ back to top</a></b>
