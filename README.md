@@ -45,6 +45,12 @@ Galaxy's mission is to become the world's largest network of decentralized nodes
 - [ ] Provide high developers with access to this network of nodes by building and maintaining an SDK
 - [ ] Provide the best experience for developers to quickly deploy apps and services to decentralized networks
 
+#### Examples of what you can do with the nodes
+
+- [ ] Use nodes for airdrops focusing on reaching high signal developers vs. speculators
+- [ ] Pay users for compute, storage, bandwidth, staking, etc.
+- [ ] Repurpose existing Raspberry Pi projects to grow those communities and reward participation
+
 ## Getting started
 
 - [Mac & Linux](#install-instructions-for-mac-and-linux--pi-and-x86-varieties)
