@@ -28,7 +28,7 @@
 
 - [Status](#status)
 - [Overview](#overview)
-- [Getting started](#getting-started)
+- [Getting started (Mac & Linux)](#getting-started)
 - [Roadmap](/roadmap.md)
 
 ## Status
