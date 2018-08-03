@@ -47,7 +47,7 @@ The following is the Galaxy Project Roadmap defining the project, technology, go
 - [ ] Repurpose existing Raspberry Pi projects to grow those communities and reward participation
 
 ## Our Stack
-* Cosmos-SDK
+* A novel distributed ledger that enables millions of small nodes to participate meaningfully
 * ZeroTier
 * Gvisor Containers
 * Raspian Linux
