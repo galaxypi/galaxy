@@ -24,7 +24,7 @@
 
 <br/>
 
-Galaxy is a network of tiny computers running various decentralized and crypto services, cryptocurrencies and networks around the world. These tiny computers provide networks to quickly bootstrap to a galaxy of nodes.
+Galaxy test is a network of tiny computers running various decentralized and crypto services, cryptocurrencies and networks around the world. These tiny computers provide networks to quickly bootstrap to a galaxy of nodes.
 
 ![Galaxy Version](https://img.shields.io/badge/Galaxy_Testnet-v0.0.4--alpha-red.svg)
 ![Build Status](https://img.shields.io/badge/Build_Status-passing-brightgreen.svg)
