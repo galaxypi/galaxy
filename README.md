@@ -29,6 +29,8 @@
 - [Status](#status)
 - [Overview](#overview)
 - [Getting started (Mac & Linux)](#getting-started)
+    - [Manual install](/manualinstall.md)
+    - [Build instructions](/build.md)
 - [Roadmap](/roadmap.md)
 
 ## Status
@@ -52,8 +54,6 @@ Galaxy's mission is to become the world's largest network of decentralized nodes
 - [ ] Repurpose existing Raspberry Pi projects to grow those communities and reward participation
 
 ## Getting started
-
-- [Mac & Linux](#install-instructions-for-mac-and-linux--pi-and-x86-varieties)
 
 ### Install Instructions for Mac and Linux - Pi and x86 varieties
 
