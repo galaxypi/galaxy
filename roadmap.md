@@ -29,7 +29,7 @@ The following is the Galaxy Project Roadmap defining the project, technology, go
 #### Galaxy Marketplace (Web App)
 - [x] Galaxy React Web App v0.0.1-alpha
 
-## Milestones
+## Milestones (Unordered list)
 
 - [ ] **Galaxy Core**: Galaxy Testnet v0.0.5-alpha-demo (improving the design of the network for performance at the edges of the network)
 - [ ] **Galaxy Core**: Pi Image Builder
@@ -39,12 +39,6 @@ The following is the Galaxy Project Roadmap defining the project, technology, go
 - [ ] **Galaxy Core**: Airdrops to node-operators
 - [ ] **Galaxy Community**: Global Galaxy hackathons bootstrapped on the Raspberry Pi network
 - [ ] **Galaxy Marketplace**: A web interface where developers can quickly deploy apps and services to decentralized networks
-
-## Examples of what you can do with the nodes
-
-- [ ] Use nodes for airdrops focusing on reaching high signal developers vs. speculators
-- [ ] Pay users for compute, storage, bandwidth, and staking
-- [ ] Repurpose existing Raspberry Pi projects to grow those communities and reward participation
 
 ## Our Stack
 * A novel distributed ledger that enables millions of small nodes to participate meaningfully
