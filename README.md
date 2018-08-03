@@ -31,11 +31,16 @@ Galaxy is a network of tiny computers running various decentralized and crypto s
 
 ## Install Instructions for Mac and Linux (Pi and x86 varieties)
 
-#### Open a Terminal and run:
+### Open a Terminal and run:
 
+
+#### Linux
 ```
 bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install.sh)
 ```
+
+#### Mac
+bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install-mac.sh)
 
 Then you can do a `cd ~/galaxy` and you're ready to run the program!
 
