@@ -37,7 +37,12 @@
 
 ## Overview
 
-Galaxy is a network of tiny computers running various decentralized and crypto services, cryptocurrencies and networks around the world. These tiny computers provide networks to quickly bootstrap to a galaxy of nodes.
+Galaxy's mission is to become the world's largest network of decentralized nodes offering services for decentralized networks. We are looking to do this by executing the following;
+
+- [ ] Focus on building and scaling the Galaxy blockchain and currency
+- [ ] Build a large community of open source developers
+- [ ] Provide high developers with access to this network of nodes by building and maintaining an SDK
+- [ ] Provide the best experience for developers to quickly deploy apps and services to decentralized networks
 
 ## Getting started
 
