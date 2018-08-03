@@ -53,4 +53,4 @@ echo -e "\nSuccessfully installed and set up the Galaxy Blockchain."
 echo "You can now open a terminal in ~/galaxy and run \`./galaxyd start\` to start your node."
 
 # Thanks the user
-echo "Thank you for testing our blockchain!
+echo "Thank you for testing our blockchain!"
