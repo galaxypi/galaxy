@@ -40,7 +40,9 @@ bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install
 ```
 
 #### Mac
+```
 bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install-mac.sh)
+```
 
 Then you can do a `cd ~/galaxy` and you're ready to run the program!
 
