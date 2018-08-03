@@ -17,7 +17,7 @@ The following is the Galaxy Project Roadmap defining the project, technology, go
 - [ ] Work with the Galaxy developer community to provide developer tools offering the highest value
 - [ ] Provide the best experience for developers to quickly deploy apps and services to decentralized networks
 
-## Execution to date (3 weeks)
+## Execution to date (3 sprints)
 
 #### Galaxy Core (Blockchain)
 - [x] Galaxy Testnet v0.0.1-alpha-demo
