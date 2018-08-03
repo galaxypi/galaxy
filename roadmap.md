@@ -10,6 +10,10 @@ The following is the Galaxy Project Roadmap defining the project, technology, go
 - [Milestones](#milestones)
 - [Tech Stack](#tech-stack)
 
+## Overview
+
+Galaxy's mission is to become the world's largest network of decentralized nodes offering services for decentralized networks.
+
 ## Goals
 
 - [ ] Become the world's largest network of decentralized nodes offering services for decentralized networks
@@ -56,7 +60,7 @@ Galaxy aims to make meaningful participation in a distributed ledger possible fr
 * Limited Storage Capacity
 * Consensus Latency
 
-The only advantage that we truly have in this case is that there can be many, cheap, small computers.  We will  devise a decentralized system that can use these machines as a cohesive whole.  This will involve limiting the state storage needed on any given device, as well as new ways of thinking about the network.  
+The only advantage that we truly have in this case is that there can be many, cheap, small computers.  We will  devise a decentralized system that can use these machines as a cohesive whole.  This will involve limiting the state storage needed on any given device, as well as new ways of thinking about the network.
 
 <div align="right">
     <b><a href="#galaxy-project-roadmap">^ back to top</a></b>
