@@ -91,3 +91,9 @@ pioneer parrot blind token have bottom lonely ginger payment lonely erase bargai
 Then, come and join us on [Discord](https://discord.gg/9RnYvAS)
 
 and we'll send you some tokens!
+
+<div align="right">
+  <a href="https://opensource.guide/how-to-contribute/#why-contribute-to-open-source">
+    <img src="https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/" alt="Open Source">
+  </a>
+</div>
