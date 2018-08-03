@@ -29,6 +29,7 @@
 - [Status](#status)
 - [Overview](#overview)
 - [Getting started](#getting-started)
+- [Roadmap](/roadmap.md)
 
 ## Status
 
