@@ -10,16 +10,6 @@ The following is the Galaxy Project Roadmap defining the project, technology, go
 - [Milestones](#milestones)
 - [Tech Stack](#tech-stack)
 
-## Overview
-
-Galaxy's mission is to become the world's largest network of decentralized nodes offering services for decentralized networks.  We are focused on scaling a currency across the network, launching an SDK for developers to create apps and other nodes that run acorss the network and tightly integrating our nodes with mobile phones in particular.  We think smartphones make for poor nodes but they servce as ideal platforms to control and monitor nodes.
-
-Galaxy is comprised of a currency which can be earned for compute tasks across the network and developer tools like a command line interface and a software development kit are in the pipeline which will allow developers to create third party apps and extend the capabilitities of the network.
-
-Relatively speaking very few people actually run nodes for a number of reasons.  First of all most users own a laptop and a smartphone, both of which make for poor nodes as they are not designed to be always working, always connected and dedicated to a specific task.  Nodes are not easy to setup even for experienced developers.  Configuring a node can be very time intensive and often is unsupported with little to no documentation.  Our goal is to provide a platform for developers to easily create new nodes and a marketplace where end users can easily run nodes and participate in those networks.
-
-Many blockchains and protocols have a very hard time achieving critical mass of third party developers building on top of their protocol.  We believe there is enormous potential in focusing on the existing Raspberry Pi community and all of the fun projects associated with that open source community.
-
 ## Goals
 
 - [ ] To become the world's largest network of decentralized nodes offering services for decentralized networks.
@@ -41,7 +31,7 @@ Many blockchains and protocols have a very hard time achieving critical mass of 
 
 ## Milestones
 
-- [ ] **Galaxy Core**: Galaxy Testnet v0.0.5-alpha-demo (Improving the design of the network for performance at the edges)
+- [ ] **Galaxy Core**: Galaxy Testnet v0.0.5-alpha-demo (Improving the design of the network for performance at the edges of the network)
 - [ ] **Galaxy Core**: Pi Image Builder
 - [ ] **Growth**: Increasing the number of validators and full nodes
 - [ ] **Galaxy Token**: Launch the currency
@@ -55,6 +45,13 @@ Many blockchains and protocols have a very hard time achieving critical mass of 
 - [ ] Use nodes for airdrops focusing on reaching high signal developers vs speculators
 - [ ] Pay users for compute, storage, bandwidth, and staking
 - [ ] Repurpose existing Raspberry pi projects to grow those communitieis and reward participation.
+
+## Our Stack
+* Cosmos-SDK
+* ZeroTier
+* Gvisor Containers
+* Raspian Linux
+* Raspberry Pi Hardware
 
 <div align="right">
     <b><a href="#galaxy-project-roadmap">^ back to top</a></b>
