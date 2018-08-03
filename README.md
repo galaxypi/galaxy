@@ -32,6 +32,7 @@
     - [Manual install](/manualinstall.md)
     - [Build instructions](/build.md)
 - [Roadmap](/roadmap.md)
+- [Use Cases](#use-cases)
 
 ## Status
 
@@ -46,12 +47,6 @@ Galaxy's mission is to become the world's largest network of decentralized nodes
 - [ ] Build a large community of open source developers
 - [ ] Provide high developers with access to this network of nodes by building and maintaining an SDK
 - [ ] Provide the best experience for developers to quickly deploy apps and services to decentralized networks
-
-#### Examples of what the network can be used for
-
-- [ ] Use nodes for airdrops focusing on reaching high signal developers vs. speculators
-- [ ] Pay users for compute, storage, bandwidth, staking, etc.
-- [ ] Repurpose existing Raspberry Pi projects to grow those communities and reward participation
 
 ## Getting started
 
@@ -91,6 +86,14 @@ pioneer parrot blind token have bottom lonely ginger payment lonely erase bargai
 Then, come and join us on [Discord](https://discord.gg/9RnYvAS)
 
 and we'll send you some tokens!
+
+## Use Cases
+
+#### Examples of what the network can be used for
+
+- [ ] Use nodes for airdrops focusing on reaching high signal developers vs. speculators
+- [ ] Pay users for compute, storage, bandwidth, staking, etc.
+- [ ] Repurpose existing Raspberry Pi projects to grow those communities and reward participation
 
 <div align="right">
   <a href="https://opensource.guide/how-to-contribute/#why-contribute-to-open-source">
