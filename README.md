@@ -29,8 +29,8 @@
 - [Status](#status)
 - [Overview](#overview)
 - [Getting started (Mac & Linux)](#getting-started)
-    - [Manual install](/manualinstall.md)
-    - [Build instructions](/build.md)
+    - [Manual install](/docs/manualinstall.md)
+    - [Build instructions](/docs/build.md)
 - [Roadmap](/roadmap.md)
 - [Use Cases](#use-cases)
 
