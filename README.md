@@ -91,7 +91,7 @@ and we'll send you some tokens!
 
 #### Examples of what the network can be used for
 
-- [ ] Use nodes for airdrops focusing on reaching high signal developers vs. speculators
+- [ ] Use nodes for airdrops to reach high signal developers actively participating in the network instead of speculators
 - [ ] Pay users for compute, storage, bandwidth, staking, etc.
 - [ ] Repurpose existing Raspberry Pi projects to grow those communities and reward participation
 
