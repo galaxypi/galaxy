@@ -66,9 +66,9 @@ A conservative design involves a "core" where transactions happen.  Eg:  "100-30
 
 Nodes that carry state should be compenstated for doing so, since it is a service to the network.  Nodes that don't carry any state should be able to perform compute tasks for users of the network, which should be orchestrated by "compute markets."  Each node should carry its own wallet, making airdrops of tokens by developers of platform-native dapps to node operators possible.  We don't claim to have a panacea to the engineering problems that we would like to address.  Instead, we think that these problems are addressable incrementally, and through focused research:
 
-How do we make a huge number of nodes work well together?
-How do we provide a network layer that allows nodes to work together like they are in the same room?
-How do we allow develoeprs to build distributed systems of their own on top of ours with no dependency on ours?  (eg: freestanding systems, so that Galaxy is not a threat to the developers' systems)
+* How do we make a huge number of nodes work well together?
+* How do we provide a network layer that allows nodes to work together like they are in the same room?
+* How do we allow develoeprs to build distributed systems of their own on top of ours with no dependency on ours?  (eg: freestanding systems, so that Galaxy is not a threat to the developers' systems)
 
 
 <div align="right">
