@@ -37,6 +37,7 @@
     - [Build instructions](/docs/build.md)
 - [Roadmap](/roadmap.md)
 - [Use Cases](#use-cases)
+- [Community](/docs/community.md)
 
 ## Status
 
