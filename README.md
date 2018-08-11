@@ -4,21 +4,16 @@
   </a>
   <h3 align="center">Galaxy</h3>
   <p align="center">
-    Galaxy Pi core software repository
+    Galaxy is a network of decentralized nodes offering services for decentralized platforms
     <br/>
     <a href="http://galaxy.ooo"><strong>galaxy.ooo</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/galaxypi/">Explore</a>
-    <br/>
-    <br/>
-    <a href="https://twitter.com/intent/follow?screen_name=galaxypilab">
-      <img src="https://img.shields.io/twitter/url/https/twitter.com/galaxypilab.svg?style=social&label=Follow%20%40galaxypilab&logo=twitter" alt="follow on Twitter">
-    </a>
+    <a href="https://github.com/galaxypi/galaxy/issues/new?template=feature.md&labels=feature">Request feature</a>
     &nbsp;&middot;&nbsp;
-    <a href="https://github.com/galaxypi/galaxy/stargazers">
-      <img src="https://img.shields.io/github/stars/galaxypi/galaxy.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo">
-    </a>
+    <a href="https://github.com/galaxypi/">Explore</a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://github.com/galaxypi/">Report bug</a>
   </p>
 </p>
 
@@ -46,6 +41,12 @@
 
 ## Status
 
+<a href="https://twitter.com/intent/follow?screen_name=galaxypilab">
+  <img src="https://img.shields.io/twitter/url/https/twitter.com/galaxypilab.svg?style=social&label=Follow%20%40galaxypilab&logo=twitter" alt="follow on Twitter">
+</a>
+<a href="https://github.com/galaxypi/galaxy/stargazers">
+  <img src="https://img.shields.io/github/stars/galaxypi/galaxy.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo">
+</a>
 ![Galaxy Version](https://img.shields.io/badge/Galaxy_Testnet-v0.0.4--alpha-red.svg)
 ![Build Status](https://img.shields.io/badge/Build_Status-passing-brightgreen.svg)
 
@@ -190,11 +191,7 @@ Example:
 
 ## Feature requests
 
-**Feature requests are highly encouraged**.
-
-**We want to hear from you on what you'd like to see and/or how you'd like to utilize or access the Galaxy node network**.
-
-**We are here for the decentralized community so please let us know**.
+**Feature requests are highly encouraged. We want to hear from you on what you'd like to see and/or how you'd like to utilize or access the Galaxy node network**.
 
 When submitting a feature request, take a moment to find out whether your idea fits with the scope and aims of the project. It's up to *you* to make a strong case to convince community members of the merits of this feature. Please provide as much detail and context as possible, providing relevant links, prior art, or live demos whenever possible.
 
