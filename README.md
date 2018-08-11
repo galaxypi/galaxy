@@ -59,7 +59,7 @@
 <br/>
 <br/>
 
-![Galaxy Version](https://img.shields.io/badge/Galaxy-v0.0.4--testnet--alpha-red.svg)
+![Galaxy Version](https://img.shields.io/badge/Galaxy-v0.0.4--testnet--alpha-red.svg?colorB=FF0000)
 ![Build Status](https://img.shields.io/badge/Build_Status-passing-brightgreen.svg)
 
 
