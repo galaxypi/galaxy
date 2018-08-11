@@ -40,10 +40,16 @@
 - [Use Cases](#use-cases)
 - [Community](/docs/community.md)
 
+<div align="right">
+    <b><a href="#galaxy">^ back to top</a></b>
+</div>
+
+
 ## Status
 
 ![Galaxy Version](https://img.shields.io/badge/Galaxy_Testnet-v0.0.4--alpha-red.svg)
 ![Build Status](https://img.shields.io/badge/Build_Status-passing-brightgreen.svg)
+
 
 ## Overview
 
@@ -53,6 +59,11 @@ Galaxy's mission is to become the world's largest network of decentralized nodes
 - [ ] Build a large community of open source developers
 - [ ] Provide high developers with access to this network of nodes by building and maintaining an SDK
 - [ ] Provide the best experience for developers to quickly deploy apps and services to decentralized networks
+
+<div align="right">
+    <b><a href="#galaxy">^ back to top</a></b>
+</div>
+
 
 ## Getting started
 
@@ -93,6 +104,11 @@ Then, come and join us on [Discord](https://discord.gg/9RnYvAS)
 
 and we'll send you some tokens!
 
+<div align="right">
+    <b><a href="#galaxy">^ back to top</a></b>
+</div>
+
+
 ## Contributing
 
 Finding opportunities to contribute
@@ -113,6 +129,28 @@ Whether you are a veteran programmer, beginner programmer, or don't program at a
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
 </div>
+
+
+## Using the issue tracker
+
+The [issue tracker](https://github.com/galaxypi/galaxy/issues) is the preferred channel for [bug reports](#bug-reports), [features requests](#feature-requests) and [submitting pull requests](#pull-requests), but please respect the following restrictions:
+
+* Please **do not** use the issue tracker for personal support requests.  Please use the [Galaxy Discord](https://discord.gg/36K9nan) chat app as it is a better places to get help.
+
+* Please **do not** derail or troll issues. Keep the discussion on topic and respect the opinions of others.
+
+* Please **do not** post comments consisting solely of "+1" or ":thumbsup:". Use [GitHub's "reactions" feature](https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments) instead. We reserve the right to delete comments which violate this rule.
+
+### When reporting a bug, include:
+
+* Device and device version (Raspberry Pi Zero, Raspberry Pi 2, MacBook Pro etc..)
+
+* Operating system and version (Mac OS X, Linux, Raspian, etc..)
+
+<div align="right">
+    <b><a href="#galaxy">^ back to top</a></b>
+</div>
+
 
 ## Use Cases
 
