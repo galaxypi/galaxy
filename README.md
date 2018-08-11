@@ -106,7 +106,7 @@ If the ticket your interested in is being worked, feel free to provide feedback.
 Otherwise, leave a comment addressing one of the [repo maintainers](#maintainers) to get
 the conversation started.
 
-Whether you are a veteran programmer, beginner programmer, or don't program at all, we are positive you will find a place to helping us build a decentralized internet!
+Whether you are a veteran programmer, beginner programmer, or don't program at all, we are positive you will find a place to helping us build the largest decentralized node network.
 
 [Just Ask!]()
 
