@@ -14,6 +14,8 @@
     <a href="https://github.com/galaxypi/">Explore</a>
     &nbsp;&middot;&nbsp;
     <a href="https://github.com/galaxypi/galaxy/issues/new?template=issues.md">Report bug</a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://discord.gg/36K9nan">Chat</a>
   </p>
 </p>
 
@@ -41,6 +43,9 @@
 
 ## Status
 
+<a href="https://discord.gg/36K9nan">
+  <img src="https://img.shields.io/discord/102860784329052160.svg?style=social&label=Chat&maxAge=2592000" alt="Star Repo">
+</a>
 
 <a href="https://discord.gg/36K9nan">
   <img src="https://img.shields.io/discord/102860784329052160.svg" alt="chat on Discord">
@@ -53,6 +58,7 @@
 </a>
 <br/>
 <br/>
+
 ![Galaxy Version](https://img.shields.io/badge/Galaxy-v0.0.4--testnet--alpha-red.svg)
 ![Build Status](https://img.shields.io/badge/Build_Status-passing-brightgreen.svg)
 
