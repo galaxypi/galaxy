@@ -16,6 +16,15 @@
     <a href="https://github.com/galaxypi/galaxy/issues/new?template=issues.md">Report bug</a>
     &nbsp;&middot;&nbsp;
     <a href="https://discord.gg/36K9nan">Chat</a>
+    <br/>
+    <br/>
+    <a href="https://twitter.com/intent/follow?screen_name=galaxypilab">
+      <img src="https://img.shields.io/twitter/url/https/twitter.com/galaxypilab.svg?style=social&label=Follow%20%40galaxypilab&logo=twitter" alt="follow on Twitter">
+    </a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://github.com/galaxypi/galaxy/stargazers">
+      <img src="https://img.shields.io/github/stars/galaxypi/galaxy.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo">
+    </a>
   </p>
 </p>
 
@@ -43,24 +52,8 @@
 
 ## Status
 
-<a href="https://discord.gg/36K9nan">
-  <img src="https://img.shields.io/discord/102860784329052160.svg?style=social&label=Chat&maxAge=2592000" alt="Star Repo">
-</a>
-
-<a href="https://discord.gg/36K9nan">
-  <img src="https://img.shields.io/discord/102860784329052160.svg" alt="chat on Discord">
-</a>
-<a href="https://twitter.com/intent/follow?screen_name=galaxypilab">
-  <img src="https://img.shields.io/twitter/url/https/twitter.com/galaxypilab.svg?style=social&label=Follow%20%40galaxypilab&logo=twitter" alt="follow on Twitter">
-</a>
-<a href="https://github.com/galaxypi/galaxy/stargazers">
-  <img src="https://img.shields.io/github/stars/galaxypi/galaxy.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo">
-</a>
-<br/>
-<br/>
-
-![Galaxy Version](https://img.shields.io/badge/Galaxy-v0.0.4--testnet--alpha-red.svg?colorB=FF0000)
-![Build Status](https://img.shields.io/badge/Build_Status-passing-brightgreen.svg)
+![Galaxy Version](https://img.shields.io/badge/Galaxy-v0.0.4--testnet--alpha-red.svg?colorA=000000?colorB=FF0000)
+![Build Status](https://img.shields.io/badge/Build_Status-passing-brightgreen.svg?colorA=000000)
 
 
 ## Overview
