@@ -194,7 +194,11 @@ Example:
 
 ## Feature requests
 
-**Feature requests are more than welcome**.
+**Feature requests are highly encouraged**.
+
+**We want to hear from you on what you'd like to see and/or how you'd like to utilize or access the Galaxy node network**.
+
+**We are here for the decentralized community so please let us know**.
 
 When submitting a feature request, take a moment to find out whether your idea fits with the scope and aims of the project. It's up to *you* to make a strong case to convince community members of the merits of this feature. Please provide as much detail and context as possible, providing relevant links, prior art, or live demos whenever possible.
 
