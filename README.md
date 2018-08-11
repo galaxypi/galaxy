@@ -35,6 +35,7 @@
 - [Getting started (Mac & Linux)](#getting-started)
     - [Manual install](/docs/manualinstall.md)
     - [Build instructions](/docs/build.md)
+- [Contribute](#finding-opportunities-to-contribute)
 - [Roadmap](/roadmap.md)
 - [Use Cases](#use-cases)
 - [Community](/docs/community.md)
@@ -91,6 +92,27 @@ pioneer parrot blind token have bottom lonely ginger payment lonely erase bargai
 Then, come and join us on [Discord](https://discord.gg/9RnYvAS)
 
 and we'll send you some tokens!
+
+## Contributing
+
+Finding opportunities to contribute
+
+Visit our issue tracker:
+
+- [Issue Tracker](https://github.com/galaxypi/galaxy/issues)
+
+If the ticket your interested in is being worked, feel free to provide feedback.
+
+Otherwise, leave a comment addressing one of the [repo maintainers](#maintainers) to get
+the conversation started.
+
+Whether you are a veteran programmer, beginner programmer, or don't program at all, we are positive you will find a place to helping us build a decentralized internet!
+
+[Just Ask!]()
+
+<div align="right">
+    <b><a href="#theorem">^ back to top</a></b>
+</div>
 
 ## Use Cases
 
