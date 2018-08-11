@@ -9,11 +9,11 @@
     <a href="http://galaxy.ooo"><strong>galaxy.ooo</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/galaxypi/galaxy/issues/new?template=feature.md&labels=feature">Request feature</a>
+    <a href="https://github.com/galaxypi/galaxy/issues/new?template=feature_request.md">Request feature</a>
     &nbsp;&middot;&nbsp;
     <a href="https://github.com/galaxypi/">Explore</a>
     &nbsp;&middot;&nbsp;
-    <a href="https://github.com/galaxypi/">Report bug</a>
+    <a href="https://github.com/galaxypi/galaxy/issues/new?template=issues.md">Report bug</a>
   </p>
 </p>
 
