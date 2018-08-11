@@ -35,7 +35,7 @@
 - [Getting started (Mac & Linux)](#getting-started)
     - [Manual install](/docs/manualinstall.md)
     - [Build instructions](/docs/build.md)
-- [Contribute](#finding-opportunities-to-contribute)
+- [Contributing](#contributing)
 - [Roadmap](/roadmap.md)
 - [Use Cases](#use-cases)
 - [Community](/docs/community.md)
@@ -111,7 +111,7 @@ Whether you are a veteran programmer, beginner programmer, or don't program at a
 [Just Ask!]()
 
 <div align="right">
-    <b><a href="#theorem">^ back to top</a></b>
+    <b><a href="#galaxy">^ back to top</a></b>
 </div>
 
 ## Use Cases
