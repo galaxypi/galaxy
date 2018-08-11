@@ -35,8 +35,10 @@
 - [Getting started (Mac & Linux)](#getting-started)
     - [Manual install](/docs/manualinstall.md)
     - [Build instructions](/docs/build.md)
-- [Contributing](#contributing)
 - [Roadmap](/roadmap.md)
+- [Contributing](#contributing)
+- [Using the issue tracker](#using-the-issue-tracker)
+- [Bug reports](#bug-reports)
 - [Use Cases](#use-cases)
 - [Community](/docs/community.md)
 
@@ -100,7 +102,7 @@ It is the only way to recover your account if you ever forget your password.
 pioneer parrot blind token have bottom lonely ginger payment lonely erase bargain produce random season polar real clerk render tip cable badge trend sign
 ```
 
-Then, come and join us on [Discord](https://discord.gg/9RnYvAS)
+Then, come and join us on [Discord](https://discord.gg/36K9nan)
 
 and we'll send you some tokens!
 
