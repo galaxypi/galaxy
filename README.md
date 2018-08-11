@@ -41,6 +41,10 @@
 
 ## Status
 
+
+<a href="https://discord.gg/36K9nan">
+  <img src="https://img.shields.io/discord/102860784329052160.svg" alt="chat on Discord">
+</a>
 <a href="https://twitter.com/intent/follow?screen_name=galaxypilab">
   <img src="https://img.shields.io/twitter/url/https/twitter.com/galaxypilab.svg?style=social&label=Follow%20%40galaxypilab&logo=twitter" alt="follow on Twitter">
 </a>
@@ -49,7 +53,6 @@
 </a>
 <br/>
 <br/>
-[![Discord](https://img.shields.io/discord/102860784329052160.svg)](https://discord.gg/36K9nan)
 ![Galaxy Version](https://img.shields.io/badge/Galaxy-v0.0.4--testnet--alpha-red.svg)
 ![Build Status](https://img.shields.io/badge/Build_Status-passing-brightgreen.svg)
 
