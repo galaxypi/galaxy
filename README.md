@@ -35,13 +35,14 @@
 - [Quick Start](#quick-start)
 - [Status](#status)
 - [Overview](#overview)
-- [Roadmap](/roadmap.md)
-- [Contributing](#contributing)
+- [Bug report](#bug-report)
 - [Feature requests](#feature-requests)
-- [Maintainers](#maintainers)
-- [Use Cases](#use-cases)
-- [License](#license)
+- [Contributing](#contributing)
+- [Roadmap](/docs/roadmap.md)
 - [Community](/docs/community.md)
+- [Maintainers](#maintainers)
+- [License](#license)
+
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
@@ -98,7 +99,7 @@ Galaxy's mission is to become the world's largest network of decentralized nodes
 
 Please read through our [contributing guidelines](https://github.com/galaxypi/galaxy/blob/develop/docs/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
-Moreover, if your pull request contains JavaScript patches or features, you must include relevant unit tests. All code should conform to the [Code Guidelines](#code-guidelines).
+Moreover, if your pull request contains JavaScript patches or features, you must include relevant unit tests. All code should conform to the [Code Guidelines](https://github.com/galaxypi/galaxy/blob/develop/docs/CONTRIBUTING.md#code-guidelines).
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
@@ -129,19 +130,6 @@ When submitting a feature request, take a moment to find out whether your idea f
 
 - <https://twitter.com/guylepage3>
 - <https://github.com/guylepage3>
-
-<div align="right">
-    <b><a href="#galaxy">^ back to top</a></b>
-</div>
-
-
-## Use Cases
-
-#### Examples of what the network can be used for
-
-- [ ] Use nodes for airdrops to reach high signal developers actively participating in the network instead of speculators
-- [ ] Pay users for compute, storage, bandwidth, staking, etc.
-- [ ] Repurpose existing Raspberry Pi projects to grow those communities and reward participation
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>

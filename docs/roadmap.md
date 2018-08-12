@@ -72,6 +72,15 @@ Nodes that carry state should be compenstated for doing so, since it is a servic
 * How do we allow develoeprs to build distributed systems of their own on top of ours with no dependency on ours?  (eg: freestanding systems, so that Galaxy is not a threat to the developers' systems)
 
 
+## Use Cases
+
+#### Examples of what the network can be used for
+
+- [ ] Use nodes for airdrops to reach high signal developers actively participating in the network instead of speculators
+- [ ] Pay users for compute, storage, bandwidth, staking, etc.
+- [ ] Repurpose existing Raspberry Pi projects to grow those communities and reward participation
+
+
 <div align="right">
     <b><a href="#galaxy-project-roadmap">^ back to top</a></b>
 </div>
