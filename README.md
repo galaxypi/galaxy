@@ -58,8 +58,7 @@
 
 [![Galaxy Version](https://img.shields.io/badge/Galaxy-v0.0.4--testnet--alpha-red.svg?colorA=212121&colorB=FF0000)](http://github.com/galaxypi/galaxy)
 [![Build Status](https://img.shields.io/badge/Build_Status-Passing-brightgreen.svg?colorA=212121&colorB=00BB00)](http://github.com/galaxypi/galaxy)
-
-#### Current tech stack
+<br/>
 [![Go Version](https://img.shields.io/badge/Go-v1.10.3-blue.svg?colorA=212121&colorB=007BFF)](http://golang.org/)
 [![Viper Version](https://img.shields.io/badge/Viper-v1.0.0-blue.svg?colorA=212121&colorB=007BFF)](http://github.com/spf13/viper)
 [![Testify Version](https://img.shields.io/badge/Testify-v1.2.1-blue.svg?colorA=212121&colorB=007BFF)](http://github.com/stretchr/testify)
@@ -98,7 +97,7 @@ Open a Terminal and run:
 bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install.sh)
 ```
 
-#### Mac
+#### macOS
 ```
 bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install-mac.sh)
 ```
@@ -224,6 +223,7 @@ Adhering to the following process is the best way to get your work included in t
 
    i. On GitHub, navigate to the [GalaxyPi/Galaxy](
    https://github.com/galaxypi/galaxy) repository.
+
    ii. In the top-right corner of the page, click **Fork**.
 
 
@@ -232,7 +232,8 @@ Adhering to the following process is the best way to get your work included in t
    configure the remotes:
 
    ```bash
-   # Clone your fork of the repo into the current directory git clone https://github.com/<your-username>/galaxy.git
+   # Clone your fork of the repo into the current directory
+   git clone https://github.com/<your-username>/galaxy.git
    # Navigate to the newly cloned directory
    cd galaxy
    # Assign the original repo to a remote called "upstream"
