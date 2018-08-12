@@ -4,12 +4,18 @@
   </a>
   <h3 align="center">Galaxy</h3>
   <p align="center">
-    Galaxy Pi core software repository
+    Galaxy is a network of decentralized nodes offering services for decentralized platforms
     <br/>
     <a href="http://galaxy.ooo"><strong>galaxy.ooo</strong></a>
     <br/>
     <br/>
+    <a href="https://github.com/galaxypi/galaxy/issues/new?template=feature_request.md">Request feature</a>
+    &nbsp;&middot;&nbsp;
     <a href="https://github.com/galaxypi/">Explore</a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://github.com/galaxypi/galaxy/issues/new?template=issues.md">Report bug</a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://discord.gg/36K9nan">Chat</a>
     <br/>
     <br/>
     <a href="https://twitter.com/intent/follow?screen_name=galaxypilab">
@@ -46,8 +52,19 @@
 
 ## Status
 
-![Galaxy Version](https://img.shields.io/badge/Galaxy_Testnet-v0.0.4--alpha-red.svg)
-![Build Status](https://img.shields.io/badge/Build_Status-passing-brightgreen.svg)
+[![Galaxy Version](https://img.shields.io/badge/Galaxy-v0.0.4--testnet--alpha-red.svg?colorA=212121&colorB=FF0000)](http://github.com/galaxypi/galaxy)
+[![Build Status](https://img.shields.io/badge/Build_Status-passing-brightgreen.svg?colorA=212121&colorB=00BB00)](http://github.com/galaxypi/galaxy)
+[![Go Version](https://img.shields.io/badge/Go-v1.10.3-blue.svg?colorA=212121&colorB=007BFF)](http://golang.org/)
+[![Viper Version](https://img.shields.io/badge/Viper-v1.0.0-blue.svg?colorA=212121&colorB=007BFF)](http://github.com/spf13/viper)
+[![Tendermint Version](https://img.shields.io/badge/Tendermint-v0.22.0-red.svg?colorA=212121&colorB=FF0000)](http://github.com/tendermint/tendermint)
+[![Cosmos-SDK Version](https://img.shields.io/badge/Cosmos_SDK-v0.22.0-red.svg?colorA=212121&colorB=FF0000)](http://github.com/cosmos/cosmos-sdk)
+[![Testify Version](https://img.shields.io/badge/Testify-v1.2.1-blue.svg?colorA=212121&colorB=007BFF)](http://github.com/stretchr/testify)
+[![Cobra Version](https://img.shields.io/badge/Cobra-v0.0.1-red.svg?colorA=212121&colorB=FF0000)](http://github.com/spf13/cobra)
+[![Go Protocol Buffers Version](https://img.shields.io/badge/ProtoBuf-v1.1.0-blue.svg?colorA=212121&colorB=007BFF)](http://github.com/golang/protobuf)
+
+<div align="right">
+    <b><a href="#galaxy">^ back to top</a></b>
+</div>
 
 
 ## Overview
@@ -155,6 +172,8 @@ The [issue tracker](https://github.com/galaxypi/galaxy/issues) is the preferred 
 
 A bug is a _demonstrable problem_ that is caused by the code in the repository. Good bug reports are extremely helpful, so thanks!
 
+<b><a href="https://github.com/galaxypi/galaxy/issues/new?template=issues.md">› Report bug</a></b>
+
 Guidelines for bug reports:
 
 1. **Debug yuor code** &mdash; [Debug your Go code with GDB](https://golang.org/doc/gdb) to ensure your problem isn't caused by a simple error in your own code.
@@ -165,24 +184,6 @@ Guidelines for bug reports:
 
 A good bug report shouldn't leave others needing to chase you up for more information. Please try to be as detailed as possible in your report. What is your environment? What steps will reproduce the issue? What device and OS are you using when experiencing the problem? Do other environments show the bug differently? What would you expect to be the outcome? All these details will help people to fix any potential bugs.
 
-Example:
-
-> Short and descriptive example bug report title
->
-> A summary of the issue and the device/OS environment in which it occurs. If
-> suitable, include the steps required to reproduce the bug.
->
-> 1. This is the first step
-> 2. This is the second step
-> 3. Further steps, etc.
->
-> `<url>` - a link to the reduced test case
->
-> Any other information you want to share that is relevant to the issue being
-> reported. This might include the lines of code that you have identified as
-> causing the bug, and potential solutions (and your opinions on their
-> merits).
-
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
 </div>
@@ -190,11 +191,9 @@ Example:
 
 ## Feature requests
 
-**Feature requests are highly encouraged**.
+**Feature requests are highly encouraged. We want to hear from you on what you'd like to see and/or how you'd like to utilize or access the Galaxy node network**.
 
-**We want to hear from you on what you'd like to see and/or how you'd like to utilize or access the Galaxy node network**.
-
-**We are here for the decentralized community so please let us know**.
+<b><a href="https://github.com/galaxypi/galaxy/issues/new?template=feature_request.md">› Request a feature</a></b>
 
 When submitting a feature request, take a moment to find out whether your idea fits with the scope and aims of the project. It's up to *you* to make a strong case to convince community members of the merits of this feature. Please provide as much detail and context as possible, providing relevant links, prior art, or live demos whenever possible.
 
