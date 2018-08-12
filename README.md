@@ -43,6 +43,10 @@
 - [Maintainers](#maintainers)
 - [License](#license)
 
+<div align="right">
+    <b><a href="#galaxy">^ back to top</a></b>
+</div>
+
 
 ## Quick start
 
@@ -52,6 +56,10 @@ Quick start options:
 - macOS - `bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install-mac.sh)`
 
 Read the [Getting started](https://github.com/galaxypi/galaxy/blob/develop/docs/getting-started.md) page for more detailed information on installing and syncing Galaxy.
+
+<div align="right">
+    <b><a href="#galaxy">^ back to top</a></b>
+</div>
 
 
 ## Status
@@ -67,6 +75,10 @@ Read the [Getting started](https://github.com/galaxypi/galaxy/blob/develop/docs/
 [![Cosmos-SDK Version](https://img.shields.io/badge/Cosmos_SDK-v0.22.0-red.svg?colorA=212121&colorB=FF0000)](http://github.com/cosmos/cosmos-sdk)
 [![Cobra Version](https://img.shields.io/badge/Cobra-v0.0.1-red.svg?colorA=212121&colorB=FF0000)](http://github.com/spf13/cobra)
 
+<div align="right">
+    <b><a href="#galaxy">^ back to top</a></b>
+</div>
+
 
 ## Overview
 
@@ -77,6 +89,10 @@ Galaxy's mission is to become the world's largest network of decentralized nodes
 - [ ] Provide high developers with access to this network of nodes by building and maintaining an SDK
 - [ ] Provide the best experience for developers to quickly deploy apps and services to decentralized networks
 
+<div align="right">
+    <b><a href="#galaxy">^ back to top</a></b>
+</div>
+
 
 ## Contributing
 
@@ -84,10 +100,18 @@ Please read through our [contributing guidelines](https://github.com/galaxypi/ga
 
 Moreover, if your pull request contains JavaScript patches or features, you must include relevant unit tests. All code should conform to the [Code Guidelines](https://github.com/galaxypi/galaxy/blob/develop/docs/CONTRIBUTING.md#code-guidelines).
 
+<div align="right">
+    <b><a href="#galaxy">^ back to top</a></b>
+</div>
+
 
 ## Bug report
 
 Found a bug or issue? Please first read the [issue & bug guidelines](https://github.com/galaxypi/galaxy/blob/develop/docs/CONTRIBUTING.md#bug-reports) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/galaxypi/galaxy/issues/new?template=issues.md).
+
+<div align="right">
+    <b><a href="#galaxy">^ back to top</a></b>
+</div>
 
 
 ## Feature requests
@@ -97,6 +121,10 @@ Found a bug or issue? Please first read the [issue & bug guidelines](https://git
 <b><a href="https://github.com/galaxypi/galaxy/issues/new?template=feature_request.md">› Request a feature</a></b>
 
 When submitting a feature request, take a moment to find out whether your idea fits with the scope and aims of the project. It's up to *you* to make a strong case to convince community members of the merits of this feature. Please provide as much detail and context as possible, providing relevant links, prior art, or live demos whenever possible.
+
+<div align="right">
+    <b><a href="#galaxy">^ back to top</a></b>
+</div>
 
 
 ## Maintainers
@@ -110,6 +138,10 @@ When submitting a feature request, take a moment to find out whether your idea f
 
 - <https://twitter.com/guylepage3>
 - <https://github.com/guylepage3>
+
+<div align="right">
+    <b><a href="#galaxy">^ back to top</a></b>
+</div>
 
 
 ## License
