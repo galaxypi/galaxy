@@ -96,7 +96,7 @@ Galaxy's mission is to become the world's largest network of decentralized nodes
 
 ## Contributing
 
-Please read through our [contributing guidelines](https://github.com/galaxypi/galaxy/blob/develop/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+Please read through our [contributing guidelines](https://github.com/galaxypi/galaxy/blob/develop/docs/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
 Moreover, if your pull request contains JavaScript patches or features, you must include relevant unit tests. All code should conform to the [Code Guidelines](#code-guidelines).
 
