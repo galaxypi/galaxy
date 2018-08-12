@@ -31,13 +31,13 @@ Core Software.
 
 Welcome to the Galaxy network...
 
-### Receive Galaxy Coin
+## Receive Galaxy Coin
 
 - Join the [Galaxy Discord](https://discord.gg/36K9nan) chat app.
 - Ping one of the [repository maintainers](#maintainers) and request Galaxy
   coin.
 
-Be a part of the community
+#### Be a part of the community
 - [Follow on Twitter](https://twitter.com/GalaxyPiLab)
 - [Contribute](https://github.com/galaxypi/galaxy/blob/develop/CONTRIBUTING.md)
 - [Create a feature request](https://github.com/galaxypi/galaxy#feature-requests)
@@ -76,8 +76,10 @@ If you'd like, you can choose to manually install Galaxy as a option to the abov
    ```
 
 6. Add seeds
+   ```bash
    #Find 'seeds' & replace with the following
    seeds = "a0cd321854769978eea1ffb57d341ecaf6551905@149.28.45.92:26656"
+   ```
 
 7. Save and quit your nano file
    ```bash
