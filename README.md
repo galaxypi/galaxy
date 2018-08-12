@@ -59,7 +59,7 @@ Quick start options:
 - Linux - `bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install.sh)`
 - macOS - `bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install-mac.sh)`
 
-Read the [Getting started](https://github.com/galaxypi/galaxy/docs/getting-started.md) page for more detailed information on installing and syncing Galaxy.
+Read the [Getting started](https://github.com/galaxypi/galaxy/blob/develop/docs/getting-started.md) page for more detailed information on installing and syncing Galaxy.
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
