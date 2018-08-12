@@ -43,6 +43,7 @@
 - [Bug reports](#bug-reports)
 - [Feature requests](#feature-requests)
 - [Pull requests](#pull-requests)
+- [Code guidelines](#code-guidelines)
 - [Use Cases](#use-cases)
 - [Community](/docs/community.md)
 
@@ -219,11 +220,14 @@ Adhering to the following process is the best way to get your work included in t
 
 1. [Fork](https://help.github.com/fork-a-repo/) the project.
 
-   i. On GitHub, navigate to the [GalaxyPi/Galaxy](https://github.com/galaxypi/galaxy) repository.
+   i. On GitHub, navigate to the [GalaxyPi/Galaxy](
+   https://github.com/galaxypi/galaxy) repository.
    ii. In the top-right corner of the page, click **Fork**.
 
 
-2. [Clone your fork](https://help.github.com/articles/fork-a-repo/#keep-your-fork-synced), and configure the remotes:
+2. [Clone your fork](
+   https://help.github.com/articles/fork-a-repo/#keep-your-fork-synced), and
+   configure the remotes:
 
    ```bash
    # Clone your fork of the repo into the current directory git clone https://github.com/<your-username>/galaxy.git
@@ -240,15 +244,22 @@ Adhering to the following process is the best way to get your work included in t
    git pull upstream develop
    ```
 
-4. Create a new topic branch (off the main project development branch) to contain your feature, change, or fix:
+4. Create a new topic branch (off the main project development branch) to
+   contain your feature, change, or fix:
 
    ```bash
    git checkout -b pull-request/<topic-branch-name>
    ```
 
-5. Commit your changes in logical chunks. Please adhere to these [git commit message guidelines](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) or your code is unlikely to be merged into the main project. Use Git's [interactive rebase](https://help.github.com/articles/interactive-rebase) feature to tidy up your commits before making them public.
+5. Commit your changes in logical chunks. Please adhere to these
+   [git commit message guidelines](
+   http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
+   or your code is unlikely to be merged into the main project. Use Git's
+   [interactive rebase](https://help.github.com/articles/interactive-rebase)
+   feature to tidy up your commits before making them public.
 
-6. Locally merge (or rebase) the upstream development branch into your topic branch:
+6. Locally merge (or rebase) the upstream development branch into your topic
+   branch:
 
    ```bash
    git pull [--rebase] upstream develop
@@ -260,9 +271,30 @@ Adhering to the following process is the best way to get your work included in t
    git push origin pull-request/<topic-branch-name>
    ```
 
-8. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/) with a clear title and description against the `develop` branch.
+8. [Open a Pull Request](
+   https://help.github.com/articles/using-pull-requests/) with a clear title
+   and description against the `develop` branch.
 
-**IMPORTANT**: By submitting a patch, you agree to allow the project owners to license your work under the terms of the [MIT License](LICENSE) (if it includes code changes) and under the terms of the [Creative Commons Attribution 3.0 Unported License](docs/LICENSE) (if it includes documentation changes).
+**IMPORTANT**: By submitting a patch, you agree to allow the project owners to
+license your work under the terms of the [MIT License](LICENSE) (if it
+includes code changes) and under the terms of the [Creative Commons
+Attribution 3.0 Unported License](docs/LICENSE) (if it includes documentation
+changes).
+
+<div align="right">
+    <b><a href="#galaxy">^ back to top</a></b>
+</div>
+
+
+## Code guidelines
+
+### Go
+
+[Adhere to the **Effective Go** code guide.](https://golang.org/doc/effective_go.html) to write clear, idiomatic Go code.
+
+The code guide provides tips on items such as [Formatting](https://golang.org/doc/effective_go.html#formatting), [Commentary](https://golang.org/doc/effective_go.html#commentary), [Control Structures](https://golang.org/doc/effective_go.html#control-structures), [Functions](https://golang.org/doc/effective_go.html#functions), [Methods](https://golang.org/doc/effective_go.html#methods) and much more.
+
+New to Go? Get started by visiting [How to Write Go Code](https://golang.org/doc/code.html).
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
