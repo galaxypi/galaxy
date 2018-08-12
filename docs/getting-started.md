@@ -42,4 +42,10 @@ Welcome to the Galaxy network...
 - [Contribute](https://github.com/galaxypi/galaxy/blob/develop/CONTRIBUTING.md)
 - [Create a feature request](https://github.com/galaxypi/galaxy#feature-requests)
 
+## Manual installation
+
+Visit the [Manual installation](https://github.com/galaxypi/galaxy/blob/develop/docs/manual-install.md) page for manual instructions.
+
 ## Build instructions
+
+Learn more on how Galaxy build works. Visit the [Build instructions](https://github.com/galaxypi/galaxy/blob/develop/docs/build-instructions.md)
