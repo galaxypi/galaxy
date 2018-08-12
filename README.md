@@ -42,6 +42,7 @@
 - [Using the issue tracker](#using-the-issue-tracker)
 - [Bug reports](#bug-reports)
 - [Feature requests](#feature-requests)
+- [Pull requests](#pull-requests)
 - [Use Cases](#use-cases)
 - [Community](/docs/community.md)
 
@@ -198,6 +199,70 @@ A good bug report shouldn't leave others needing to chase you up for more inform
 <b><a href="https://github.com/galaxypi/galaxy/issues/new?template=feature_request.md">› Request a feature</a></b>
 
 When submitting a feature request, take a moment to find out whether your idea fits with the scope and aims of the project. It's up to *you* to make a strong case to convince community members of the merits of this feature. Please provide as much detail and context as possible, providing relevant links, prior art, or live demos whenever possible.
+
+<div align="right">
+    <b><a href="#galaxy">^ back to top</a></b>
+</div>
+
+
+## Pull requests
+
+Good pull requests—patches, improvements, new features—are a fantastic help. They should remain focused in scope and avoid containing unrelated commits.
+
+**Please ask first** before embarking on any significant pull request (e.g. implementing features, refactoring code, porting to a different language), otherwise you risk spending a lot of time working on something that the project's developers might not want to merge into the project.
+
+Pull requests that add new features should target [the `develop` git branch](https://github.com/galaxypi/galaxy/tree/develop), where they will be welcomed and duly considered.
+
+Please adhere to the [coding guidelines](#code-guidelines) used throughout the project (indentation, accurate comments, etc.) and any other requirements (such as test coverage).
+
+Adhering to the following process is the best way to get your work included in the project:
+
+1. [Fork](https://help.github.com/fork-a-repo/) the project.
+
+   i. On GitHub, navigate to the [GalaxyPi/Galaxy](https://github.com/galaxypi/galaxy) repository.
+   ii. In the top-right corner of the page, click **Fork**.
+
+
+2. [Clone your fork](https://help.github.com/articles/fork-a-repo/#keep-your-fork-synced), and configure the remotes:
+
+   ```bash
+   # Clone your fork of the repo into the current directory git clone https://github.com/<your-username>/galaxy.git
+   # Navigate to the newly cloned directory
+   cd galaxy
+   # Assign the original repo to a remote called "upstream"
+   git remote add upstream https://github.com/galaxypi/galaxy.git
+   ```
+
+3. If you cloned a while ago, get the latest changes from upstream:
+
+   ```bash
+   git checkout develop
+   git pull upstream develop
+   ```
+
+3. Create a new topic branch (off the main project development branch) to contain your feature, change, or fix:
+
+   ```bash
+   git checkout -b pull-request/<topic-branch-name>
+   ```
+
+4. Commit your changes in logical chunks. Please adhere to these [git commit message guidelines](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) or your code is unlikely to be merged into the main project. Use Git's [interactive rebase](https://help.github.com/articles/interactive-rebase) feature to tidy up your commits before making them public.
+
+5. Locally merge (or rebase) the upstream development branch into your topic branch:
+
+   ```bash
+   git pull [--rebase] upstream develop
+   ```
+
+6. Push your topic branch up to your fork:
+
+   ```bash
+   git push origin pull-request/<topic-branch-name>
+   ```
+
+7. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/) with a clear title and description against the `develop` branch.
+
+**IMPORTANT**: By submitting a patch, you agree to allow the project owners to license your work under the terms of the [MIT License](LICENSE) (if it includes code changes) and under the terms of the [Creative Commons Attribution 3.0 Unported License](docs/LICENSE) (if it includes documentation changes).
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
