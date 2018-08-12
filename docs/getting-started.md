@@ -31,7 +31,7 @@ Core Software.
 
 Welcome to the Galaxy network...
 
-## Receive Galaxy Coin
+### Receive Galaxy Coin
 
 - Join the [Galaxy Discord](https://discord.gg/36K9nan) chat app.
 - Ping one of the [repository maintainers](#maintainers) and request Galaxy

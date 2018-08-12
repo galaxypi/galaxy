@@ -4,7 +4,7 @@ If you'd like, you can choose to manually install Galaxy as a option to the abov
 
 1. Download the one of the [Galaxy binaries](https://github.com/galaxypi/galaxy/releases) that matches your Operating system and processor.
 
-2. Chosee the PATH to the binary. I.e. `/usr/bin`
+2. Chosee the PATH to the binary. i.e. `/usr/bin`
    ```bash
    NOTE: You may need to chmod +x the binaries that you copy to some place on your path.
    ```
