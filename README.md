@@ -223,7 +223,7 @@ Adhering to the following process is the best way to get your work included in t
 
    i. On GitHub, navigate to the [GalaxyPi/Galaxy](
    https://github.com/galaxypi/galaxy) repository.
-
+   <br/>
    ii. In the top-right corner of the page, click **Fork**.
 
 
