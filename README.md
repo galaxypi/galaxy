@@ -276,10 +276,8 @@ Adhering to the following process is the best way to get your work included in t
    and description against the `develop` branch.
 
 **IMPORTANT**: By submitting a patch, you agree to allow the project owners to
-license your work under the terms of the [MIT License](LICENSE) (if it
-includes code changes) and under the terms of the [Creative Commons
-Attribution 3.0 Unported License](docs/LICENSE) (if it includes documentation
-changes).
+license your work under the terms of the [MIT License](LICENSE.md) (if it
+includes code changes).
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
@@ -299,6 +297,11 @@ New to Go? Get started by visiting [How to Write Go Code](https://golang.org/doc
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
 </div>
+
+## License
+
+By contributing your code, you agree to license your contribution under the [MIT License](LICENSE.md).
+
 
 
 ## Use Cases
