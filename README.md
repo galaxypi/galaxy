@@ -32,11 +32,9 @@
 
 ## Table of contents
 
+- [Quick Start](#quick-start)
 - [Status](#status)
 - [Overview](#overview)
-- [Getting started (Mac & Linux)](#getting-started)
-    - [Manual install](/docs/manualinstall.md)
-    - [Build instructions](/docs/build.md)
 - [Roadmap](/roadmap.md)
 - [Contributing](#contributing)
 - [Using the issue tracker](#using-the-issue-tracker)
@@ -48,6 +46,20 @@
 - [Use Cases](#use-cases)
 - [License](#license)
 - [Community](/docs/community.md)
+
+<div align="right">
+    <b><a href="#galaxy">^ back to top</a></b>
+</div>
+
+
+## Quick start
+
+Quick start options:
+
+- Linux - `bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install.sh)`
+- macOS - `bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install-mac.sh)`
+
+Read the [Getting started](https://github.com/galaxypi/galaxy/docs/getting-started.md) page for more detailed information on installing and syncing Galaxy.
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
@@ -80,50 +92,6 @@ Galaxy's mission is to become the world's largest network of decentralized nodes
 - [ ] Build a large community of open source developers
 - [ ] Provide high developers with access to this network of nodes by building and maintaining an SDK
 - [ ] Provide the best experience for developers to quickly deploy apps and services to decentralized networks
-
-<div align="right">
-    <b><a href="#galaxy">^ back to top</a></b>
-</div>
-
-
-## Getting started
-
-### Install Instructions for Mac and Linux - Pi and x86 varieties
-
-Open a Terminal and run:
-
-#### Linux
-```
-bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install.sh)
-```
-
-#### macOS
-```
-bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install-mac.sh)
-```
-
-Then you can do a `cd ~/galaxy` and you're ready to run the program!
-
-The installer should prompt you to type `./galaxyd start` when it is finished. This will
-start syncing the blockchain, and your computer will become a part of the world's biggest network of nodes.
-
-After the blockchain syncs, you can make a wallet! In a second terminal window, you would type
-`./galaxycli keys add chicken` -- but you don't need to name your key chicken, you can call it anything you want.
-
-After entering a passphrase, you should see output approximately like:
-
-```
-NAME:	TYPE:	ADDRESS:						PUBKEY:
-chicken	local	cosmosaccaddr1ppuzqz2p4hg2fafa6d3ypnr0qhduzpah3e725p	cosmosaccpub1addwnpepqdsg4e6z0ghcqdeq8a5nmj4mvvwas0az39slu7398dvjcak6wc9fqh5n7yf
-**Important** write this seed phrase in a safe place.
-It is the only way to recover your account if you ever forget your password.
-
-pioneer parrot blind token have bottom lonely ginger payment lonely erase bargain produce random season polar real clerk render tip cable badge trend sign
-```
-
-Then, come and join us on [Discord](https://discord.gg/36K9nan)
-
-and we'll send you some tokens!
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
