@@ -44,7 +44,9 @@
 - [Feature requests](#feature-requests)
 - [Pull requests](#pull-requests)
 - [Code guidelines](#code-guidelines)
+- [Maintainers](#maintainers)
 - [Use Cases](#use-cases)
+- [License](#license)
 - [Community](/docs/community.md)
 
 <div align="right">
@@ -139,7 +141,7 @@ Visit our issue tracker:
 
 If the ticket your interested in is being worked, feel free to provide feedback.
 
-Otherwise, leave a comment addressing one of the [repo maintainers](#maintainers) to get
+Otherwise, leave a comment addressing one of the [repository maintainers](#maintainers) to get
 the conversation started.
 
 Whether you are a veteran programmer, beginner programmer, or don't program at all, we are positive you will find a place to helping us build the largest decentralized node network.
@@ -286,11 +288,14 @@ includes code changes).
 
 ## Code guidelines
 
-### Go
-
-[Adhere to the **Effective Go** code guide.](https://golang.org/doc/effective_go.html) to write clear, idiomatic Go code.
-
-The code guide provides tips on items such as [Formatting](https://golang.org/doc/effective_go.html#formatting), [Commentary](https://golang.org/doc/effective_go.html#commentary), [Control Structures](https://golang.org/doc/effective_go.html#control-structures), [Functions](https://golang.org/doc/effective_go.html#functions), [Methods](https://golang.org/doc/effective_go.html#methods) and much more.
+[Adhere to the **Effective Go** code guide.](
+https://golang.org/doc/effective_go.html) to write clear, idiomatic Go code.
+The code guide provides tips on items such as [Formatting](
+https://golang.org/doc/effective_go.html#formatting), [Commentary](
+https://golang.org/doc/effective_go.html#commentary), [Control Structures](
+https://golang.org/doc/effective_go.html#control-structures), [Functions](
+https://golang.org/doc/effective_go.html#functions), [Methods](
+https://golang.org/doc/effective_go.html#methods) and much more.
 
 New to Go? Get started by visiting [How to Write Go Code](https://golang.org/doc/code.html).
 
@@ -298,10 +303,22 @@ New to Go? Get started by visiting [How to Write Go Code](https://golang.org/doc
     <b><a href="#galaxy">^ back to top</a></b>
 </div>
 
-## License
 
-By contributing your code, you agree to license your contribution under the [MIT License](LICENSE.md).
+## Maintainers
 
+**Jacob Gadikian**
+
+- <https://twitter.com/gadikian>
+- <https://github.com/faddat>
+
+**Guy Lepage**
+
+- <https://twitter.com/guylepage3>
+- <https://github.com/guylepage3>
+
+<div align="right">
+    <b><a href="#galaxy">^ back to top</a></b>
+</div>
 
 
 ## Use Cases
@@ -311,6 +328,15 @@ By contributing your code, you agree to license your contribution under the [MIT
 - [ ] Use nodes for airdrops to reach high signal developers actively participating in the network instead of speculators
 - [ ] Pay users for compute, storage, bandwidth, staking, etc.
 - [ ] Repurpose existing Raspberry Pi projects to grow those communities and reward participation
+
+<div align="right">
+    <b><a href="#galaxy">^ back to top</a></b>
+</div>
+
+
+## License
+
+By contributing your code, you agree to license your contribution under the [MIT License](LICENSE.md).
 
 <div align="right">
   <a href="https://opensource.guide/how-to-contribute/#why-contribute-to-open-source">
