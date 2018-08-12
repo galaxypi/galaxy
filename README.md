@@ -52,7 +52,7 @@
 
 ## Status
 
-[![Galaxy Version](https://img.shields.io/badge/Galaxy-v0.0.4--testnet--alpha.svg?colorA=212121&colorB=FF0000)](http://github.com/galaxypi/galaxy)
+[![Galaxy Version](https://img.shields.io/badge/Galaxy-v0.0.4--testnet--alpha-red.svg?colorA=212121&colorB=FF0000)](http://github.com/galaxypi/galaxy)
 
 
 <div align="right">
