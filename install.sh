@@ -71,7 +71,7 @@ urls="$(getMatchingAssets)"
 
 # fail if there wasn't a matching architecture in the release assets
 if [ -z "$urls" ]; then
-    echo "Could not find a matching release of galaxycli and/or galaxyd for your architecture ($ARCH)."
+    echo "Could not find a matching release of galaxycli and galaxyd for your architecture ($ARCH)."
     echo "If you know what you're doing and think it should work on your architecture, you can set your architecture manually at the beginning of this script and then run it again."
     exit 1
 fi
@@ -111,7 +111,7 @@ echo "Clearing leftovers from galaxycli and galaxyd."
 
 
 # download the (previously) matched release assets
-echo "Downloading and installing galaxycli and/or galaxyd."
+echo "Downloading and installing galaxycli and galaxyd."
 downloadAssets $urls
 
 # move the binaries to not include the arch and make them executable
