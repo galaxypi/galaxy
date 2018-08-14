@@ -10,11 +10,11 @@
     <a href="http://galaxy.ooo"><strong>galaxy.ooo</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/galaxypi/galaxy/issues/new?template=feature_request.md">Request feature</a>
+    <a href="/issues/new?template=feature_request.md">Request feature</a>
     &nbsp;&middot;&nbsp;
     <a href="https://github.com/galaxypi/">Explore</a>
     &nbsp;&middot;&nbsp;
-    <a href="https://github.com/galaxypi/galaxy/issues/new?template=issues.md">
+    <a href="/issues/new?template=issues.md">
     Report bug</a>
     &nbsp;&middot;&nbsp;
     <a href="https://discord.gg/36K9nan">Chat</a>
@@ -56,7 +56,7 @@ Quick start options:
 - Linux - `bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/master/install.sh)`
 - macOS - `bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/master/install-mac.sh)`
 
-Read the [Getting started](https://github.com/galaxypi/galaxy/blob/master/docs/getting-started.md) page for more detailed information on installing and
+Read the [Getting started](/docs/getting-started.md) page for more detailed information on installing and
 syncing Galaxy.
 
 <div align="right">
@@ -66,7 +66,7 @@ syncing Galaxy.
 
 ## Status
 
-[![Galaxy Version](https://img.shields.io/badge/Galaxy-v0.0.4--testnet--alpha-red.svg?colorA=212121&colorB=FF0000)](https://github.com/galaxypi/galaxy/releases)
+[![Galaxy Version](https://img.shields.io/badge/Galaxy-v0.0.4--testnet--alpha-red.svg?colorA=212121&colorB=FF0000)](/releases)
 [![Build Status](https://img.shields.io/badge/Build_Status-Passing-brightgreen.svg?colorA=212121&colorB=00BB00)](#)
 <br/>
 [![Go Version](https://img.shields.io/badge/Go-v1.10.3-blue.svg?colorA=212121&colorB=007BFF)](http://golang.org/)
