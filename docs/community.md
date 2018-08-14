@@ -63,9 +63,9 @@ View the detailed [› Galaxy Roadmap](/docs/roadmap.md) to learn more about [pr
 
 [› Galaxy Weekly & Daily Scrum](/docs/scrum.md)
 
-The Galaxy community participates in [daily scrum](#daily-scrum) standups and [weekly scrum](#weekly-scrum) community calls.
+The Galaxy community participates in [daily scrum](/docs/scrum.md#daily-scrum) standups and [weekly scrum](/docs/scrum.md#weekly-scrum) community calls.
 
-[› Past community scrum calls](/docs/scrum.md#past-calls)
+[› Past weekly community scrum calls](/docs/scrum.md#past-calls)
 
 <div align="right">
     <b><a href="#community">^ back to top</a></b>

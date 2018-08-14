@@ -151,7 +151,7 @@ Get updates on Galaxy's development and chat with the project maintainers and co
 - Follow [@galaxypilab on Twitter](https://twitter.com/galaxypilab).
 - Join the official [Galaxy Discord](https://discord.gg/36K9nan) chat room.
 
-For more details on how to get involved in the Galaxy Community visit the [› Galaxy Community page](/docs/community.md) and learn more about [contributing](/docs/community.md#contributing), submitting [feature requests](/docs/community.md#feature-requests), [events](/docs/community.md#events), [roadmap](/docs/community.md#roadmap), [weekly scrum](/docs/community.md#weekly-scrum) calls with the community, [daily scrum](/docs/community.md#daily-scrum) updates, and more...
+For more details on how to get involved in the Galaxy Community visit the [› Galaxy Community page](/docs/community.md) and learn more about [contributing](/docs/community.md#contributing), submitting [feature requests](/docs/community.md#feature-requests), [events](/docs/community.md#events), [roadmap](/docs/community.md#roadmap), [weekly & daily scrum](/docs/scrum.md), [past weekly community scrum calls](/docs/scrum.md#past-calls), and more...
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>

@@ -28,6 +28,7 @@ To join the next weekly scrum call, follow the steps below:
 
 ### Past calls
 
+n/a
 
 <div align="right">
     <b><a href="#scrum">^ back to top</a></b>
