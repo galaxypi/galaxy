@@ -10,11 +10,11 @@
     <a href="http://galaxy.ooo"><strong>galaxy.ooo</strong></a>
     <br/>
     <br/>
-    <a href="/issues/new?template=feature_request.md">Request feature</a>
+    <a href="https://github.com/galaxypi/galaxy/issues/new?template=feature_request.md">Request feature</a>
     &nbsp;&middot;&nbsp;
     <a href="https://github.com/galaxypi/">Explore</a>
     &nbsp;&middot;&nbsp;
-    <a href="/issues/new?template=issues.md">
+    <a href="https://github.com/galaxypi/galaxy/issues/new?template=issues.md">
     Report bug</a>
     &nbsp;&middot;&nbsp;
     <a href="https://discord.gg/36K9nan">Chat</a>
@@ -66,8 +66,8 @@ syncing Galaxy.
 
 ## Status
 
-[![Galaxy Version](https://img.shields.io/badge/Galaxy-v0.0.4--testnet--alpha-red.svg?colorA=212121&colorB=FF0000)](/releases)
-[![Build Status](https://img.shields.io/badge/Build_Status-Passing-brightgreen.svg?colorA=212121&colorB=00BB00)](#)
+[![Galaxy Version](https://img.shields.io/badge/Galaxy-v0.0.4--testnet--alpha-red.svg?colorA=212121&colorB=FF0000)](https://github.com/galaxypi/galaxy/releases)
+[![Build Status](https://img.shields.io/badge/Build_Status-Passing-brightgreen.svg?colorA=212121&colorB=00BB00)](/)
 <br/>
 [![Go Version](https://img.shields.io/badge/Go-v1.10.3-blue.svg?colorA=212121&colorB=007BFF)](http://golang.org/)
 [![Viper Version](https://img.shields.io/badge/Viper-v1.0.0-blue.svg?colorA=212121&colorB=007BFF)](http://github.com/spf13/viper)
@@ -84,7 +84,7 @@ syncing Galaxy.
 
 ## Bug report
 
-Found a bug or issue? Please first read the [issue & bug guidelines](https://github.com/galaxypi/galaxy/blob/master/docs/CONTRIBUTING.md#using-the-issue-tracker)
+Found a bug or issue? Please first read the [issue & bug guidelines](/docs/CONTRIBUTING.md#using-the-issue-tracker)
 and search for existing and closed issues. If your problem or idea is not
 addressed yet, [please open a new issue](https://github.com/galaxypi/galaxy/issues/new?template=issues.md).
 
@@ -114,7 +114,7 @@ art, or live demos whenever possible.
 
 ## Contributing
 
-Please read through our [contributing guidelines](https://github.com/galaxypi/galaxy/blob/master/docs/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+Please read through our [contributing guidelines](/docs/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
 Moreover, if your pull request contains JavaScript patches or features, you
 must include relevant unit tests. All code should conform to the [Code Guidelines](/docs/CONTRIBUTING.md#code-guidelines).
@@ -137,7 +137,7 @@ by executing the following;
 - [ ] Provide the best experience for developers to quickly deploy apps and
       services to decentralized networks
 
-View the detailed [› Galaxy Roadmap](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md) to learn more about [project overview](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#project-overview), [goals](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#goals), [what's been built to date](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#execution-to-date), [milestones](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#milestones---unordered-list), [current tech stack](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#current-tech-stack), and more...
+View the detailed [› Galaxy Roadmap](/docs/roadmap.md) to learn more about [project overview](/docs/roadmap.md#project-overview), [goals](/docs/roadmap.md#goals), [execution to date](/docs/roadmap.md#execution-to-date), [milestones](/docs/roadmap.md#milestones---unordered-list), [current tech stack](/docs/roadmap.md#current-tech-stack), and more...
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
@@ -151,7 +151,7 @@ Get updates on Galaxy's development and chat with the project maintainers and co
 - Follow [@galaxypilab on Twitter](https://twitter.com/galaxypilab).
 - Join the official [Galaxy Discord](https://discord.gg/36K9nan) chat room.
 
-For more details on how to get involved in the Galaxy Community visit the [› Galaxy Community page]() and learn more about [contributing](), submitting [feature requests](), [events](), [roadmap](), [weekly scrum]() calls with the community, [daily scrum]() updates, and more...
+For more details on how to get involved in the Galaxy Community visit the [› Galaxy Community page](/docs/community.md) and learn more about [contributing](/docs/community.md#contributing), submitting [feature requests](/docs/community.md#feature-requests), [events](/docs/community.md#events), [roadmap](/docs/community.md#roadmap), [weekly scrum](/docs/community.md#weekly-scrum) calls with the community, [daily scrum](/docs/community.md#daily-scrum) updates, and more...
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
