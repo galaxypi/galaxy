@@ -41,7 +41,7 @@
 - [Contributing](#contributing)
 - [Roadmap](#roadmap)
 - [Community](#community)
-- [Maintainers](#maintainers)
+- [Repository maintainers](#repository-maintainers)
 - [License](#license)
 
 <div align="right">
@@ -126,9 +126,6 @@ must include relevant unit tests. All code should conform to the [Code Guideline
 
 ## Roadmap
 
-Galaxy is in early stages of getting going but has already produced working
-technology.
-
 Galaxy's mission is to become the world's largest network of decentralized
 nodes offering services for decentralized networks. We are looking to do this
 by executing the following;
@@ -140,24 +137,32 @@ by executing the following;
 - [ ] Provide the best experience for developers to quickly deploy apps and
       services to decentralized networks
 
-View the detailed [Galaxy Roadmap](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md) to learn more about [project overview](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#project-overview), [goals](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#goals), [what's been built to date](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#execution-to-date), [milestones](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#milestones---unordered-list), current tech stack](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#current-tech-stack), and more...
+View the detailed [Galaxy Roadmap](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md) to learn more about [project overview](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#project-overview), [goals](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#goals), [what's been built to date](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#execution-to-date), [milestones](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#milestones---unordered-list), [current tech stack](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#current-tech-stack), and more...
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
 </div>
 
 
-## Maintainers
+## Repository maintainers
 
-**Jacob Gadikian**
-
+**Jacob Gadikian**, Blockchain engineer
 - <https://twitter.com/gadikian>
 - <https://github.com/faddat>
 
-**Guy Lepage**
-
+**Guy Lepage**, Product design & development
 - <https://twitter.com/guylepage3>
 - <https://github.com/guylepage3>
+
+Other core project leads
+
+**Clint Nelsen**, Operations
+- <https://twitter.com/clintnelsen>
+- <https://github.com/clintnelsen>
+
+**Lukas Etter**, Operations
+- <https://twitter.com/Lukas_E>
+- <https://github.com/lukasetter>
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
