@@ -5,6 +5,7 @@
 - [Feature requests](#feature-requests)
 - [Pull requests](#pull-requests)
 - [Code guidelines](#code-guidelines)
+- [Versioning](#versioning)
 
 Looking to contribute something to Galaxy? Here's how you can help.
 
@@ -160,6 +161,13 @@ https://golang.org/doc/effective_go.html#functions), [Methods](
 https://golang.org/doc/effective_go.html#methods) and much more.
 
 New to Go? Get started by visiting [How to Write Go Code](https://golang.org/doc/code.html).
+
+
+## Versioning
+
+For transparency into our release cycle and in striving to maintain backward compatibility, Galaxy is maintained under [the Semantic Versioning guidelines](https://semver.org/). Sometimes we screw up, but we'll adhere to those rules whenever possible.
+
+See [the Releases section of our GitHub project](https://github.com/galaxypi/galaxy/releases) for changelogs for each release version of Galaxy.
 
 <div align="right">
     <b><a href="#contributing">^ back to top</a></b>
