@@ -4,7 +4,8 @@
   </a>
   <h3 align="center">Galaxy</h3>
   <p align="center">
-    Galaxy is a network of decentralized nodes offering services for decentralized platforms
+    Galaxy is a network of decentralized nodes offering services for
+    decentralized platforms
     <br/>
     <a href="http://galaxy.ooo"><strong>galaxy.ooo</strong></a>
     <br/>
@@ -13,7 +14,8 @@
     &nbsp;&middot;&nbsp;
     <a href="https://github.com/galaxypi/">Explore</a>
     &nbsp;&middot;&nbsp;
-    <a href="https://github.com/galaxypi/galaxy/issues/new?template=issues.md">Report bug</a>
+    <a href="https://github.com/galaxypi/galaxy/issues/new?template=issues.md">
+    Report bug</a>
     &nbsp;&middot;&nbsp;
     <a href="https://discord.gg/36K9nan">Chat</a>
     <br/>
@@ -34,13 +36,12 @@
 
 - [Quick Start](#quick-start)
 - [Status](#status)
-- [Overview](#overview)
 - [Bug report](#bug-report)
 - [Feature requests](#feature-requests)
 - [Contributing](#contributing)
-- [Roadmap](/docs/roadmap.md)
-- [Community](/docs/community.md)
-- [Maintainers](#maintainers)
+- [Roadmap](#roadmap)
+- [Community](#community)
+- [Repository maintainers](#repository-maintainers)
 - [License](#license)
 
 <div align="right">
@@ -52,10 +53,11 @@
 
 Quick start options:
 
-- Linux - `bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install.sh)`
-- macOS - `bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install-mac.sh)`
+- Linux - `bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/master/install.sh)`
+- macOS - `bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/master/install-mac.sh)`
 
-Read the [Getting started](https://github.com/galaxypi/galaxy/blob/develop/docs/getting-started.md) page for more detailed information on installing and syncing Galaxy.
+Read the [Getting started](https://github.com/galaxypi/galaxy/blob/master/docs/getting-started.md) page for more detailed information on installing and
+syncing Galaxy.
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
@@ -80,34 +82,11 @@ Read the [Getting started](https://github.com/galaxypi/galaxy/blob/develop/docs/
 </div>
 
 
-## Overview
-
-Galaxy's mission is to become the world's largest network of decentralized nodes offering services for decentralized networks. We are looking to do this by executing the following;
-
-- [ ] Focus on building and scaling the Galaxy blockchain and currency
-- [ ] Build a large community of open source developers
-- [ ] Provide high developers with access to this network of nodes by building and maintaining an SDK
-- [ ] Provide the best experience for developers to quickly deploy apps and services to decentralized networks
-
-<div align="right">
-    <b><a href="#galaxy">^ back to top</a></b>
-</div>
-
-
-## Contributing
-
-Please read through our [contributing guidelines](https://github.com/galaxypi/galaxy/blob/develop/docs/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
-
-Moreover, if your pull request contains JavaScript patches or features, you must include relevant unit tests. All code should conform to the [Code Guidelines](https://github.com/galaxypi/galaxy/blob/develop/docs/CONTRIBUTING.md#code-guidelines).
-
-<div align="right">
-    <b><a href="#galaxy">^ back to top</a></b>
-</div>
-
-
 ## Bug report
 
-Found a bug or issue? Please first read the [issue & bug guidelines](https://github.com/galaxypi/galaxy/blob/develop/docs/CONTRIBUTING.md#bug-reports) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/galaxypi/galaxy/issues/new?template=issues.md).
+Found a bug or issue? Please first read the [issue & bug guidelines](https://github.com/galaxypi/galaxy/blob/master/docs/CONTRIBUTING.md#bug-reports)
+and search for existing and closed issues. If your problem or idea is not
+addressed yet, [please open a new issue](https://github.com/galaxypi/galaxy/issues/new?template=issues.md).
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
@@ -116,28 +95,86 @@ Found a bug or issue? Please first read the [issue & bug guidelines](https://git
 
 ## Feature requests
 
-**Feature requests are highly encouraged. We want to hear from you on what you'd like to see and/or how you'd like to utilize or access the Galaxy node network**.
+Feature requests are highly encouraged. We want to hear from you on what
+you'd like to see and/or how you'd like to utilize or access the Galaxy node
+network.
 
-<b><a href="https://github.com/galaxypi/galaxy/issues/new?template=feature_request.md">› Request a feature</a></b>
+<a href="https://github.com/galaxypi/galaxy/issues/new?template=feature_request.md">› Request a feature</a>
 
-When submitting a feature request, take a moment to find out whether your idea fits with the scope and aims of the project. It's up to *you* to make a strong case to convince community members of the merits of this feature. Please provide as much detail and context as possible, providing relevant links, prior art, or live demos whenever possible.
+When submitting a feature request, take a moment to find out whether your idea
+fits with the scope and aims of the project. It's up to *you* to make a strong
+case to convince community members of the merits of this feature. Please
+provide as much detail and context as possible, providing relevant links, prior
+art, or live demos whenever possible.
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
 </div>
 
 
-## Maintainers
+## Contributing
 
-**Jacob Gadikian**
+Please read through our [contributing guidelines](https://github.com/galaxypi/galaxy/blob/master/docs/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
+Moreover, if your pull request contains JavaScript patches or features, you
+must include relevant unit tests. All code should conform to the [Code Guidelines](https://github.com/galaxypi/galaxy/blob/master/docs/CONTRIBUTING.md#code-guidelines).
+
+<div align="right">
+    <b><a href="#galaxy">^ back to top</a></b>
+</div>
+
+
+## Roadmap
+
+Galaxy's mission is to become the world's largest network of decentralized
+nodes offering services for decentralized networks. We are looking to do this
+by executing the following;
+
+- [ ] Focus on building and scaling the Galaxy blockchain and currency
+- [ ] Build a large community of open source developers
+- [ ] Provide high developers with access to this network of nodes by building
+      and maintaining an SDK
+- [ ] Provide the best experience for developers to quickly deploy apps and
+      services to decentralized networks
+
+View the detailed [› Galaxy Roadmap](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md) to learn more about [project overview](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#project-overview), [goals](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#goals), [what's been built to date](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#execution-to-date), [milestones](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#milestones---unordered-list), [current tech stack](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#current-tech-stack), and more...
+
+<div align="right">
+    <b><a href="#galaxy">^ back to top</a></b>
+</div>
+
+
+## Community
+
+Get updates on Galaxy's development and chat with the project maintainers and community members.
+
+- Follow [@galaxypilab on Twitter](https://twitter.com/galaxypilab).
+- Join the official [Galaxy Discord](https://discord.gg/36K9nan) chat room.
+
+For more details on how to get involved in the Galaxy Community visit the [› Galaxy Community page]() and learn more about [contributing](), submitting [feature requests](), [events](), [roadmap](), [weekly scrum]() calls with the community, [daily scrum]() updates, and more...
+
+<div align="right">
+    <b><a href="#galaxy">^ back to top</a></b>
+</div>
+
+
+## Repository maintainers
+
+**Jacob Gadikian**, _Blockchain Engineer_
 - <https://twitter.com/gadikian>
 - <https://github.com/faddat>
 
-**Guy Lepage**
-
+**Guy Lepage**, _Product, Design & Development_
 - <https://twitter.com/guylepage3>
 - <https://github.com/guylepage3>
+
+**Clint Nelsen**, _Operations & Marketing_
+- <https://twitter.com/clintnelsen>
+- <https://github.com/clintnelsen>
+
+**Lukas Etter**, _Operations & Business Development_
+- <https://twitter.com/Lukas_E>
+- <https://github.com/lukasetter>
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
@@ -146,7 +183,8 @@ When submitting a feature request, take a moment to find out whether your idea f
 
 ## License
 
-By contributing your code, you agree to license your contribution under the [MIT License](LICENSE.md).
+By contributing your code, you agree to license your contribution under the [
+MIT License](LICENSE.md).
 
 <div align="right">
   <a href="https://opensource.guide/how-to-contribute/#why-contribute-to-open-source">
