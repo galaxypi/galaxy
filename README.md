@@ -67,7 +67,7 @@ syncing Galaxy.
 ## Status
 
 [![Galaxy Version](https://img.shields.io/badge/Galaxy-v0.0.4--testnet--alpha-red.svg?colorA=212121&colorB=FF0000)](https://github.com/galaxypi/galaxy/releases)
-[![Build Status](https://img.shields.io/badge/Build_Status-Passing-brightgreen.svg?colorA=212121&colorB=00BB00)]()
+[![Build Status](https://img.shields.io/badge/Build_Status-Passing-brightgreen.svg?colorA=212121&colorB=00BB00)](#)
 <br/>
 [![Go Version](https://img.shields.io/badge/Go-v1.10.3-blue.svg?colorA=212121&colorB=007BFF)](http://golang.org/)
 [![Viper Version](https://img.shields.io/badge/Viper-v1.0.0-blue.svg?colorA=212121&colorB=007BFF)](http://github.com/spf13/viper)
@@ -84,7 +84,7 @@ syncing Galaxy.
 
 ## Bug report
 
-Found a bug or issue? Please first read the [issue & bug guidelines](https://github.com/galaxypi/galaxy/blob/master/docs/CONTRIBUTING.md#bug-reports)
+Found a bug or issue? Please first read the [issue & bug guidelines](https://github.com/galaxypi/galaxy/blob/master/docs/CONTRIBUTING.md#using-the-issue-tracker)
 and search for existing and closed issues. If your problem or idea is not
 addressed yet, [please open a new issue](https://github.com/galaxypi/galaxy/issues/new?template=issues.md).
 
@@ -117,7 +117,7 @@ art, or live demos whenever possible.
 Please read through our [contributing guidelines](https://github.com/galaxypi/galaxy/blob/master/docs/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
 Moreover, if your pull request contains JavaScript patches or features, you
-must include relevant unit tests. All code should conform to the [Code Guidelines](https://github.com/galaxypi/galaxy/blob/master/docs/CONTRIBUTING.md#code-guidelines).
+must include relevant unit tests. All code should conform to the [Code Guidelines](/docs/CONTRIBUTING.md#code-guidelines).
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
