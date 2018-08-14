@@ -39,9 +39,8 @@
 - [Bug report](#bug-report)
 - [Feature requests](#feature-requests)
 - [Contributing](#contributing)
-- [Overview](#overview)
 - [Roadmap](#roadmap)
-- [Community](/docs/community.md)
+- [Community](#community)
 - [Maintainers](#maintainers)
 - [License](#license)
 
