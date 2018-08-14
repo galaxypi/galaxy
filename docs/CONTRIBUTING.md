@@ -34,7 +34,7 @@ The [issue tracker](https://github.com/galaxypi/galaxy/issues) is the preferred 
 
 A bug is a _demonstrable problem_ that is caused by the code in the repository. Good bug reports are extremely helpful, so thanks!
 
-<b><a href="https://github.com/galaxypi/galaxy/issues/new?template=issues.md">› Report bug</a></b>
+<a href="https://github.com/galaxypi/galaxy/issues/new?template=issues.md">› Report bug</a>
 
 Guidelines for bug reports:
 
@@ -68,7 +68,7 @@ Example:
 
 **Feature requests are highly encouraged. We want to hear from you on what you'd like to see and/or how you'd like to utilize or access the Galaxy node network**.
 
-<b><a href="https://github.com/galaxypi/galaxy/issues/new?template=feature_request.md">› Request a feature</a></b>
+<a href="https://github.com/galaxypi/galaxy/issues/new?template=feature_request.md">› Request a feature</a>
 
 When submitting a feature request, take a moment to find out whether your idea fits with the scope and aims of the project. It's up to *you* to make a strong case to convince community members of the merits of this feature. Please provide as much detail and context as possible, providing relevant links, prior art, or live demos whenever possible.
 
@@ -145,7 +145,7 @@ Adhering to the following process is the best way to get your work included in t
    and description against the `develop` branch.
 
 **IMPORTANT**: By submitting a patch, you agree to allow the project owners to
-license your work under the terms of the [MIT License](LICENSE.md) (if it
+license your work under the terms of the [MIT License](https://github.com/galaxypi/galaxy/blob/master/LICENSE.md) (if it
 includes code changes).
 
 

@@ -4,9 +4,9 @@ The following is the Galaxy Project Roadmap defining the project, technology, go
 
 ## Table of contents
 
-- [Project Overview](#overview)
+- [Project Overview](#project-overview)
 - [Goals](#goals)
-- [Execution to date](#execution-to-date)
+- [Execution to date](#execution-to-date-3-sprints)
 - [Milestones](#milestones---unordered-list)
 - [Current Tech Stack](#current-tech-stack)
 - [Discovery](#discovery)
