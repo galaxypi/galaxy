@@ -151,8 +151,8 @@ includes code changes).
 
 ## Code guidelines
 
-[Adhere to the **Effective Go** code guide.](
-https://golang.org/doc/effective_go.html) to write clear, idiomatic Go code.
+Adhere to the [Effective Go](
+https://golang.org/doc/effective_go.html) code guide. to write clear, idiomatic Go code.
 The code guide provides tips on items such as [Formatting](
 https://golang.org/doc/effective_go.html#formatting), [Commentary](
 https://golang.org/doc/effective_go.html#commentary), [Control Structures](

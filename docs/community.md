@@ -12,6 +12,7 @@ Get updates on Galaxy's development and chat with the project maintainers and co
 - [Feature requests](#feature-requests)
 - [Events](#events)
 - [Roadmap](#roadmap)
+- [Scrum](#scrum)
 
 
 ## Contributing
@@ -58,3 +59,14 @@ by executing the following;
 View the detailed [› Galaxy Roadmap](/docs/roadmap.md) to learn more about [project overview](/docs/roadmap.md#project-overview), [goals](/docs/roadmap.md#goals), [execution to date](/docs/roadmap.md#execution-to-date-3-sprints), [milestones](/docs/roadmap.md#milestones---unordered-list), [current tech stack](/docs/roadmap.md#current-tech-stack), and more...
 
 
+## Scrum
+
+[› Galaxy Weekly & Daily Scrum](/docs/scrum.md)
+
+The Galaxy community participates in [daily scrum](#daily-scrum) standups and [weekly scrum](#weekly-scrum) community calls.
+
+[› Past community scrum calls](/docs/scrum.md#past-calls)
+
+<div align="right">
+    <b><a href="#community">^ back to top</a></b>
+</div>
