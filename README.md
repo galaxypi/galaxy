@@ -1,7 +1,6 @@
 <p align="center">
   <a href="http://galaxy.ooo">
-    <img src="https://media.githubusercontent.com/media/galaxypi/galaxy-design/
-    master/social/social-galaxy-logo%402x.png" width=72 height=72>
+    <img src="https://media.githubusercontent.com/media/galaxypi/galaxy-design/master/social/social-galaxy-logo%402x.png" width=72 height=72>
   </a>
   <h3 align="center">Galaxy</h3>
   <p align="center">
@@ -11,8 +10,7 @@
     <a href="http://galaxy.ooo"><strong>galaxy.ooo</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/galaxypi/galaxy/issues/
-    new?template=feature_request.md">Request feature</a>
+    <a href="https://github.com/galaxypi/galaxy/issues/new?template=feature_request.md">Request feature</a>
     &nbsp;&middot;&nbsp;
     <a href="https://github.com/galaxypi/">Explore</a>
     &nbsp;&middot;&nbsp;
