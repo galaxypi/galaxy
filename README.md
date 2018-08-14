@@ -53,13 +53,10 @@
 
 Quick start options:
 
-- Linux - `bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/
-           master/install.sh)`
-- macOS - `bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/
-           master/install-mac.sh)`
+- Linux - `bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/master/install.sh)`
+- macOS - `bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/master/install-mac.sh)`
 
-Read the [Getting started](https://github.com/galaxypi/galaxy/blob/master/
-docs/getting-started.md) page for more detailed information on installing and
+Read the [Getting started](https://github.com/galaxypi/galaxy/blob/master/docs/getting-started.md) page for more detailed information on installing and
 syncing Galaxy.
 
 <div align="right">
@@ -69,31 +66,16 @@ syncing Galaxy.
 
 ## Status
 
-[![Galaxy Version](https://img.shields.io/badge/Galaxy-v0.0.4--testnet--alpha-r
-ed.svg?colorA=212121&colorB=FF0000)](http://github.com/galaxypi/galaxy)
-[![Build Status](https://img.shields.io/badge/Build_Status-Passing-brightgreen.
-svg?colorA=212121&colorB=00BB00)](http://github.com/galaxypi/galaxy)
+[![Galaxy Version](https://img.shields.io/badge/Galaxy-v0.0.4--testnet--alpha-red.svg?colorA=212121&colorB=FF0000)](http://github.com/galaxypi/galaxy)
+[![Build Status](https://img.shields.io/badge/Build_Status-Passing-brightgreen.svg?colorA=212121&colorB=00BB00)](http://github.com/galaxypi/galaxy)
 <br/>
-[![Go Version](https://img.shields.io/badge/
-Go-v1.10.3-blue.svg?colorA=212121&colorB=007BFF)](http://golang.org/)
-[![Viper Version](https://img.shields.io/badge/
-Viper-v1.0.0-blue.svg?colorA=212121&colorB=007BFF)](http://github.com/spf13/
-viper)
-[![Testify Version](https://img.shields.io/badge/
-Testify-v1.2.1-blue.svg?colorA=212121&colorB=007BFF)](http://github.com/
-stretchr/testify)
-[![Go Protocol Buffers Version](https://img.shields.io/badge/
-ProtoBuf-v1.1.0-blue.svg?colorA=212121&colorB=007BFF)](http://github.com/golang
-/protobuf)
-[![Tendermint Version](https://img.shields.io/badge/
-Tendermint-v0.22.0-red.svg?colorA=212121&colorB=FF0000)](http://github.com/
-tendermint/tendermint)
-[![Cosmos-SDK Version](https://img.shields.io/badge/
-Cosmos_SDK-v0.22.0-red.svg?colorA=212121&colorB=FF0000)](http://github.com/
-cosmos/cosmos-sdk)
-[![Cobra Version](https://img.shields.io/badge/
-Cobra-v0.0.1-red.svg?colorA=212121&colorB=FF0000)](http://github.com/
-spf13/cobra)
+[![Go Version](https://img.shields.io/badge/Go-v1.10.3-blue.svg?colorA=212121&colorB=007BFF)](http://golang.org/)
+[![Viper Version](https://img.shields.io/badge/Viper-v1.0.0-blue.svg?colorA=212121&colorB=007BFF)](http://github.com/spf13/viper)
+[![Testify Version](https://img.shields.io/badge/Testify-v1.2.1-blue.svg?colorA=212121&colorB=007BFF)](http://github.com/stretchr/testify)
+[![Go Protocol Buffers Version](https://img.shields.io/badge/ProtoBuf-v1.1.0-blue.svg?colorA=212121&colorB=007BFF)](http://github.com/golang/protobuf)
+[![Tendermint Version](https://img.shields.io/badge/Tendermint-v0.22.0-red.svg?colorA=212121&colorB=FF0000)](http://github.com/tendermint/tendermint)
+[![Cosmos-SDK Version](https://img.shields.io/badge/Cosmos_SDK-v0.22.0-red.svg?colorA=212121&colorB=FF0000)](http://github.com/cosmos/cosmos-sdk)
+[![Cobra Version](https://img.shields.io/badge/Cobra-v0.0.1-red.svg?colorA=212121&colorB=FF0000)](http://github.com/spf13/cobra)
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
@@ -102,12 +84,9 @@ spf13/cobra)
 
 ## Bug report
 
-Found a bug or issue? Please first read the [issue & bug guidelines](
-https://github.com/galaxypi/galaxy/blob/master/docs/
-CONTRIBUTING.md#bug-reports)
+Found a bug or issue? Please first read the [issue & bug guidelines](https://github.com/galaxypi/galaxy/blob/master/docs/CONTRIBUTING.md#bug-reports)
 and search for existing and closed issues. If your problem or idea is not
-addressed yet, [please open a new issue](
-https://github.com/galaxypi/galaxy/issues/new?template=issues.md).
+addressed yet, [please open a new issue](https://github.com/galaxypi/galaxy/issues/new?template=issues.md).
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
@@ -120,9 +99,7 @@ Feature requests are highly encouraged. We want to hear from you on what
 you'd like to see and/or how you'd like to utilize or access the Galaxy node
 network.
 
-<b><a href="
-https://github.com/galaxypi/galaxy/issues/new?template=feature_request.md">›
-Request a feature</a></b>
+<b><a href="https://github.com/galaxypi/galaxy/issues/new?template=feature_request.md">› Request a feature</a></b>
 
 When submitting a feature request, take a moment to find out whether your idea
 fits with the scope and aims of the project. It's up to *you* to make a strong
@@ -137,15 +114,10 @@ art, or live demos whenever possible.
 
 ## Contributing
 
-Please read through our [contributing guidelines](
-https://github.com/galaxypi/galaxy/blob/master/docs/CONTRIBUTING.md). Included
-are directions for opening issues, coding standards, and notes on development.
+Please read through our [contributing guidelines](https://github.com/galaxypi/galaxy/blob/master/docs/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
 Moreover, if your pull request contains JavaScript patches or features, you
-must include relevant unit tests. All code should conform to the [Code
-Guidelines](
-https://github.com/galaxypi/galaxy/blob/master/docs/
-CONTRIBUTING.md#code-guidelines).
+must include relevant unit tests. All code should conform to the [Code Guidelines](https://github.com/galaxypi/galaxy/blob/master/docs/CONTRIBUTING.md#code-guidelines).
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
@@ -168,16 +140,7 @@ by executing the following;
 - [ ] Provide the best experience for developers to quickly deploy apps and
       services to decentralized networks
 
-View the detailed [Galaxy Roadmap](https://github.com/galaxypi/galaxy/blob/
-master/docs/roadmap.md) to learn more about [project
-overview](https://github.com/galaxypi/galaxy/blob/master/docs/
-roadmap.md#project-overview), [goals](https://github.com/galaxypi/galaxy/blob/
-master/docs/roadmap.md#goals), [what's been built to date](https://github.com/
-galaxypi/galaxy/blob/master/docs/roadmap.md#execution-to-date), [
-milestones](https://github.com/galaxypi/galaxy/blob/master/docs/
-roadmap.md#milestones---unordered-list), current tech
-stack](https://github.com/galaxypi/galaxy/blob/master/docs/
-roadmap.md#current-tech-stack), and more...
+View the detailed [Galaxy Roadmap](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md) to learn more about [project overview](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#project-overview), [goals](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#goals), [what's been built to date](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#execution-to-date), [milestones](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#milestones---unordered-list), current tech stack](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#current-tech-stack), and more...
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
@@ -207,10 +170,7 @@ By contributing your code, you agree to license your contribution under the [
 MIT License](LICENSE.md).
 
 <div align="right">
-  <a href="https://opensource.guide/
-  how-to-contribute/#why-contribute-to-open-source">
-    <img src="https://badges.frapsoft.com/os/
-    v3/open-source.png?v=103)](https://github.com/ellerbrock/
-    open-source-badges/" alt="Open Source">
+  <a href="https://opensource.guide/how-to-contribute/#why-contribute-to-open-source">
+    <img src="https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/" alt="Open Source">
   </a>
 </div>
