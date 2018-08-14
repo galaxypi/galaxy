@@ -99,7 +99,7 @@ Feature requests are highly encouraged. We want to hear from you on what
 you'd like to see and/or how you'd like to utilize or access the Galaxy node
 network.
 
-<b><a href="https://github.com/galaxypi/galaxy/issues/new?template=feature_request.md">› Request a feature</a></b>
+<a href="https://github.com/galaxypi/galaxy/issues/new?template=feature_request.md">› Request a feature</a>
 
 When submitting a feature request, take a moment to find out whether your idea
 fits with the scope and aims of the project. It's up to *you* to make a strong
@@ -138,6 +138,20 @@ by executing the following;
       services to decentralized networks
 
 View the detailed [Galaxy Roadmap](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md) to learn more about [project overview](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#project-overview), [goals](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#goals), [what's been built to date](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#execution-to-date), [milestones](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#milestones---unordered-list), [current tech stack](https://github.com/galaxypi/galaxy/blob/master/docs/roadmap.md#current-tech-stack), and more...
+
+<div align="right">
+    <b><a href="#galaxy">^ back to top</a></b>
+</div>
+
+
+## Community
+
+Get updates on Galaxy's development and chat with the project maintainers and community members.
+
+- Follow [@galaxypilab on Twitter](https://twitter.com/galaxypilab).
+- Join the official [Galaxy Discord](https://discord.gg/36K9nan) chat room.
+
+For more details on how to get involved in the Galaxy Community visit the [Galaxy Community page]() and learn more on [contributing](), [submitting feature requests](), [events](), [roadmap](), [weekly scrum with community](), [daily scrum updates](), and more...
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
