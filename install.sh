@@ -88,11 +88,10 @@ done
 
 
 # ask for consent
-echo "This script will remove previously installed directories of galaxycli and galaxyd."
+echo -e "This script will remove previously installed directories\n - ~/galaxyd\n - ~/galaxycli"
 read -p "Are you ok with that? (y/N): " choice
-
 case "$choice" in
-    y|Y) echo -e "Continuing with install. Just bear with me for a moment.\n";;
+    y|Y) echo -e " ";;
     *) echo "Aborting."; exit 1;;
 esac
 
