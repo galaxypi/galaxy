@@ -146,21 +146,19 @@ View the detailed [Galaxy Roadmap](https://github.com/galaxypi/galaxy/blob/maste
 
 ## Repository maintainers
 
-**Jacob Gadikian**, Blockchain engineer
+**Jacob Gadikian**, _Blockchain Engineer_
 - <https://twitter.com/gadikian>
 - <https://github.com/faddat>
 
-**Guy Lepage**, Product design & development
+**Guy Lepage**, _Product, Design & Development_
 - <https://twitter.com/guylepage3>
 - <https://github.com/guylepage3>
 
-Other core project leads
-
-**Clint Nelsen**, Operations
+**Clint Nelsen**, _Operations & Marketing_
 - <https://twitter.com/clintnelsen>
 - <https://github.com/clintnelsen>
 
-**Lukas Etter**, Operations
+**Lukas Etter**, _Operations & Business Development_
 - <https://twitter.com/Lukas_E>
 - <https://github.com/lukasetter>
 
