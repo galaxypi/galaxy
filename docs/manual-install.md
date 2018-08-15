@@ -14,7 +14,7 @@ If you'd like, you can choose to manually install Galaxy as a option to the abov
    galaxyd init
    ```
 
-4. Initialize the genesis block
+4. Download the genesis block
    ```bash
    wget -O ~/.galaxyd/config/genesis.json https://github.com/galaxypi/galaxy/raw/master/genesis.json
    ```
