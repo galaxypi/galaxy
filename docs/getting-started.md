@@ -29,7 +29,13 @@ Core Software.
    ./galaxycli keys add <choose-a-passphrase>
    ```
 
+<br/>
+
+```
 Welcome to the Galaxy network...
+```
+
+<br/>
 
 ### Receive Galaxy Coin
 
@@ -41,10 +47,13 @@ Welcome to the Galaxy network...
 - [Contribute](/docs/CONTRIBUTING.md)
 - [Create a feature request](https://github.com/galaxypi/galaxy#feature-requests)
 
-## Manual installation
+
+## Other instructions
+
+#### Manual installation
 
 Visit the [Manual installation](/docs/manual-install.md) page for manual instructions.
 
-## Build instructions
+#### Build instructions
 
 Learn more on how Galaxy build works. Visit the [Build instructions](/docs/build-instructions.md)

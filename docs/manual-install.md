@@ -1,6 +1,6 @@
 # Manually install Galaxy
 
-If you'd like, you can choose to manually install Galaxy as a option to the above. To do so, follow the following instructions otherwise see the recommended [Getting started](https://github.com/galaxypi/galaxy/blob/develop/docs/getting-started.md) page for more detailed information on installing and syncing Galaxy.
+If you'd like, you can choose to manually install Galaxy as a option to the above. To do so, follow the following instructions otherwise see the recommended [Getting started](/docs/getting-started.md) page for more detailed information on installing and syncing Galaxy.
 
 1. Download the one of the [Galaxy binaries](https://github.com/galaxypi/galaxy/releases) that matches your Operating system and processor.
 

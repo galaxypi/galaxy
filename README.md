@@ -141,7 +141,7 @@ by executing the following;
 - [ ] Provide the best experience for developers to quickly deploy apps and
       services to decentralized networks
 
-View the detailed [Galaxy Roadmap page](/docs/roadmap.md) to learn more about [project overview](/docs/roadmap.md#project-overview), [goals](/docs/roadmap.md#goals), [execution to date](/docs/roadmap.md#execution-to-date-3-sprints), [milestones](/docs/roadmap.md#milestones---unordered-list), [current tech stack](/docs/roadmap.md#current-tech-stack), and more...
+View the detailed [Galaxy Roadmap page](/docs/roadmap.md) to learn more about project overview, goals, execution to date, milestones, current tech stack, and more...
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
@@ -157,7 +157,7 @@ Get updates on Galaxy's development and chat with the project maintainers and co
 
 [› Galaxy Community page](/docs/community.md)
 
-For more details on how to get involved in the Galaxy Community visit the [Galaxy Community page](/docs/community.md) and learn more about [contributing](/docs/community.md#contributing), submitting [feature requests](/docs/community.md#feature-requests), [events](/docs/community.md#events), [roadmap](/docs/community.md#roadmap), [weekly & daily scrum](/docs/scrum.md), [past weekly community scrum calls](/docs/scrum.md#past-calls), and more...
+For more details on how to get involved in the Galaxy Community visit the [Galaxy Community page](/docs/community.md) and learn more about contributing, submitting feature requests, events, roadmap, weekly & daily scrum, past weekly community scrum calls, and more...
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
