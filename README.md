@@ -126,7 +126,7 @@ must include relevant unit tests. All code should conform to the [Code Guideline
 
 ## Roadmap
 
-View the detailed [Galaxy Roadmap](/docs/roadmap.md) to see what's coming next.
+View the detailed Galaxy Roadmap to see what's coming next.
 
 [› Galaxy Roadmap page](/docs/roadmap.md)
 
@@ -141,7 +141,7 @@ by executing the following;
 - [ ] Provide the best experience for developers to quickly deploy apps and
       services to decentralized networks
 
-View the detailed [Galaxy Roadmap](/docs/roadmap.md) to learn more about [project overview](/docs/roadmap.md#project-overview), [goals](/docs/roadmap.md#goals), [execution to date](/docs/roadmap.md#execution-to-date-3-sprints), [milestones](/docs/roadmap.md#milestones---unordered-list), [current tech stack](/docs/roadmap.md#current-tech-stack), and more...
+View the detailed [Galaxy Roadmap page](/docs/roadmap.md) to learn more about [project overview](/docs/roadmap.md#project-overview), [goals](/docs/roadmap.md#goals), [execution to date](/docs/roadmap.md#execution-to-date-3-sprints), [milestones](/docs/roadmap.md#milestones---unordered-list), [current tech stack](/docs/roadmap.md#current-tech-stack), and more...
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
