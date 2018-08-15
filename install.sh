@@ -1,6 +1,15 @@
 #!/bin/bash
 set -e
 
+echo -e " ________  ________  ___       ________     ___    ___ ___    ___ 
+|\   ____\|\   __  \|\  \     |\   __  \   |\  \  /  /|\  \  /  /|
+\ \  \___|\ \  \|\  \ \  \    \ \  \|\  \  \ \  \/  / | \  \/  / /
+ \ \  \  __\ \   __  \ \  \    \ \   __  \  \ \    / / \ \    / / 
+  \ \  \|\  \ \  \ \  \ \  \____\ \  \ \  \  /     \/   \/  /  /  
+   \ \_______\ \__\ \__\ \_______\ \__\ \__\/  /\   \ __/  / /    
+    \|_______|\|__|\|__|\|_______|\|__|\|__/__/ /\ __\\___/ /     
+                                           |__|/ \|__\|___|/    "
+
 DEPENDENCIES="curl"
 
 ARCH="$(uname -s)_$(uname -m)"
@@ -61,9 +70,11 @@ function getMatchingAssets {
 
 function downloadAssets {
     urls="$@"
+    echo -e "\e[92m "
     for url in $urls; do
         curl -LO#f "$url"
     done
+    echo -e "\e[0m "
 }
 
 # download and parse latest release information from GitHub
@@ -110,7 +121,7 @@ echo "Clearing leftovers from galaxycli and galaxyd."
 
 
 # download the (previously) matched release assets
-echo "Downloading and installing galaxycli and galaxyd."
+echo "Downloading and installing..... galaxycli and galaxyd."
 downloadAssets $urls
 
 # move the binaries to not include the arch and make them executable
@@ -120,26 +131,26 @@ chmod +x "galaxycli"
 chmod +x "galaxyd"
 
 
-# intialize basecoin
-echo "Initializing galaxyd."
+# intialize galaxyd
+echo "Initializing galaxyd...."
 ./galaxyd init &>/dev/null
 
 
 # add seeds
-echo "Adding seeds to config."
+echo "Adding seeds to config...."
 original_string="seeds = \"\""
 replace_string="seeds = \"$SEEDS\""
 sed -i -e "s/$original_string/$replace_string/g" "$HOME/.galaxyd/config/config.toml"
 
 # get moniker
-echo "Now I need a name to distinguish your node from others (e.g. giantchicken or mygalaxynode)."
+echo -e "Galaxy needs to distinguish individual nodes from one another. This is accomplished by having users choose a Galaxy node name. \n\n Example: \e[91m<\e[0mbatpig-007\e[91m>\e[0m, \e[91m<\e[0mgopher-galaxy-node\e[91m>\e[0m"
 read -p "Please tell me a name and press enter: " name
 moniker_original="moniker = \"\""
 moniker_actual="moniker = \"$name\""
 sed -i -e "s/$moniker_original/$moniker_actual/g" "$HOME/.galaxyd/config/config.toml"
 
 # fetch the genesis block
-echo "Fetching genesis block."
+echo "Fetching genesis block...."
 curl -Os "https://raw.githubusercontent.com/galaxypi/galaxy/master/genesis.json"
 mv "genesis.json" "$HOME/.galaxyd/config/genesis.json"
 
