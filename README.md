@@ -126,6 +126,10 @@ must include relevant unit tests. All code should conform to the [Code Guideline
 
 ## Roadmap
 
+View the detailed [Galaxy Roadmap](/docs/roadmap.md) to see what's coming next.
+
+[› Galaxy Roadmap page](/docs/roadmap.md)
+
 Galaxy's mission is to become the world's largest network of decentralized
 nodes offering services for decentralized networks. We are looking to do this
 by executing the following;
@@ -137,7 +141,7 @@ by executing the following;
 - [ ] Provide the best experience for developers to quickly deploy apps and
       services to decentralized networks
 
-View the detailed [› Galaxy Roadmap](/docs/roadmap.md) to learn more about [project overview](/docs/roadmap.md#project-overview), [goals](/docs/roadmap.md#goals), [execution to date](/docs/roadmap.md#execution-to-date-3-sprints), [milestones](/docs/roadmap.md#milestones---unordered-list), [current tech stack](/docs/roadmap.md#current-tech-stack), and more...
+View the detailed [Galaxy Roadmap](/docs/roadmap.md) to learn more about [project overview](/docs/roadmap.md#project-overview), [goals](/docs/roadmap.md#goals), [execution to date](/docs/roadmap.md#execution-to-date-3-sprints), [milestones](/docs/roadmap.md#milestones---unordered-list), [current tech stack](/docs/roadmap.md#current-tech-stack), and more...
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
@@ -151,7 +155,9 @@ Get updates on Galaxy's development and chat with the project maintainers and co
 - Follow [@galaxypilab on Twitter](https://twitter.com/galaxypilab).
 - Join the official [Galaxy Discord](https://discord.gg/36K9nan) chat room.
 
-For more details on how to get involved in the Galaxy Community visit the [› Galaxy Community page](/docs/community.md) and learn more about [contributing](/docs/community.md#contributing), submitting [feature requests](/docs/community.md#feature-requests), [events](/docs/community.md#events), [roadmap](/docs/community.md#roadmap), [weekly & daily scrum](/docs/scrum.md), [past weekly community scrum calls](/docs/scrum.md#past-calls), and more...
+[› Galaxy Community page](/docs/community.md)
+
+For more details on how to get involved in the Galaxy Community visit the [Galaxy Community page](/docs/community.md) and learn more about [contributing](/docs/community.md#contributing), submitting [feature requests](/docs/community.md#feature-requests), [events](/docs/community.md#events), [roadmap](/docs/community.md#roadmap), [weekly & daily scrum](/docs/scrum.md), [past weekly community scrum calls](/docs/scrum.md#past-calls), and more...
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
