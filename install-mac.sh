@@ -53,7 +53,7 @@ sed -i -e "s/$moniker_original/$moniker_actual/g" "$HOME/.galaxyd/config/config.
 
 # summary
 echo -e "\nSuccessfully installed and set up the Galaxy Blockchain."
-echo "You can now open a terminal in ~/galaxy and run \`./galaxyd start\` to start your node."
+echo -e "You can now open a terminal in ~/galaxy and run \e[91m\`./galaxyd start\`\e[0m to start your node."
 
 # Thanks the user
 echo "Thank you for testing our blockchain!"

@@ -148,4 +148,4 @@ mv "genesis.json" "$HOME/.galaxyd/config/genesis.json"
 
 # summary
 echo -e "\nSuccessfully installed and set up the Galaxy Blockchain."
-echo "You can now open a terminal in \"$INSTALL_DIR\" and run \`./galaxyd start\` to start your node."
+echo "You can now open a terminal in \"$INSTALL_DIR\" and run \e[91m\`./galaxyd start\`\e[0m to start your node."
