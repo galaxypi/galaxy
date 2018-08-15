@@ -7,7 +7,7 @@ The following is the Galaxy Project Roadmap defining the project, technology, go
 - [Project Overview](#project-overview)
 - [Goals](#goals)
 - [Execution to date](#execution-to-date-3-sprints)
-- [Milestones](#milestones---unordered-list)
+- [Milestones](#milestones-unordered-list)
 - [Current Tech Stack](#current-tech-stack)
 - [Discovery](#discovery)
 - [Possible Future Technology](#possible-future-technology)
@@ -35,7 +35,7 @@ Galaxy's mission is to become the world's largest network of decentralized nodes
 #### Galaxy Marketplace (Web App)
 - [x] Galaxy React Web App v0.1.0-alpha
 
-## Milestones - Unordered list
+## Milestones (unordered list)
 
 - [ ] **Galaxy Core**: Galaxy Testnet v0.5.0-alpha (improving the design of the network for performance at the edges of the network)
 - [ ] **Galaxy Core**: Pi Image Builder
