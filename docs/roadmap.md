@@ -14,30 +14,30 @@ The following is the Galaxy Project Roadmap defining the project, technology, go
 
 ## Project Overview
 
-Galaxy's mission is to become the world's largest network of decentralized nodes offering services for decentralized networks.
+Galaxy's mission is to become the world's largest network of decentralized nodes offering services for decentralized platforms.
 
 ## Goals
 
-- [ ] Become the world's largest network of decentralized nodes offering services for decentralized networks
+- [ ] Become the world's largest network of decentralized nodes offering services for decentralized platforms
 - [ ] Build a large community of open source developers
 - [ ] Work with the Galaxy developer community to provide developer tools offering the highest value
-- [ ] Provide the best experience for developers to quickly deploy apps and services to decentralized networks
+- [ ] Provide the best experience for developers to quickly deploy apps and services to decentralized platforms
 
 ## Execution to date (3 sprints)
 
 #### Galaxy Core (Blockchain)
-- [x] Galaxy Testnet v0.0.1-alpha-demo
-- [x] Galaxy Testnet v0.0.2-alpha-demo
-- [x] Galaxy Testnet v0.0.3-alpha-demo
+- [x] Galaxy Testnet v0.1.0-alpha
+- [x] Galaxy Testnet v0.2.0-alpha
+- [x] Galaxy Testnet v0.3.0-alpha
 - [x] One-line Install script (Linux)
-- [x] Galaxy Testnet v0.0.4-alpha-demo (Custom Galaxy daemon & CLI)
+- [x] Galaxy Testnet v0.4.0-alpha (Custom Galaxy daemon & CLI)
 
 #### Galaxy Marketplace (Web App)
-- [x] Galaxy React Web App v0.0.1-alpha
+- [x] Galaxy React Web App v0.1.0-alpha
 
 ## Milestones - Unordered list
 
-- [ ] **Galaxy Core**: Galaxy Testnet v0.0.5-alpha-demo (improving the design of the network for performance at the edges of the network)
+- [ ] **Galaxy Core**: Galaxy Testnet v0.5.0-alpha (improving the design of the network for performance at the edges of the network)
 - [ ] **Galaxy Core**: Pi Image Builder
 - [ ] **Growth**: Increasing the number of validators and full nodes
 - [ ] **Galaxy Token**: Launch the currency
@@ -47,6 +47,9 @@ Galaxy's mission is to become the world's largest network of decentralized nodes
 - [ ] **Galaxy Marketplace**: A web interface where developers can quickly deploy apps and services to decentralized networks
 
 ## Current Tech Stack
+
+[› Galaxy Status](https://github.com/galaxypi/galaxy#status) for the lastest status of the Galaxy Tech Stack and dependencies.
+
 * Cosmos-SDK
 * Raspian Linux
 * Raspberry Pi Hardware

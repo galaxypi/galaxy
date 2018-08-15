@@ -30,9 +30,10 @@ Core Software.
    ```
 
 <br/>
+<br/>
 
 ```
-Welcome to the Galaxy network...
+Welcome to the Galaxy network .................................
 ```
 
 <br/>
@@ -48,7 +49,7 @@ Welcome to the Galaxy network...
 - [Create a feature request](https://github.com/galaxypi/galaxy#feature-requests)
 
 
-## Other instructions
+### Other instructions
 
 #### Manual installation
 
