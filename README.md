@@ -66,7 +66,7 @@ syncing Galaxy.
 
 ## Status
 
-[![Galaxy Version](https://img.shields.io/badge/Galaxy-v0.0.4--testnet--alpha-red.svg?colorA=212121&colorB=FF0000)](https://github.com/galaxypi/galaxy/releases)
+[![Galaxy Version](https://img.shields.io/badge/Galaxy-Testnet_v0.4.0--alpha-red.svg?colorA=212121&colorB=FF0000)](https://github.com/galaxypi/galaxy/releases)
 [![Build Status](https://img.shields.io/badge/Build_Status-Passing-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/galaxypi/galaxy/)
 <br/>
 [![Go Version](https://img.shields.io/badge/Go-v1.10.3-blue.svg?colorA=212121&colorB=007BFF)](http://golang.org/)
