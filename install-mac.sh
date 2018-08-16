@@ -1,6 +1,22 @@
 #!/bin/bash
 set -e
 
+echo -e "                                                                                
+                                                       +            
+                                     +
+                      +                       +
+                              +        
+                                 +        +
+                  +
+                          +     +                +
+                       +          +
+    Galaxy                  +
+                +                       +
+                      +            
+        +                +         +
+                              +
+                   +"
+
 # ask for consent
 echo "This script will remove previously installed directories of galaxycli and galaxyd."
 read -p "Are you ok with that? (y/N): " choice
@@ -52,8 +68,8 @@ moniker_actual="moniker = \"$name\""
 sed -i -e "s/$moniker_original/$moniker_actual/g" "$HOME/.galaxyd/config/config.toml"
 
 # summary
-echo -e "\nSuccessfully installed and set up the Galaxy Blockchain."
-echo -e "You can now open a terminal in ~/galaxy and run \e[91m\`./galaxyd start\`\e[0m to start your node."
+echo -e "\nCongratulations! Galaxy blockchain is now installed and ready to sync......
 
-# Thanks the user
-echo "Thank you for testing our blockchain!"
+Navigate into the galaxy directory. Type the following;
+\e[91mcd ~/galaxye[0m"
+echo -e "You can now open a terminal in ~/galaxy and run \e[91m\`./galaxyd start\`\e[0m to start your node."

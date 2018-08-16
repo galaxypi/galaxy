@@ -1,6 +1,22 @@
 #!/bin/bash
 set -e
 
+echo -e "                                                                                
+                                                       +            
+                                     +
+                      +                       +
+                              +        
+                                 +        +
+                  +
+                          +     +                +
+                       +          +
+    Galaxy                  +
+                +                       +
+                      +            
+        +                +         +
+                              +
+                   +"
+
 DEPENDENCIES="curl"
 
 ARCH="$(uname -s)_$(uname -m)"
@@ -147,5 +163,8 @@ mv "genesis.json" "$HOME/.galaxyd/config/genesis.json"
 
 
 # summary
-echo -e "\nSuccessfully installed and set up the Galaxy Blockchain."
+echo -e "\nCongratulations! Galaxy blockchain is now installed and ready to sync......
+
+Navigate into the galaxy directory. Type the following;
+\e[91mcd ~/galaxye[0m"
 echo "You can now open a terminal in \"$INSTALL_DIR\" and run \e[91m\`./galaxyd start\`\e[0m to start your node."
