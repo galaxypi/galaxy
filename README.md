@@ -1,6 +1,6 @@
 <p align="center">
   <a href="http://galaxy.ooo">
-    <img src="https://media.githubusercontent.com/media/galaxypi/galaxy-design/master/social/social-galaxy-logo%402x.png" width=72 height=72>
+    <img src="https://media.githubusercontent.com/media/galaxypi/galaxy-design/master/social/social-galaxy-logo-rounded.png" width=72 height=72>
   </a>
   <h3 align="center">Galaxy</h3>
   <p align="center">
