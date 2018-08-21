@@ -14,7 +14,7 @@
     &nbsp;&middot;&nbsp;
     <a href="https://github.com/galaxypi/">Explore</a>
     &nbsp;&middot;&nbsp;
-    <a href="https://github.com/galaxypi/galaxy/issues/new?template=issues.md">
+    <a href="https://github.com/galaxypi/galaxy/issues/new?template=bug_report.md">
     Report bug</a>
     &nbsp;&middot;&nbsp;
     <a href="https://discord.gg/36K9nan">Chat</a>
@@ -85,8 +85,7 @@ syncing Galaxy.
 ## Bug report
 
 Found a bug or issue? Please first read the [issue & bug guidelines](/docs/CONTRIBUTING.md#using-the-issue-tracker)
-and search for existing and closed issues. If your problem or idea is not
-addressed yet, [please open a new issue](https://github.com/galaxypi/galaxy/issues/new?template=issues.md).
+and search for existing and closed issues. If your problem is not addressed yet, [please open a bug report](https://github.com/galaxypi/galaxy/issues/new?template=bug_report.md).
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
