@@ -4,14 +4,6 @@ about: Suggest an idea for this project
 
 ---
 
-Feature requests are highly encouraged. We want to hear from you on what you'd like to see and/or how you'd like to utilize or access the Galaxy node network.
-
-## Before opening:
-
-**Search for duplicate or closed feature requests**
-
-## Guidelines:
-
 **Is your feature request related to a problem? Please describe.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
@@ -22,4 +14,4 @@ A clear and concise description of what you want to happen.
 A clear and concise description of any alternative solutions or features you've considered.
 
 **Additional context**
-Add any other context, screenshots, or live demos about the feature request here.
+Add any other context or screenshots about the feature request here.
