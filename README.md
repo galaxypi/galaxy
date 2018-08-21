@@ -156,7 +156,7 @@ Get updates on Galaxy's development and chat with the project maintainers and co
 
 [› Galaxy Community page](/docs/community.md)
 
-For more details on how to get involved in the Galaxy Community visit the [Galaxy Community page](/docs/community.md) and learn more about contributing, submitting feature requests, events, roadmap, weekly & daily scrum, past weekly community scrum calls, and more...
+For more details on how to get involved in the Galaxy Community visit the [Galaxy Community page](/docs/community.md) and learn more about events, roadmap, weekly & daily scrum, past weekly community scrum calls, and more...
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>

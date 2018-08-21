@@ -8,34 +8,9 @@ Get updates on Galaxy's development and chat with the project maintainers and co
 
 ## Table of contents
 
-- [Contributing](#contributing)
-- [Feature requests](#feature-requests)
 - [Events](#events)
 - [Roadmap](#roadmap)
 - [Scrum](#scrum)
-
-
-## Contributing
-
-Please read through our [contributing guidelines](/docs/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
-
-Moreover, if your pull request contains JavaScript patches or features, you
-must include relevant unit tests. All code should conform to the [Code Guidelines](/docs/CONTRIBUTING.md#code-guidelines).
-
-
-## Feature requests
-
-Feature requests are highly encouraged. We want to hear from you on what
-you'd like to see and/or how you'd like to utilize or access the Galaxy node
-network.
-
-<a href="https://github.com/galaxypi/galaxy/issues/new?template=feature_request.md">› Request a feature</a>
-
-When submitting a feature request, take a moment to find out whether your idea
-fits with the scope and aims of the project. It's up to *you* to make a strong
-case to convince community members of the merits of this feature. Please
-provide as much detail and context as possible, providing relevant links, prior
-art, or live demos whenever possible.
 
 
 ## Events
