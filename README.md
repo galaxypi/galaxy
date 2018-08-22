@@ -66,6 +66,8 @@ syncing Galaxy.
 
 ## Status
 
+<br/>
+<br/>
 [![Galaxy Version](https://img.shields.io/badge/Galaxy-Testnet_v0.4.0--alpha-red.svg?colorA=212121&colorB=FF0000)](https://github.com/galaxypi/galaxy/releases)
 [![Build Status](https://img.shields.io/badge/Build_Status-Passing-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/galaxypi/galaxy/)
 [![Galaxy Chat](https://img.shields.io/badge/Galaxy_Chat-Discord-purple.svg?colorA=212121&colorB=7289da)](https://discord.gg/36K9nan)
