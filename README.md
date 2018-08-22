@@ -73,7 +73,7 @@ syncing Galaxy.
 [![Galaxy Version](https://img.shields.io/badge/Galaxy-Testnet_v0.4.0--alpha-red.svg?colorA=212121&colorB=FF0000)](https://github.com/galaxypi/galaxy/releases)
 [![Build Status](https://img.shields.io/badge/Build_Status-Passing-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/galaxypi/galaxy/)
 [![Galaxy Chat](https://img.shields.io/badge/Galaxy_Chat-Discord-purple.svg?colorA=212121&colorB=7289da)](https://discord.gg/36K9nan)
-
+<br/>
 [![Go Version](https://img.shields.io/badge/Go-v1.10.3-blue.svg?colorA=212121&colorB=007BFF)](http://golang.org/)
 [![Viper Version](https://img.shields.io/badge/Viper-v1.0.0-blue.svg?colorA=212121&colorB=007BFF)](http://github.com/spf13/viper)
 [![Testify Version](https://img.shields.io/badge/Testify-v1.2.1-blue.svg?colorA=212121&colorB=007BFF)](http://github.com/stretchr/testify)
