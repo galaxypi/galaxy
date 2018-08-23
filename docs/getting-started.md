@@ -5,17 +5,17 @@ Core Software.
 
 1. Installation
    #### Linux (Pi and x86 varieties)
-   ```bash
+   ```
    bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install.sh)
    ```
    #### macOS
-   ```bash
+   ```
    bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install-mac.sh)
    ```
 
 2. Navigate to the Galaxy directory
 
-   ```bash
+   ```
    cd ~/galaxy
    ```
 
@@ -25,7 +25,7 @@ Core Software.
 
 4. Create a Galaxy wallet
    Run the following in a second terminal window
-   ```bash
+   ```
    ./galaxycli keys add <choose-a-passphrase>
    ```
 
