@@ -1,6 +1,22 @@
 #!/bin/bash
 set -e
 
+echo -e "                                                                                
+                                                       +            
+                                     +
+                      +                       +
+                              +        
+                                 +        +
+                  +
+                          +     +                +
+                       +          +
+    Galaxy                  +
+                +                       +
+                      +            
+        +                +         +
+                              +
+                   +"
+
 # ask for consent
 echo "This script will remove previously installed directories of galaxycli and galaxyd."
 read -p "Are you ok with that? (y/N): " choice
@@ -19,10 +35,8 @@ rm -rf ~/.galaxycli
 echo "Downloading and installing.... galaxycli and galaxyd."
 mkdir ~/galaxy
 cd ~/galaxy
-echo -e "\e[92m "
 curl -LO#f https://github.com/galaxypi/galaxy/releases/download/fourth/galaxyd_Darwin_x86_64 
 curl -LO#f https://github.com/galaxypi/galaxy/releases/download/fourth/galaxycli_Darwin_x86_64
-echo -e "\e[0m "
 mv galaxyd_Darwin_x86_64 galaxyd
 mv galaxycli_Darwin_x86_64 galaxycli
 chmod +x galaxycli
@@ -45,15 +59,15 @@ replace_string='seeds = "a0cd321854769978eea1ffb57d341ecaf6551905@149.28.45.92:2
 sed -i -e "s/$original_string/$replace_string/g" ~/.galaxyd/config/config.toml
 
 # get moniker
-echo -e "Galaxy needs to distinguish individual nodes from one another. This is accomplished by having users choose a Galaxy node name. \n\n Example: \e[91m<\e[0mbatpig-007\e[91m>\e[0m, \e[91m<\e[0mgopher-galaxy-node\e[91m>\e[0m"
+echo -e "Galaxy needs to distinguish individual nodes from one another. This is accomplished by having users choose a Galaxy node name. \n\n Example: <batpig-007>, <gopher-galaxy-node>"
 read -p "Name your galaxy node: " name
 moniker_original="moniker = \"\""
 moniker_actual="moniker = \"$name\""
 sed -i -e "s/$moniker_original/$moniker_actual/g" "$HOME/.galaxyd/config/config.toml"
 
 # summary
-echo -e "\nSuccessfully installed and set up the Galaxy Blockchain."
-echo -e "You can now open a terminal in ~/galaxy and run \e[91m\`./galaxyd start\`\e[0m to start your node."
+echo -e "\nCongratulations! Galaxy blockchain is now installed and ready to sync......
 
-# Thanks the user
-echo "Thank you for testing our blockchain!"
+Navigate into the galaxy directory. Type the following;
+cd ~/galaxy"
+echo -e "You can now open a terminal in ~/galaxy and run \`./galaxyd start\` to start your node."
