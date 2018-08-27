@@ -66,21 +66,20 @@ syncing Galaxy.
 
 ## Status
 
-- Build - passing
-- Blockchain is syncing on both Linux & macOS devices
+- Ability to sync Blockchain on both Linux & macOS devices
 - Ability to send Galaxy coin
 
+[![Galaxy Version](https://img.shields.io/badge/Galaxy-Testnet_v0.4.0--alpha-red.svg?colorA=212121&colorB=FF0000)](https://github.com/galaxypi/galaxy/releases)
 [![Galaxy Chat](https://img.shields.io/badge/Galaxy_Chat-Discord-purple.svg?colorA=212121&colorB=7289da)](https://discord.gg/36K9nan)
 
 [![CircleCI](https://circleci.com/gh/galaxypi/galaxy.svg?style=svg&circle-token=45e7031f4720e17a24978c9ee53c6340657cfac3)](https://circleci.com/gh/galaxypi/galaxy)
-[![Galaxy Version](https://img.shields.io/badge/Galaxy-Testnet_v0.4.0--alpha-pink.svg?colorA=212121&colorB=F700D6)](https://github.com/galaxypi/galaxy/releases)
 [![Go Version](https://img.shields.io/badge/Go-v1.10.3-blue.svg?colorA=212121&colorB=007BFF)](http://golang.org/)
 [![Viper Version](https://img.shields.io/badge/Viper-v1.0.0-blue.svg?colorA=212121&colorB=007BFF)](http://github.com/spf13/viper)
 [![Testify Version](https://img.shields.io/badge/Testify-v1.2.1-blue.svg?colorA=212121&colorB=007BFF)](http://github.com/stretchr/testify)
 [![Go Protocol Buffers Version](https://img.shields.io/badge/ProtoBuf-v1.1.0-blue.svg?colorA=212121&colorB=007BFF)](http://github.com/golang/protobuf)
-[![Tendermint Version](https://img.shields.io/badge/Tendermint-v0.22.0-pink.svg?colorA=212121&colorB=F700D6)](http://github.com/tendermint/tendermint)
-[![Cosmos-SDK Version](https://img.shields.io/badge/Cosmos_SDK-v0.22.0-pink.svg?colorA=212121&colorB=F700D6)](http://github.com/cosmos/cosmos-sdk)
-[![Cobra Version](https://img.shields.io/badge/Cobra-v0.0.1-pink.svg?colorA=212121&colorB=F700D6)](http://github.com/spf13/cobra)
+[![Tendermint Version](https://img.shields.io/badge/Tendermint-v0.22.0-red.svg?colorA=212121&colorB=FF0000)](http://github.com/tendermint/tendermint)
+[![Cosmos-SDK Version](https://img.shields.io/badge/Cosmos_SDK-v0.22.0-red.svg?colorA=212121&colorB=FF0000)](http://github.com/cosmos/cosmos-sdk)
+[![Cobra Version](https://img.shields.io/badge/Cobra-v0.0.1-red.svg?colorA=212121&colorB=FF0000)](http://github.com/spf13/cobra)
 
 <div align="right">
     <b><a href="#galaxy">^ back to top</a></b>
