@@ -53,8 +53,43 @@
 
 Quick start options:
 
-- Linux - `bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/master/install.sh)`
-- macOS - `bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/master/install-mac.sh)`
+There are currently two supported operating system installations for Galaxy
+Core Software.
+
+1. Installation
+   #### Linux (Pi and x86 varieties)
+   ```
+   bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install.sh)
+   ```
+   #### macOS
+   ```
+   bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install-mac.sh)
+   ```
+
+2. Navigate to the Galaxy directory
+
+   ```
+   cd ~/galaxy
+   ```
+
+3. Run the Galaxy blockchain
+   The installer should prompt you to type `./galaxyd start` when it is
+   finished. This will start syncing the blockchain.
+
+4. Create a Galaxy wallet
+   Run the following in a second terminal window
+   ```
+   ./galaxycli keys add <choose-a-passphrase>
+   ```
+
+<br/>
+<br/>
+
+```
+Welcome to the Galaxy network .................................
+```
+
+<br/>
 
 Read the [Getting started](/docs/getting-started.md) page for more detailed information on installing and
 syncing Galaxy.
