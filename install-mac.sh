@@ -17,7 +17,8 @@ echo -e "
         +                +         +
                               +
                    +
-\n"
+
+"
 
 # Ask for consent
 echo "This script will remove previously installed directories of galaxycli and galaxyd."
