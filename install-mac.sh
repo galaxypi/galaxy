@@ -23,9 +23,8 @@ echo -e "
 echo -e "
 This script will remove previously installed directories:
 - galaxycli
-- galaxyd
+- galaxyd"
 
-"
 read -p "Are you ok with that? (y/N): " choice
 
 case "$choice" in
