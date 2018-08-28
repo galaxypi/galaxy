@@ -59,11 +59,11 @@ Core Software.
 1. Installation
    #### Linux (Pi and x86 varieties)
    ```
-   bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install.sh)
+   bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/master/install.sh)
    ```
    #### macOS
    ```
-   bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/develop/install-mac.sh)
+   bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/master/install-mac.sh)
    ```
 
 2. Navigate to the Galaxy directory
