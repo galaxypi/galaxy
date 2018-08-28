@@ -17,7 +17,6 @@ echo -e "
         +                +         +
                               +
                    +
-
 "
 
 # Ask for consent
