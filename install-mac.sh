@@ -72,9 +72,14 @@ sed -i -e "s/$moniker_original/$moniker_actual/g" "$HOME/.galaxyd/config/config.
 
 # summary
 echo -e "\n\nCongratulations! \xF0\x9F\x8E\x89 \xF0\x9F\x8C\x8C \n
-Galaxy blockchain is now installed and ready to sync......\n\n
-Navigate into the galaxy directory by typing the following;\n
+Galaxy blockchain is now installed and ready to sync......
+
+.
+
+Navigate into the galaxy directory by typing the following;
+
 cd ~/galaxy
+
 "
 
 echo -e "Then open a new terminal tab and sync your Galaxy Node by typing....
