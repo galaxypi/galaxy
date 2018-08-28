@@ -45,7 +45,7 @@ chmod +x galaxyd
 echo "Initializing galaxyd...."
 
 # initalizes the blockchain
-galaxyd init &>/dev/null
+./galaxyd init &>/dev/null
 
 echo "Fetching genesis block...."
 # fetches genesis.json
