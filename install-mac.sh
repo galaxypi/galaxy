@@ -23,7 +23,8 @@ echo -e "
 printf "This script will remove previously installed directories:
 - galaxycli
 - galaxyd"
-read -p "\nAre you ok with that? (y/N): " choice
+read -p "
+Are you ok with that? (y/N): " choice
 
 case "$choice" in
     y|Y) echo -e "Continuing with install. Just bear with me for a moment.\n";;
