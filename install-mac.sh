@@ -1,23 +1,25 @@
 #!/bin/bash
 set -e
 
-echo -e "                                                                                
-                                                       +            
+# Galaxy ACII graphic with newline for better UI
+echo -e "
+                                                       +
                                      +
                       +                       +
-                              +        
+                              +
                                  +        +
                   +
                           +     +                +
                        +          +
     Galaxy                  +
                 +                       +
-                      +            
+                      +
         +                +         +
                               +
-                   +"
+                   +
+\n"
 
-# ask for consent
+# Ask for consent
 echo "This script will remove previously installed directories of galaxycli and galaxyd."
 read -p "Are you ok with that? (y/N): " choice
 
@@ -35,7 +37,7 @@ rm -rf ~/.galaxycli
 echo "Downloading and installing.... galaxycli and galaxyd."
 mkdir ~/galaxy
 cd ~/galaxy
-curl -LO#f https://github.com/galaxypi/galaxy/releases/download/fourth/galaxyd_Darwin_x86_64 
+curl -LO#f https://github.com/galaxypi/galaxy/releases/download/fourth/galaxyd_Darwin_x86_64
 curl -LO#f https://github.com/galaxypi/galaxy/releases/download/fourth/galaxycli_Darwin_x86_64
 mv galaxyd_Darwin_x86_64 galaxyd
 mv galaxycli_Darwin_x86_64 galaxycli
