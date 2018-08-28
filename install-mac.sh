@@ -19,8 +19,10 @@ echo -e "
                    +
 "
 
-# Ask for consent
-echo "This script will remove previously installed directories of galaxycli and galaxyd."
+# Ask for consent with line breaks for better readability
+echo "This script will remove previously installed directories:
+- galaxycli
+- galaxyd\n"
 read -p "Are you ok with that? (y/N): " choice
 
 case "$choice" in
