@@ -78,8 +78,9 @@ Navigate into the galaxy directory by typing the following;\n
 
 cd ~/galaxy
 "
+
 echo -e "Start sync your Galaxy Node by typing...
 \`~/galaxy\`
 \`./galaxyd start\`
 
-Note: Syncing your Galaxy Node can take a while.
+Note: Syncing your Galaxy Node can take a while."
