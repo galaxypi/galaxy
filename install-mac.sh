@@ -65,7 +65,7 @@ replace_string='seeds = "a0cd321854769978eea1ffb57d341ecaf6551905@149.28.45.92:2
 sed -i -e "s/$original_string/$replace_string/g" ~/.galaxyd/config/config.toml
 
 # get moniker
-echo -e "Galaxy needs to distinguish individual nodes from one another. This is accomplished by having users choose a Galaxy node name. \n\nRecommended name: 'galaxy-node'\n"
+echo -e "Galaxy needs to distinguish individual nodes from one another. This is \naccomplished by having users choose a Galaxy node name. \n\nRecommended name: 'galaxy-node'\n"
 read -p "Name your galaxy node: " name
 moniker_original="moniker = \"\""
 moniker_actual="moniker = \"$name\""
