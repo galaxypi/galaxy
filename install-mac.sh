@@ -23,11 +23,11 @@ echo -e "
 printf "This script will remove previously installed directories:
 - galaxycli
 - galaxyd"
-read -p "
-Are you ok with that? (y/N): " choice
+
+read -p "Are you ok with that? (y/N): " choice
 
 case "$choice" in
-    y|Y) echo -e "Continuing with install. Just bear with me for a moment.\n";;
+    y|Y) echo -e "Continuing with install... This could take a moment.\n";;
     *) echo "Aborting."; exit 1;;
 esac
 
@@ -64,7 +64,7 @@ replace_string='seeds = "a0cd321854769978eea1ffb57d341ecaf6551905@149.28.45.92:2
 sed -i -e "s/$original_string/$replace_string/g" ~/.galaxyd/config/config.toml
 
 # get moniker
-echo -e "Galaxy needs to distinguish individual nodes from one another. This is accomplished by having users choose a Galaxy node name. \n\n Example: <batpig-007>, <gopher-galaxy-node>"
+echo -e "Galaxy needs to distinguish individual nodes from one another. This is accomplished by having users choose a Galaxy node name. \n Recommended name: 'galaxy-node'\n\n"
 read -p "Name your galaxy node: " name
 moniker_original="moniker = \"\""
 moniker_actual="moniker = \"$name\""
