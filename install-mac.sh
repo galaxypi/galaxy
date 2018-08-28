@@ -20,8 +20,7 @@ echo -e "
 "
 
 # Ask for consent with line breaks for better readability
-echo -e "
-This script will remove previously installed directories:
+echo -e "This script will remove previously installed directories:
 - galaxycli
 - galaxyd"
 
@@ -72,8 +71,15 @@ moniker_actual="moniker = \"$name\""
 sed -i -e "s/$moniker_original/$moniker_actual/g" "$HOME/.galaxyd/config/config.toml"
 
 # summary
-echo -e "\nCongratulations! Galaxy blockchain is now installed and ready to sync......
+echo -e "\n\nCongratulations! \xF0\x9F\x8E\x89 \xF0\x9F\x8C\x8C \n
+Galaxy blockchain is now installed and ready to sync......
 
-Navigate into the galaxy directory. Type the following;
-cd ~/galaxy"
-echo -e "You can now open a terminal in ~/galaxy and run \`./galaxyd start\` to start your node."
+Navigate into the galaxy directory by typing the following;\n
+
+cd ~/galaxy
+"
+echo -e "Start sync your Galaxy Node by typing...
+\`~/galaxy\`
+\`./galaxyd start\`
+
+Note: Syncing your Galaxy Node can take a while.
