@@ -22,10 +22,8 @@ echo -e "
 # Ask for consent with line breaks for better readability
 printf "This script will remove previously installed directories:
 - galaxycli
-- galaxyd
-"
-
-read -p "Are you ok with that? (y/N): " choice
+- galaxyd"
+read -p "\nAre you ok with that? (y/N): " choice
 
 case "$choice" in
     y|Y) echo -e "Continuing with install. Just bear with me for a moment.\n";;
