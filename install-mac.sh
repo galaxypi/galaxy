@@ -2,7 +2,7 @@
 set -e
 
 # Galaxy ACII graphic with newline for better UI
-echo -e "\033[0;34m
+echo -e "
                                                        +
                                      +
                       +                       +
@@ -72,7 +72,7 @@ moniker_actual="moniker = \"$name\""
 sed -i -e "s/$moniker_original/$moniker_actual/g" "$HOME/.galaxyd/config/config.toml"
 
 # summary
-echo -e "\033[0;35m\n\nWelcome to the Galaxy network \xF0\x9F\x8C\x8C ..................... \n
+echo -e "\033[1;35m\n\nWelcome to the Galaxy network \xF0\x9F\x8C\x8C ..................... \033[0m\n
 Galaxy blockchain is now installed and ready to sync......
 
 ...............................................................................
