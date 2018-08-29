@@ -2,7 +2,7 @@
 set -e
 
 # Galaxy ACII graphic with newline for better UI
-echo -e "\033[38;2;255;64;0
+echo -e "\033[38;5;021
                                                        +
                                      +
                       +                       +
