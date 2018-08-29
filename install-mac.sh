@@ -1,10 +1,8 @@
 #!/bin/bash
 set -e
 
-echo -e "Default \033[12m\]"
-
 # Galaxy ACII graphic with newline for better UI
-echo -e "
+echo -e "\e[12m\]
                                                        +
                                      +
                       +                       +
