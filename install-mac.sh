@@ -57,7 +57,7 @@ echo -e "\nFetching genesis block...."
 curl -LO#f https://github.com/galaxypi/galaxy/raw/master/genesis.json
 mv genesis.json ~/.galaxyd/config/genesis.json
 
-echo "\nAdding seeds to config...."
+echo -e "\nAdding seeds to config...."
 # find-and-replace on config.toml to set seed node
 original_string='seeds = ""'
 replace_string='seeds = "a0cd321854769978eea1ffb57d341ecaf6551905@149.28.45.92:26656,ea7ff5667f65c52e8c673bc96885a66fe6c1ec7b@98.118.185.162:26656,642f7a68f1af520a1b05134382fe97ba7513ee41@45.77.36.79:26656"'
