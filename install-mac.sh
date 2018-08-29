@@ -2,7 +2,7 @@
 set -e
 
 # Galaxy ACII graphic with newline for better UI
-echo -e "
+echo -e "\033[0;12m
                                                        +
                                      +
                       +                       +
@@ -20,7 +20,7 @@ echo -e "
 "
 
 # Ask for consent with line breaks for better readability
-echo -e "\033[12mThis script will remove previously installed directories:
+echo -e "This script will remove previously installed directories:
 - galaxycli
 - galaxyd"
 
