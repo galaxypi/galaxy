@@ -57,7 +57,8 @@ echo -e "\nFetching genesis block...."
 curl -LO#f https://github.com/galaxypi/galaxy/raw/master/genesis.json
 mv genesis.json ~/.galaxyd/config/genesis.json
 
-echo -e "\nAdding seeds to config...."
+echo -e "\n
+Adding seeds to config...."
 # find-and-replace on config.toml to set seed node
 original_string='seeds = ""'
 replace_string='seeds = "a0cd321854769978eea1ffb57d341ecaf6551905@149.28.45.92:26656,ea7ff5667f65c52e8c673bc96885a66fe6c1ec7b@98.118.185.162:26656,642f7a68f1af520a1b05134382fe97ba7513ee41@45.77.36.79:26656"'
@@ -71,7 +72,7 @@ moniker_actual="moniker = \"$name\""
 sed -i -e "s/$moniker_original/$moniker_actual/g" "$HOME/.galaxyd/config/config.toml"
 
 # summary
-echo -e "\n\nWelcome to the Galaxy network \xF0\x9F\x8C\x8C ..................... \n
+echo -e "\033[0;35m\n\nWelcome to the Galaxy network \xF0\x9F\x8C\x8C ..................... \n
 Galaxy blockchain is now installed and ready to sync......
 
 ...............................................................................
