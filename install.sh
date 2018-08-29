@@ -169,7 +169,7 @@ mv "genesis.json" "$HOME/.galaxyd/config/genesis.json"
 
 
 # summary
-echo -e "\n\nCongratulations! \xF0\x9F\x8E\x89 \xF0\x9F\x8C\x8C \n
+echo -e "\033[1;35m\n\nWelcome to the Galaxy network \xF0\x9F\x8E\x89 \xF0\x9F\x8C\x8C ..................... \033[0m\n
 Galaxy blockchain is now installed and ready to sync......
 
 ...............................................................................
