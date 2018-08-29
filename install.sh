@@ -1,21 +1,23 @@
 #!/bin/bash
 set -e
 
-echo -e "                                                                                
-                                                       +            
+# Galaxy ACII graphic with newline for better UI
+echo -e "
+                                                       +
                                      +
                       +                       +
-                              +        
+                              +
                                  +        +
                   +
                           +     +                +
                        +          +
     Galaxy                  +
                 +                       +
-                      +            
+                      +
         +                +         +
                               +
-                   +"
+                   +
+"
 
 DEPENDENCIES="curl"
 
@@ -106,10 +108,14 @@ done
 
 
 # ask for consent
-echo -e "This script will remove previously installed directories\n - ~/galaxyd\n - ~/galaxycli"
+# Ask for consent with line breaks for better readability
+echo -e "This script will remove previously installed directories:
+- galaxycli
+- galaxyd"
+
 read -p "Are you ok with that? (y/N): " choice
 case "$choice" in
-    y|Y) echo -e " ";;
+    y|Y) echo -e "Continuing with install... This could take a moment.\n";;
     *) echo "Aborting."; exit 1;;
 esac
 
@@ -120,7 +126,7 @@ cd "$INSTALL_DIR"
 
 
 # clear old files
-echo "Clearing leftovers from galaxycli and galaxyd."
+echo "Removing previously installed galaxycli and galaxyd."
 [[ -f "./galaxycli" ]] && rm "./galaxycli"
 [[ -f "./galaxyd" ]] && rm "./galaxyd"
 [[ -d "$HOME/.galaxycli" ]] && rm -r "$HOME/.galaxycli"
@@ -128,7 +134,7 @@ echo "Clearing leftovers from galaxycli and galaxyd."
 
 
 # download the (previously) matched release assets
-echo "Downloading and installing..... galaxycli and galaxyd."
+echo "\nDownloading and installing..... galaxycli and galaxyd."
 downloadAssets $urls
 
 # move the binaries to not include the arch and make them executable
@@ -139,32 +145,42 @@ chmod +x "galaxyd"
 
 
 # intialize galaxyd
-echo "Initializing galaxyd...."
+echo "\nInitializing galaxyd...."
 ./galaxyd init &>/dev/null
 
 
 # add seeds
-echo "Adding seeds to config...."
+echo "\nAdding seeds to config...."
 original_string="seeds = \"\""
 replace_string="seeds = \"$SEEDS\""
 sed -i -e "s/$original_string/$replace_string/g" "$HOME/.galaxyd/config/config.toml"
 
 # get moniker
-echo -e "Galaxy needs to distinguish individual nodes from one another. This is accomplished by having users choose a Galaxy node name. \n\n Example: \e[91m<\e[0mbatpig-007\e[91m>\e[0m, \e[91m<\e[0mgopher-galaxy-node\e[91m>\e[0m"
-read -p "Please tell me a name and press enter: " name
+echo -e "\nGalaxy needs to distinguish individual nodes from one another. This is \naccomplished by having users choose a Galaxy node name. \n\nRecommended name: 'galaxy-node'\n"
+read -p "Name your galaxy node: " name
 moniker_original="moniker = \"\""
 moniker_actual="moniker = \"$name\""
 sed -i -e "s/$moniker_original/$moniker_actual/g" "$HOME/.galaxyd/config/config.toml"
 
 # fetch the genesis block
-echo "Fetching genesis block...."
+echo "\nFetching genesis block...."
 curl -Os "https://raw.githubusercontent.com/galaxypi/galaxy/master/genesis.json"
 mv "genesis.json" "$HOME/.galaxyd/config/genesis.json"
 
 
 # summary
-echo -e "\nCongratulations! Galaxy blockchain is now installed and ready to sync......
+echo -e "\n\nCongratulations! \xF0\x9F\x8E\x89 \xF0\x9F\x8C\x8C \n
+Galaxy blockchain is now installed and ready to sync......
 
-Navigate into the galaxy directory. Type the following;
-\e[91mcd ~/galaxye[0m"
-echo "You can now open a terminal in \"$INSTALL_DIR\" and run \e[91m\`./galaxyd start\`\e[0m to start your node."
+...............................................................................
+
+Navigate into the galaxy directory by typing the following;
+cd ~/galaxy
+
+..............................................................................."
+
+echo "\nThen open a new terminal window and sync your Galaxy Node by typing....
+\"$INSTALL_DIR\"
+./galaxyd start
+
+Note: Syncing your Galaxy Node can take a while."
