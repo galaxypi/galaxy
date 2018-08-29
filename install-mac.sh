@@ -2,7 +2,7 @@
 set -e
 
 # Galaxy ACII graphic with newline for better UI
-echo -e "\e[12m\]
+echo -e "\e[12m
                                                        +
                                      +
                       +                       +
