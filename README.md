@@ -72,7 +72,7 @@ Core Software.
    cd ~/galaxy
    ```
 
-3. Run the Galaxy blockchain
+3. Run the Galaxy blockchain.
    The installer should prompt you to type `./galaxyd start` when it is
    finished. This will start syncing the blockchain.
 
