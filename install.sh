@@ -134,7 +134,7 @@ echo "Removing previously installed galaxycli and galaxyd."
 
 
 # download the (previously) matched release assets
-echo "\nDownloading and installing..... galaxycli and galaxyd."
+echo -e "\nDownloading and installing..... galaxycli and galaxyd."
 downloadAssets $urls
 
 # move the binaries to not include the arch and make them executable
@@ -145,12 +145,12 @@ chmod +x "galaxyd"
 
 
 # intialize galaxyd
-echo "\nInitializing galaxyd...."
+echo -e "\nInitializing galaxyd...."
 ./galaxyd init &>/dev/null
 
 
 # add seeds
-echo "\nAdding seeds to config...."
+echo -e "\nAdding seeds to config...."
 original_string="seeds = \"\""
 replace_string="seeds = \"$SEEDS\""
 sed -i -e "s/$original_string/$replace_string/g" "$HOME/.galaxyd/config/config.toml"
@@ -163,7 +163,7 @@ moniker_actual="moniker = \"$name\""
 sed -i -e "s/$moniker_original/$moniker_actual/g" "$HOME/.galaxyd/config/config.toml"
 
 # fetch the genesis block
-echo "\nFetching genesis block...."
+echo -e "\nFetching genesis block...."
 curl -Os "https://raw.githubusercontent.com/galaxypi/galaxy/master/genesis.json"
 mv "genesis.json" "$HOME/.galaxyd/config/genesis.json"
 
@@ -179,7 +179,7 @@ cd ~/galaxy
 
 ..............................................................................."
 
-echo "\nThen open a new terminal window and sync your Galaxy Node by typing....
+echo -e "\nThen open a new terminal window and sync your Galaxy Node by typing....
 \"$INSTALL_DIR\"
 ./galaxyd start
 
