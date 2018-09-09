@@ -56,7 +56,7 @@ Quick start options:
 There are currently two supported operating system installations for Galaxy
 Core Software.
 
-1. Installation
+1. Installation.
    #### Linux (Pi and x86 varieties)
    ```
    bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/master/install.sh)
@@ -66,7 +66,7 @@ Core Software.
    bash <(curl -s https://raw.githubusercontent.com/galaxypi/galaxy/master/install-mac.sh)
    ```
 
-2. Navigate to the Galaxy directory
+2. Navigate to the Galaxy directory.
 
    ```
    cd ~/galaxy
@@ -76,8 +76,8 @@ Core Software.
    The installer should prompt you to type `./galaxyd start` when it is
    finished. This will start syncing the blockchain.
 
-4. Create a Galaxy wallet
-   Run the following in a second terminal window
+4. Create a Galaxy wallet.
+   Run the following in a second terminal window.
    ```
    ./galaxycli keys add <choose-a-passphrase>
    ```
@@ -101,8 +101,8 @@ syncing Galaxy.
 
 ## Status
 
-- Ability to sync Blockchain on both Linux & macOS devices
-- Ability to send Galaxy coin
+- Ability to sync Blockchain on both Linux & macOS devices.
+- Ability to send Galaxy coin.
 
 [![Galaxy Version](https://img.shields.io/badge/Galaxy-Testnet_v0.4.0--alpha-red.svg?colorA=212121&colorB=FF0000)](https://github.com/galaxypi/galaxy/releases)
 [![Galaxy Chat](https://img.shields.io/badge/Galaxy_Chat-Discord-purple.svg?colorA=212121&colorB=7289da)](https://discord.gg/36K9nan)
@@ -172,12 +172,12 @@ Galaxy's mission is to become the world's largest network of decentralized
 nodes offering services for decentralized platforms. We are looking to do this
 by executing the following;
 
-- [ ] Focus on building and scaling the Galaxy blockchain and currency
-- [ ] Build a large community of open source developers
+- [ ] Focus on building and scaling the Galaxy blockchain and currency.
+- [ ] Build a large community of open source developers.
 - [ ] Provide high developers with access to this network of nodes by building
-      and maintaining an SDK
+      and maintaining an SDK.
 - [ ] Provide the best experience for developers to quickly deploy apps and
-      services to decentralized platforms
+      services to decentralized platforms.
 
 View the detailed [Galaxy Roadmap page](/docs/roadmap.md) to learn more about project overview, goals, execution to date, milestones, current tech stack, and more...
 
