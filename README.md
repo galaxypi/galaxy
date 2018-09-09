@@ -172,12 +172,10 @@ Galaxy's mission is to become the world's largest network of decentralized
 nodes offering services for decentralized platforms. We are looking to do this
 by executing the following;
 
-- [ ] Focus on building and scaling the Galaxy blockchain and currency.
-- [ ] Build a large community of open source developers.
-- [ ] Provide high developers with access to this network of nodes by building
-      and maintaining an SDK.
-- [ ] Provide the best experience for developers to quickly deploy apps and
-      services to decentralized platforms.
+- [ ] Focus on building and stabalizing the Galaxy blockchain.
+- [ ] Build a large community of open source developers via the Raspberry Pi network that Galaxy nodes are built on.
+- [ ] Provide high developers with access to the Galaxy node network by building and maintaining an API & SDK.
+- [ ] Provide the best experience for developers to quickly deploy apps and services to decentralized platforms.
 
 View the detailed [Galaxy Roadmap page](/docs/roadmap.md) to learn more about project overview, goals, execution to date, milestones, current tech stack, and more...
 
