@@ -173,8 +173,8 @@ nodes offering services for decentralized platforms. We are looking to do this
 by executing the following;
 
 - [ ] Building and maintaining the Galaxy blockchain and currency.
-- [ ] Designing building beautiful modified tiny computers (Raspberry Pi) as
-      Galaxy nodes.
+- [ ] Designing and building beautiful modified tiny computers (Raspberry Pi) 
+      as Galaxy nodes.
 - [ ] Providing an exceptional API, SDK and marketplace experience that allows
       developers to easily access and build on top of the Galaxy node network.
 - [ ] A simple and easy node owner interface and incentive program to 
