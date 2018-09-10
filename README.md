@@ -172,7 +172,7 @@ Galaxy's mission is to become the world's largest network of decentralized
 nodes offering services for decentralized platforms. We are looking to
 accomplish this by executing the following;
 
-- [ ] Building and maintaining the Galaxy blockchain and currency.
+- [ ] Building and maintaining the Galaxy blockchain.
 - [ ] Designing and building beautiful modified tiny computers (Raspberry Pi) 
       as Galaxy nodes.
 - [ ] Providing an exceptional API, SDK and marketplace experience that allows
