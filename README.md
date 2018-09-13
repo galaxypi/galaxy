@@ -178,8 +178,8 @@ We are looking to accomplish this by executing the following;
       developers to easily access and build on top of the Galaxy node network. 
 - [ ] A simple and easy node owner interface and incentive program to 
       incentivize node owners.
-- [ ] Provide the best experience for developers to quickly deploy apps and 
-      services to decentralized platforms.
+- [ ] Provide the best experience for developers to quickly deploy node 
+      modules, apps and services to decentralized platforms.
 
 View the detailed [Galaxy Roadmap page](/docs/roadmap.md) to learn more about project overview, goals, execution to date, milestones, current tech stack, and more...
 
