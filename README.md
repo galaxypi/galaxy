@@ -169,8 +169,7 @@ View the detailed Galaxy Roadmap to see what's coming next.
 
 Galaxy's mission is to become the world's largest blockchain agnostic, always on, node network and protocol offering services to decentralized platforms.
 
-We are looking to
-accomplish this by executing the following;
+We are looking to accomplish this by executing the following;
 
 - [ ] Building and maintaining the Galaxy blockchain and protocol.
 - [ ] Designing and building beautiful modified tiny computers (Raspberry Pi) 
