@@ -14,7 +14,7 @@ The following is the Galaxy Project Roadmap defining the project, technology, go
 
 ## Project Overview
 
-Galaxy's mission is to become the world's largest network of decentralized nodes offering services for decentralized platforms.
+Galaxy's mission is to become the world's largest blockchain agnostic, always on, node network and protocol offering services to other decentralized platforms.
 
 ## Goals
 
