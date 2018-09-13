@@ -14,37 +14,37 @@ The following is the Galaxy Project Roadmap defining the project, technology, go
 
 ## Project Overview
 
-Galaxy's mission is to become the world's largest blockchain agnostic, always on, node network and protocol offering services to other decentralized platforms.
+Galaxy's mission is to become the world's largest blockchain agnostic, always on, node network and protocol offering services to decentralized platforms.
 
 ## Goals
 
-- [ ] Become the world's largest network of decentralized nodes offering services for decentralized platforms
-- [ ] Build a large community of open source developers
-- [ ] Work with the Galaxy developer community to provide developer tools offering the highest value
-- [ ] Provide the best experience for developers to quickly deploy apps and services to decentralized platforms
+- [ ] Become the world's largest blockchain agnostic, always on, node network and protocol offering services to decentralized platforms.
+- [ ] Build a large community of open source developers contributing and building node modules and applications on the Galaxy node network.
+- [ ] Work with the Galaxy developer community to provide developer tools offering the highest value.
+- [ ] Provide the best experience for developers to quickly deploy node modules, apps and services to decentralized platforms.
 
 ## Execution to date (3 sprints)
 
 #### Galaxy Core (Blockchain)
-- [x] Galaxy Testnet v0.1.0-alpha
-- [x] Galaxy Testnet v0.2.0-alpha
-- [x] Galaxy Testnet v0.3.0-alpha
-- [x] One-line Install script (Linux)
-- [x] Galaxy Testnet v0.4.0-alpha (Custom Galaxy daemon & CLI)
+- [x] Galaxy Testnet v0.1.0-alpha.
+- [x] Galaxy Testnet v0.2.0-alpha.
+- [x] Galaxy Testnet v0.3.0-alpha.
+- [x] One-line Install script (Linux).
+- [x] Galaxy Testnet v0.4.0-alpha (Custom Galaxy daemon & CLI).
 
 #### Galaxy Marketplace (Web App)
-- [x] Galaxy React Web App v0.1.0-alpha
+- [x] Galaxy React Web App v0.1.0-alpha.
 
 ## Milestones (unordered list)
 
-- [ ] **Galaxy Core**: Galaxy Testnet v0.5.0-alpha (improving the design of the network for performance at the edges of the network)
-- [ ] **Galaxy Core**: Pi Image Builder
+- [ ] **Galaxy Core**: Galaxy Testnet v0.5.0-alpha (improving the design of the network for performance at the edges of the network).
+- [ ] **Galaxy Core**: Pi Image Builder.
 - [ ] **Growth**: Increasing the number of validators and full nodes
-- [ ] **Galaxy Token**: Launch the currency
+- [ ] **Galaxy Token**: Launch the currency.
 - [ ] **Galaxy Core** & **Galaxy.ooo**: VPN across nodes for egress
-- [ ] **Galaxy Core**: Airdrops to node-operators
-- [ ] **Galaxy Community**: Global Galaxy hackathons bootstrapped on the Raspberry Pi network
-- [ ] **Galaxy Marketplace**: A web interface where developers can quickly deploy apps and services to decentralized networks
+- [ ] **Galaxy Core**: Airdrops to node-operators.
+- [ ] **Galaxy Community**: Global Galaxy hackathons bootstrapped on the Raspberry Pi network.
+- [ ] **Galaxy Marketplace**: A web interface where developers can quickly deploy node modules, apps and services to decentralized networks.
 
 ## Current Tech Stack
 
@@ -79,9 +79,9 @@ Nodes that carry state should be compenstated for doing so, since it is a servic
 
 #### Examples of what the network can be used for
 
-- [ ] Use nodes for airdrops to reach high signal developers actively participating in the network instead of speculators
+- [ ] Use nodes for airdrops to reach high signal developers actively participating in the network instead of speculators.
 - [ ] Pay users for compute, storage, bandwidth, staking, etc.
-- [ ] Repurpose existing Raspberry Pi projects to grow those communities and reward participation
+- [ ] Repurpose existing Raspberry Pi projects to grow those communities and reward participation.
 
 
 <div align="right">
