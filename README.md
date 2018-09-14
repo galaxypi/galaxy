@@ -28,6 +28,12 @@
     </a>
   </p>
 </p>
+<br/>
+<p align="center">
+  <a href="http://galaxy.ooo">
+    <img src="https://storage.googleapis.com/galaxy.ooo/img/galaxy-cli.png" width="800px" alt="Galaxy CLI">
+  </a>
+</p>
 
 <br/>
 
