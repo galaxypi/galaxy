@@ -30,7 +30,7 @@
 </p>
 <br/>
 <p align="center">
-  <img src="https://storage.googleapis.com/galaxy.ooo/img/galaxy-cli.png" width="800px" height="490px">
+  <img src="https://storage.googleapis.com/galaxy.ooo/img/galaxy-cli.png" width="800px" height="490px"></img>
 </p>
 
 <br/>
